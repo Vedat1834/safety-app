@@ -22,63 +22,67 @@ export default function SpeechButton({ onResult, className = "" }: { onResult: (
     useEffect(() => {
         const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
         if (SpeechRecognition) {
-            const rec = new SpeechRecognition();
-            rec.continuous = true; // Keep listening even when the user pauses
-            rec.interimResults = false;
-            rec.lang = 'tr-TR';
+            try {
+                const rec = new SpeechRecognition();
+                rec.continuous = true; // Keep listening even when the user pauses
+                rec.interimResults = false;
+                rec.lang = 'tr-TR';
 
-            rec.onstart = () => {
-                setIsListening(true);
-            };
+                rec.onstart = () => {
+                    setIsListening(true);
+                };
 
-            rec.onresult = (event: any) => {
-                let newText = "";
-                // Loop only through newly finalized results
-                for (let i = event.resultIndex; i < event.results.length; ++i) {
-                    if (event.results[i].isFinal) {
-                        newText += event.results[i][0].transcript + " ";
-                    }
-                }
-                if (newText.trim()) {
-                    onResultRef.current(newText.trim());
-                }
-            };
-
-            rec.onerror = (event: any) => {
-                console.error("Speech Recognition Error:", event.error);
-                if (event.error === 'no-speech' && isListeningRef.current) {
-                    return; // Ignore no-speech error to keep listening
-                }
-                setIsListening(false);
-            };
-
-            rec.onend = () => {
-                // If browser stops recognition (due to mobile OS pause detection) but user hasn't clicked Stop, auto-restart!
-                if (isListeningRef.current) {
-                    setTimeout(() => {
-                        if (isListeningRef.current) {
-                            try {
-                                rec.start();
-                            } catch (e) {
-                                console.error("Auto-restart failed:", e);
-                                setIsListening(false);
-                            }
+                rec.onresult = (event: any) => {
+                    let newText = "";
+                    // Loop only through newly finalized results
+                    for (let i = event.resultIndex; i < event.results.length; ++i) {
+                        if (event.results[i].isFinal) {
+                            newText += event.results[i][0].transcript + " ";
                         }
-                    }, 100);
-                } else {
+                    }
+                    if (newText.trim()) {
+                        onResultRef.current(newText.trim());
+                    }
+                };
+
+                rec.onerror = (event: any) => {
+                    console.error("Speech Recognition Error:", event.error);
+                    if (event.error === 'no-speech' && isListeningRef.current) {
+                        return; // Ignore no-speech error to keep listening
+                    }
                     setIsListening(false);
-                }
-            };
+                };
 
-            setRecognition(rec);
+                rec.onend = () => {
+                    // If browser stops recognition (due to mobile OS pause detection) but user hasn't clicked Stop, auto-restart!
+                    if (isListeningRef.current) {
+                        setTimeout(() => {
+                            if (isListeningRef.current) {
+                                try {
+                                    rec.start();
+                                } catch (e) {
+                                    console.error("Auto-restart failed:", e);
+                                    setIsListening(false);
+                                }
+                            }
+                        }, 100);
+                    } else {
+                        setIsListening(false);
+                    }
+                };
 
-            return () => {
-                try {
-                    rec.stop();
-                } catch (e) {
-                    console.error("Cleanup stop failed:", e);
-                }
-            };
+                setRecognition(rec);
+
+                return () => {
+                    try {
+                        rec.stop();
+                    } catch (e) {
+                        console.error("Cleanup stop failed:", e);
+                    }
+                };
+            } catch (e) {
+                console.error("Failed to initialize SpeechRecognition:", e);
+            }
         }
     }, []);
 
