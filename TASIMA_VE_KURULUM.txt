@@ -1,0 +1,25 @@
+Bu uygulamayı başka bir bilgisayarda çalıştırmak için izlemeniz gereken adımlar:
+
+1. HAZIRLIK:
+   - Bu klasörün tamamını ("safety-app") USB bellek veya başka bir yöntemle yeni bilgisayara kopyalayın.
+   - Not: Kopyalama işlemini hızlandırmak için "node_modules" ve ".next" klasörlerini SİLEBİLİRSİNİZ. Bu klasörler kurulum aşamasında otomatik olarak tekrar oluşturulacaktır.
+
+2. GEREKSİNİMLERİ YÜKLEME (Sadece ilk kez):
+   - Yeni bilgisayarda Node.js kurulu olmalıdır.
+   - Yüklü olup olmadığını anlamak için komut satırını (cmd) açıp "node -v" yazabilirsiniz.
+   - Yüklü değilse: https://nodejs.org/ adresinden "LTS" sürümünü (Recommended for Most Users) indirip kurun ("Next" diyerek standart kurulum yapabilirsiniz).
+
+3. KURULUM:
+   - "safety-app" klasörünün içine girin.
+   - "kurulum.bat" dosyasına çift tıklayın.
+   - Siyah bir ekran açılacak ve gerekli kütüphaneleri indirecektir. Bu işlem internet hızınıza göre biraz sürebilir.
+   - "Kurulum başarıyla tamamlandı" yazısını görünce pencereyi kapatabilirsiniz.
+
+4. UYGULAMAYI BAŞLATMA:
+   - "baslat.bat" dosyasına çift tıklayın.
+   - Siyah bir pencere açılacak ve "Ready in ..." gibi bir yazı çıkacaktır. Bu pencereyi KAPATMAYIN.
+   - İnternet tarayıcınızı (Chrome, Edge vb.) açıp adres çubuğuna şu adresi yazın: http://localhost:3000
+
+Sorun Giderme:
+- Eğer 3000 portu dolu hatası alırsanız, siyah ekranda yazan adresi (örn: http://localhost:3001) kullanın.
+- Uygulamayı kapatmak için siyah pencereyi kapatabilirsiniz.
