@@ -28,7 +28,7 @@ export default function ProjectDashboard() {
             <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center gap-4">
                     <button
-                        onClick={() => router.push('/customers')}
+                        onClick={() => router.push('/')}
                         className="w-10 h-10 flex items-center justify-center bg-white rounded-xl border border-gray-200 text-gray-500 hover:text-black hover:border-gray-300 transition-all shadow-sm"
                     >
                         <ArrowLeft className="size-5" />

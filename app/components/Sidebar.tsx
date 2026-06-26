@@ -70,11 +70,11 @@ export default function Sidebar() {
                     )}
                     <li>
                         <Link
-                            href="/customers"
+                            href="/"
                             className={clsx(
                                 "flex items-center rounded-xl px-4 py-3 text-sm font-bold transition-all",
                                 isCollapsed ? "justify-center" : "gap-3",
-                                pathname.startsWith('/customers')
+                                pathname === '/'
                                     ? "bg-[#FFD600] text-black shadow-md shadow-yellow-500/20"
                                     : "text-gray-500 hover:bg-gray-50 hover:text-black"
                             )}

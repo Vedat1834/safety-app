@@ -26,7 +26,7 @@ export default function FunctionalTestPage() {
     // Redirect to home if no active project
     useEffect(() => {
         if (!activeProject) {
-            router.push("/customers");
+            router.push("/");
         }
     }, [activeProject, router]);
 
