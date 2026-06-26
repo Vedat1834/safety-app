@@ -1364,12 +1364,28 @@ export const generatePDF = async (
         );
     }
 
-    // For mobile/tablet devices, open the PDF in a new tab instead of doc.save() to ensure compatibility
-    if (typeof window !== "undefined" && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        const blob = doc.output("blob");
-        const blobUrl = URL.createObjectURL(blob);
-        window.open(blobUrl, "_blank");
+    const fileName = `${lang === 'en' ? 'risk-assessment-report' : 'risk-raporu'}-${project.project_no}.pdf`;
+
+    // Modern mobile/tablet browsers and PWAs in standalone mode block window.open() popups.
+    // Creating a temporary <a> tag with the 'download' attribute is the most reliable way to trigger a download.
+    if (typeof window !== "undefined") {
+        try {
+            const blob = doc.output("blob");
+            const blobUrl = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = blobUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            setTimeout(() => {
+                URL.revokeObjectURL(blobUrl);
+            }, 100);
+        } catch (err) {
+            console.error("Direct download failed, falling back to doc.save():", err);
+            doc.save(fileName);
+        }
     } else {
-        doc.save(`${lang === 'en' ? 'risk-assessment-report' : 'risk-raporu'}-${project.project_no}.pdf`);
+        doc.save(fileName);
     }
 };
