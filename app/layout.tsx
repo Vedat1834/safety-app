@@ -11,6 +11,22 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Makine Emniyet Raporlama",
   description: "Endüstriyel güvenlik denetimi ve raporlama sistemi",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Safety App",
+  },
+  formatDetection: {
+    telephone: false,
+  },
+};
+
+export const viewport = {
+  themeColor: "#FFD600",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({
