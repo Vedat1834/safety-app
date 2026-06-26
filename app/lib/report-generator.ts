@@ -310,14 +310,12 @@ export const generatePDF = async (
         return val;
     };
 
-    // Load Turkish-compatible fonts (Regular & Bold) if online
-    if (typeof window !== "undefined" && navigator.onLine) {
+    // Load Turkish-compatible fonts (Regular & Bold) locally (supported offline)
+    if (typeof window !== "undefined") {
         try {
-            const fontBase = 'https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/fonts/Roboto/';
-
             const [regBuffer, boldBuffer] = await Promise.all([
-                fetchWithTimeout(fontBase + 'Roboto-Regular.ttf', 1200).then(res => res.arrayBuffer()),
-                fetchWithTimeout(fontBase + 'Roboto-Medium.ttf', 1200).then(res => res.arrayBuffer())
+                fetchWithTimeout('/fonts/Roboto-Regular.ttf', 2000).then(res => res.arrayBuffer()),
+                fetchWithTimeout('/fonts/Roboto-Medium.ttf', 2000).then(res => res.arrayBuffer())
             ]);
 
             const addFontToDoc = (buffer: ArrayBuffer, fileName: string, fontStyle: string) => {
