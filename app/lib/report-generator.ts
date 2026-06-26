@@ -2,6 +2,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import { Customer, Project, RiskAssessment, FunctionalTest } from "../types";
 import { getRiskIndexStatus, RISK_S, RISK_F, RISK_A, RISK_O } from "./hrn-constants";
+import { robotoRegularBase64, robotoMediumBase64 } from "./fonts-base64";
 
 // Define jsPDF type extension for autotable
 interface jsPDFWithAutoTable extends jsPDF {
@@ -310,26 +311,22 @@ export const generatePDF = async (
         return val;
     };
 
-    // Load Turkish-compatible fonts (Regular & Bold) locally (supported offline)
+    // Load Turkish-compatible fonts (Regular & Bold) directly from base64 (100% offline support)
     if (typeof window !== "undefined") {
         try {
-            const [regBuffer, boldBuffer] = await Promise.all([
-                fetchWithTimeout('/fonts/Roboto-Regular.ttf', 2000).then(res => res.arrayBuffer()),
-                fetchWithTimeout('/fonts/Roboto-Medium.ttf', 2000).then(res => res.arrayBuffer())
-            ]);
-
-            const addFontToDoc = (buffer: ArrayBuffer, fileName: string, fontStyle: string) => {
-                const binaryString = Array.from(new Uint8Array(buffer), (byte) => String.fromCharCode(byte)).join("");
-                doc.addFileToVFS(fileName, binaryString);
-                doc.addFont(fileName, "Roboto", fontStyle);
+            const base64ToBinary = (base64: string) => {
+                return window.atob(base64);
             };
 
-            addFontToDoc(regBuffer, "Roboto-Regular.ttf", "normal");
-            addFontToDoc(boldBuffer, "Roboto-Medium.ttf", "bold");
+            doc.addFileToVFS("Roboto-Regular.ttf", base64ToBinary(robotoRegularBase64));
+            doc.addFont("Roboto-Regular.ttf", "Roboto", "normal");
+
+            doc.addFileToVFS("Roboto-Medium.ttf", base64ToBinary(robotoMediumBase64));
+            doc.addFont("Roboto-Medium.ttf", "Roboto", "bold");
 
             activeFont = "Roboto";
         } catch (e) {
-            console.error("Font loading failed, falling back to default. Turkish characters may be broken.", e);
+            console.error("Base64 font loading failed, falling back to default. Turkish characters may be broken.", e);
             activeFont = "Helvetica";
         }
     }
