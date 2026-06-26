@@ -21,6 +21,12 @@ export interface Project {
     report_date: string;
     author_name: string;
     approver_name: string;
+
+    // Machine Details
+    machine_limits?: string;
+    machine_technical_specs?: string;
+    machine_intended_use?: string;
+    include_machine_info?: boolean;
 }
 
 // Risk Assessment now belongs to a project

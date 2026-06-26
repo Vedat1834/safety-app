@@ -540,20 +540,39 @@ export const generatePDF = async (
     let currentTocY = 48;
     const tocItems: { label: string; pageNum: number; isSubItem?: boolean }[] = [];
 
+    const hasMachineInfo = !!project.include_machine_info;
+    let methodPageNum = 3;
+    let risksPageNum = 4;
+
     tocItems.push({ label: lang === 'en' ? "1. Introduction & About Report" : "1. Giriş ve Rapor Hakkında", pageNum: 2 });
-    tocItems.push({ label: lang === 'en' ? "2. Risk Assessment Methodology" : "2. Risk Değerlendirme Metodolojisi", pageNum: 3 });
-    tocItems.push({ label: lang === 'en' ? "3. Risk Assessments" : "3. Risk Değerlendirmeleri", pageNum: 4 });
+    if (hasMachineInfo) {
+        tocItems.push({ label: lang === 'en' ? "2. Machine Information" : "2. Makine Bilgileri", pageNum: 3 });
+        methodPageNum = 4;
+        risksPageNum = 5;
+    }
+    tocItems.push({ 
+        label: lang === 'en' 
+            ? `${hasMachineInfo ? '3' : '2'}. Risk Assessment Methodology` 
+            : `${hasMachineInfo ? '3' : '2'}. Risk Değerlendirme Metodolojisi`, 
+        pageNum: methodPageNum 
+    });
+    tocItems.push({ 
+        label: lang === 'en' 
+            ? `${hasMachineInfo ? '4' : '3'}. Risk Assessments` 
+            : `${hasMachineInfo ? '4' : '3'}. Risk Değerlendirmeleri`, 
+        pageNum: risksPageNum 
+    });
 
     optimizedRiskAssessments.forEach((risk, idx) => {
         const riskId = `RISK ${String(idx + 1).padStart(3, '0')}`;
         tocItems.push({
             label: `${riskId} - ${risk.hazard_zone} (${getHazardTypeLabel(risk.hazard_type || '', lang)})`,
-            pageNum: 4 + idx,
+            pageNum: risksPageNum + idx,
             isSubItem: true
         });
     });
 
-    const nextSectionPage = 4 + optimizedRiskAssessments.length;
+    const nextSectionPage = risksPageNum + optimizedRiskAssessments.length;
     let finalPageNum = nextSectionPage;
 
     if (functionalTests.length > 0) {
@@ -564,8 +583,9 @@ export const generatePDF = async (
         finalPageNum = nextSectionPage + 1;
     }
 
+    const conclusionIndex = (functionalTests.length > 0 ? 6 : 5) - (hasMachineInfo ? 0 : 1);
     tocItems.push({ 
-        label: `${functionalTests.length > 0 ? "5" : "4"}. ${lang === 'en' ? "Conclusion & Recommendations" : "Sonuç ve Öneriler"}`, 
+        label: `${conclusionIndex}. ${lang === 'en' ? "Conclusion & Recommendations" : "Sonuç ve Öneriler"}`, 
         pageNum: finalPageNum 
     });
 
@@ -599,6 +619,65 @@ export const generatePDF = async (
 
         currentTocY += item.isSubItem ? 6 : 8;
     });
+
+    // --- Machine Information Page ---
+    if (hasMachineInfo) {
+        doc.addPage();
+        
+        // Title
+        doc.setFont(activeFont, "bold");
+        doc.setFontSize(16);
+        doc.setTextColor(0, 0, 0);
+        doc.text(lang === 'en' ? "MACHINE INFORMATION" : "MAKİNE BİLGİLERİ", 105, 20, { align: "center" });
+
+        // Separator Line
+        doc.setDrawColor(255, 214, 0); // Gold
+        doc.setLineWidth(0.8);
+        doc.line(20, 24, 190, 24);
+
+        // Subtitle
+        doc.setFont(activeFont, "normal");
+        doc.setFontSize(9.5);
+        doc.setTextColor(80, 80, 80);
+        const machineIntro = lang === 'en'
+            ? "Below are the technical specifications, limits, and general descriptions of the machine under assessment."
+            : "Aşağıda, değerlendirilen makineye ait teknik özellikler, makine limitleri ve genel kullanım koşulları listelenmiştir.";
+        doc.text(machineIntro, 20, 32);
+
+        // Table
+        autoTable(doc, {
+            startY: 38,
+            margin: { left: 20, right: 20 },
+            theme: 'grid',
+            head: [[
+                { 
+                    content: lang === 'en' ? 'Machine Parameters' : 'Makine Parametreleri', 
+                    colSpan: 2, 
+                    styles: { halign: 'center', fillColor: [240, 240, 240], fontStyle: 'bold', textColor: [0, 0, 0], fontSize: 9.5 } 
+                }
+            ]],
+            body: [
+                [
+                    { content: lang === 'en' ? 'Machine Limits' : 'Makinenin Limitleri', styles: { fontStyle: 'bold', cellWidth: 50, fillColor: [250, 250, 250] } },
+                    project.machine_limits || '-'
+                ],
+                [
+                    { content: lang === 'en' ? 'Technical Specifications' : 'Teknik Özellikleri', styles: { fontStyle: 'bold', cellWidth: 50, fillColor: [250, 250, 250] } },
+                    project.machine_technical_specs || '-'
+                ],
+                [
+                    { content: lang === 'en' ? 'Intended Use / Other Info' : 'Kullanım Amacı / Diğer Bilgiler', styles: { fontStyle: 'bold', cellWidth: 50, fillColor: [250, 250, 250] } },
+                    project.machine_intended_use || '-'
+                ]
+            ],
+            styles: {
+                font: activeFont,
+                fontSize: 8.5,
+                cellPadding: 4,
+                valign: 'middle'
+            }
+        });
+    }
 
     // --- Risk Assessment Methodology Page ---
     doc.addPage();

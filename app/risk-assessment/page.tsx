@@ -128,8 +128,8 @@ export default function RiskAssessmentPage() {
                     <RiskAssessmentForm onSuccess={handleFormSuccess} initialData={editingRisk} />
                 </div>
             ) : (
-                <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
-                    <table className="w-full text-left text-sm">
+                <div className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-x-auto">
+                    <table className="w-full text-left text-sm min-w-[800px]">
                         <thead className="bg-gray-50 border-b border-gray-100 text-xs font-bold text-gray-500 uppercase tracking-wider">
                             <tr>
                                 <th className="px-6 py-4 w-16">{t.colImage}</th>
