@@ -1327,7 +1327,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                             {/* Group Tabs (Only if not searching) */}
                             {!templateSearch && (
                                 <div 
-                                    className="flex gap-2 mb-4 overflow-x-auto pb-3 border-b border-gray-100 scrollbar-hide select-none scroll-smooth -mx-1 px-1"
+                                    className="flex flex-wrap gap-2 mb-4 max-h-40 overflow-y-auto pb-3 border-b border-gray-100 pr-1"
                                 >
                                     {displayModalGroups.map(g => (
                                         <button
@@ -1339,7 +1339,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                                     localStorage.setItem(`safety_last_modal_group_${templateModalLang}_${targetCategory}`, g);
                                                 }
                                             }}
-                                            className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all border shrink-0 whitespace-nowrap ${resolvedModalGroup === g ? 'bg-[#FFD600] text-black border-[#FFD600] shadow-sm' : 'bg-gray-50 text-gray-600 hover:bg-gray-100 border-gray-200 hover:text-black'}`}
+                                            className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all border ${resolvedModalGroup === g ? 'bg-[#FFD600] text-black border-[#FFD600] shadow-sm' : 'bg-gray-50 text-gray-600 hover:bg-gray-100 border-gray-200'}`}
                                         >
                                             {g}
                                         </button>
