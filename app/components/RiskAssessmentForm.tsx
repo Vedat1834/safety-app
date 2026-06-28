@@ -1268,7 +1268,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
                         <div className="bg-white rounded-[24px] max-w-xl w-full p-6 shadow-2xl animate-in zoom-in-95 duration-200 flex flex-col max-h-[90vh]">
                             {/* Modal Header */}
-                            <div className="flex justify-between items-center pb-4 border-b border-gray-100 mb-4">
+                            <div className="flex justify-between items-center pb-4 border-b border-gray-100 mb-4 shrink-0">
                                 <h4 className="font-bold text-gray-900 flex items-center gap-2 text-base md:text-lg">
                                     <FileText className="size-5 text-[#FFC107]" />
                                     {lang === 'en' ? 'Select Template' : 'Şablon Cümle Seç'}
@@ -1286,7 +1286,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                             </div>
 
                             {/* Search and Language filters */}
-                            <div className="space-y-3 mb-4">
+                            <div className="space-y-3 mb-4 shrink-0">
                                 <input
                                     type="text"
                                     placeholder={lang === 'en' ? "Search templates..." : "Şablonlarda ara..."}
@@ -1327,7 +1327,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                             {/* Group Tabs (Only if not searching) */}
                             {!templateSearch && (
                                 <div 
-                                    className="flex flex-wrap gap-2 mb-4 max-h-40 overflow-y-auto pb-3 border-b border-gray-100 pr-1"
+                                    className="flex flex-wrap gap-2 mb-4 max-h-40 overflow-y-auto pb-3 border-b border-gray-100 pr-1 shrink-0"
                                 >
                                     {displayModalGroups.map(g => (
                                         <button
