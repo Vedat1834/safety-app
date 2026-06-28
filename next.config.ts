@@ -9,6 +9,8 @@ const pwaConfig = withPWA({
   dest: "public",
   disable: false,
   register: true,
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
 });
 
 export default pwaConfig(nextConfig);
