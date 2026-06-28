@@ -10,22 +10,22 @@ const DEFAULT_TEMPLATES: SentenceTemplate[] = [
     { id: 'h3', lang: 'tr', category: 'hazard', content: 'Elektrik panosu kapaklarında emniyet kilidi bulunmamaktadır.', group: 'Elektrik' },
     { id: 'h4', lang: 'tr', category: 'hazard', content: 'Işık perdesinin emniyet mesafesi yetersizdir.', group: 'Emniyet Cihazları' },
     { id: 'h5', lang: 'tr', category: 'hazard', content: 'Çift el kontrol ünitesi emniyet mesafesi standarda uygun değildir.', group: 'Emniyet Cihazları' },
-    { id: 'h6', lang: 'en', category: 'hazard', content: 'Access to moving parts is not restricted, physical guard is missing.', group: 'Koruyucular' },
-    { id: 'h7', lang: 'en', category: 'hazard', content: 'Emergency stop button placement and accessibility is insufficient.', group: 'Acil Durum' },
-    { id: 'h8', lang: 'en', category: 'hazard', content: 'Electrical panel doors lack safety switches/interlocks.', group: 'Elektrik' },
-    { id: 'h9', lang: 'en', category: 'hazard', content: 'Light curtain safety distance is insufficient.', group: 'Emniyet Cihazları' },
-    { id: 'h10', lang: 'en', category: 'hazard', content: 'Two-hand control unit safety distance is not compliant with the standard.', group: 'Emniyet Cihazları' },
+    { id: 'h6', lang: 'en', category: 'hazard', content: 'Access to moving parts is not restricted, physical guard is missing.', group: 'Guards' },
+    { id: 'h7', lang: 'en', category: 'hazard', content: 'Emergency stop button placement and accessibility is insufficient.', group: 'Emergency' },
+    { id: 'h8', lang: 'en', category: 'hazard', content: 'Electrical panel doors lack safety switches/interlocks.', group: 'Electrical' },
+    { id: 'h9', lang: 'en', category: 'hazard', content: 'Light curtain safety distance is insufficient.', group: 'Safety Devices' },
+    { id: 'h10', lang: 'en', category: 'hazard', content: 'Two-hand control unit safety distance is not compliant with the standard.', group: 'Safety Devices' },
     // Measures (Önlemler)
     { id: 'm1', lang: 'tr', category: 'measure', content: 'EN ISO 14120 standardına uygun sabit veya hareketli kilitli muhafaza yapılmalıdır.', group: 'Koruyucular' },
     { id: 'm2', lang: 'tr', category: 'measure', content: 'Acil stop butonu operatörün kolayca erişebileceği bir konuma taşınmalıdır.', group: 'Acil Durum' },
     { id: 'm3', lang: 'tr', category: 'measure', content: 'Elektrik kapaklarına EN ISO 14119 uyumlu emniyet siviçleri entegre edilmelidir.', group: 'Elektrik' },
     { id: 'm4', lang: 'tr', category: 'measure', content: 'EN ISO 13855 standardına göre ışık perdesi emniyet mesafesi hesaplanıp konumlandırılmalıdır.', group: 'Emniyet Cihazları' },
     { id: 'm5', lang: 'tr', category: 'measure', content: 'Operatörlerin emniyet kuralları ve makine müdahale prosedürleri hakkında eğitilmesi sağlanmalıdır.', group: 'Eğitim & İdari' },
-    { id: 'm6', lang: 'en', category: 'measure', content: 'A fixed or interlocked movable guard compliant with EN ISO 14120 must be installed.', group: 'Koruyucular' },
-    { id: 'm7', lang: 'en', category: 'measure', content: 'The emergency stop button must be relocated to a position easily accessible by the operator.', group: 'Acil Durum' },
-    { id: 'm8', lang: 'en', category: 'measure', content: 'Safety switches compliant with EN ISO 14119 must be integrated into electrical doors.', group: 'Elektrik' },
-    { id: 'm9', lang: 'en', category: 'measure', content: 'The light curtain safety distance must be calculated and positioned according to EN ISO 13855.', group: 'Emniyet Cihazları' },
-    { id: 'm10', lang: 'en', category: 'measure', content: 'Operators must be trained on safety rules and machinery intervention procedures.', group: 'Eğitim & İdari' }
+    { id: 'm6', lang: 'en', category: 'measure', content: 'A fixed or interlocked movable guard compliant with EN ISO 14120 must be installed.', group: 'Guards' },
+    { id: 'm7', lang: 'en', category: 'measure', content: 'The emergency stop button must be relocated to a position easily accessible by the operator.', group: 'Emergency' },
+    { id: 'm8', lang: 'en', category: 'measure', content: 'Safety switches compliant with EN ISO 14119 must be integrated into electrical doors.', group: 'Electrical' },
+    { id: 'm9', lang: 'en', category: 'measure', content: 'The light curtain safety distance must be calculated and positioned according to EN ISO 13855.', group: 'Safety Devices' },
+    { id: 'm10', lang: 'en', category: 'measure', content: 'Operators must be trained on safety rules and machinery intervention procedures.', group: 'Training & Admin' }
 ];
 
 interface AppContextType {
@@ -126,17 +126,54 @@ export const AuditProvider = ({ children }: { children: ReactNode }) => {
                 setTemplates(DEFAULT_TEMPLATES);
                 localStorage.setItem('safety_templates', JSON.stringify(DEFAULT_TEMPLATES));
             } else {
-                const migrated = loadedTemplates.map((t: any) => ({
-                    ...t,
-                    group: t.group || 'Genel'
-                }));
+                // Migrate EN group names from Turkish to English if they are still Turkish
+                const migrated = loadedTemplates.map((t: any) => {
+                    let group = t.group || 'Genel';
+                    if (t.lang === 'en') {
+                        if (group === 'Koruyucular') group = 'Guards';
+                        else if (group === 'Acil Durum') group = 'Emergency';
+                        else if (group === 'Elektrik') group = 'Electrical';
+                        else if (group === 'Emniyet Cihazları') group = 'Safety Devices';
+                        else if (group === 'Eğitim & İdari') group = 'Training & Admin';
+                    }
+                    return { ...t, group };
+                });
                 setTemplates(migrated);
+                localStorage.setItem('safety_templates', JSON.stringify(migrated));
             }
 
             const loadedOrders = localStorage.getItem('safety_group_orders');
             if (loadedOrders) {
                 try {
-                    setGroupOrders(JSON.parse(loadedOrders));
+                    let parsed = JSON.parse(loadedOrders);
+                    // Migrate EN groups from Turkish to English
+                    if (parsed.en_hazard && parsed.en_hazard.includes('Koruyucular')) {
+                        parsed.en_hazard = parsed.en_hazard.map((g: string) => {
+                            if (g === 'Koruyucular') return 'Guards';
+                            if (g === 'Elektrik') return 'Electrical';
+                            if (g === 'Acil Durum') return 'Emergency';
+                            if (g === 'Emniyet Cihazları') return 'Safety Devices';
+                            return g;
+                        });
+                    }
+                    if (parsed.en_measure && parsed.en_measure.includes('Koruyucular')) {
+                        parsed.en_measure = parsed.en_measure.map((g: string) => {
+                            if (g === 'Koruyucular') return 'Guards';
+                            if (g === 'Elektrik') return 'Electrical';
+                            if (g === 'Acil Durum') return 'Emergency';
+                            if (g === 'Emniyet Cihazları') return 'Safety Devices';
+                            if (g === 'Eğitim & İdari') return 'Training & Admin';
+                            return g;
+                        });
+                    }
+                    // Make sure new EN defaults are also included if they are not in the list
+                    const defaultEnHaz = ['Guards', 'Electrical', 'Emergency', 'Safety Devices', 'Genel'];
+                    const defaultEnMeas = ['Guards', 'Electrical', 'Emergency', 'Safety Devices', 'Training & Admin', 'Genel'];
+                    if (!parsed.en_hazard) parsed.en_hazard = defaultEnHaz;
+                    if (!parsed.en_measure) parsed.en_measure = defaultEnMeas;
+
+                    setGroupOrders(parsed);
+                    localStorage.setItem('safety_group_orders', JSON.stringify(parsed));
                 } catch (e) {
                     console.error("Failed to parse safety_group_orders", e);
                 }
@@ -144,8 +181,8 @@ export const AuditProvider = ({ children }: { children: ReactNode }) => {
                 const initialOrders = {
                     tr_hazard: ['Koruyucular', 'Elektrik', 'Acil Durum', 'Emniyet Cihazları', 'Genel'],
                     tr_measure: ['Koruyucular', 'Elektrik', 'Acil Durum', 'Emniyet Cihazları', 'Eğitim & İdari', 'Genel'],
-                    en_hazard: ['Koruyucular', 'Elektrik', 'Acil Durum', 'Emniyet Cihazları', 'Genel'],
-                    en_measure: ['Koruyucular', 'Elektrik', 'Acil Durum', 'Emniyet Cihazları', 'Eğitim & İdari', 'Genel']
+                    en_hazard: ['Guards', 'Electrical', 'Emergency', 'Safety Devices', 'Genel'],
+                    en_measure: ['Guards', 'Electrical', 'Emergency', 'Safety Devices', 'Training & Admin', 'Genel']
                 };
                 setGroupOrders(initialOrders);
                 localStorage.setItem('safety_group_orders', JSON.stringify(initialOrders));
