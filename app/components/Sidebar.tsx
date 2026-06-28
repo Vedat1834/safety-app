@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import {
     Shield,
@@ -9,7 +9,6 @@ import {
     FileText,
     LayoutDashboard,
     Users,
-    Zap,
     ChevronLeft,
     ChevronRight
 } from 'lucide-react';
@@ -18,7 +17,8 @@ import clsx from 'clsx';
 
 export default function Sidebar() {
     const pathname = usePathname();
-    const { activeProject } = useAudit();
+    const router = useRouter();
+    const { activeProject, activeCustomer, customers, projects, setActiveCustomer, setActiveProject } = useAudit();
     const [isCollapsed, setIsCollapsed] = useState(false);
 
     useEffect(() => {
@@ -51,17 +51,90 @@ export default function Sidebar() {
 
             <div className={clsx("py-8 flex-1 overflow-y-auto", isCollapsed ? "px-3" : "px-6")}>
                 {/* Logo Section */}
-                <div className={clsx("flex items-center mb-10 px-2", isCollapsed ? "justify-center" : "gap-3")}>
-                    <div className="w-10 h-10 bg-[#FFD600] rounded-xl flex items-center justify-center text-black shadow-lg shadow-yellow-500/20 flex-shrink-0">
-                        <Zap className="size-6 fill-black" />
-                    </div>
-                    {!isCollapsed && (
-                        <div>
-                            <span className="block text-lg font-black text-gray-900 leading-none">SAFETY</span>
-                            <span className="text-xs font-bold text-gray-400 tracking-widest">APP</span>
+                <div className={clsx("flex items-center mb-8 px-2", isCollapsed ? "justify-center" : "gap-3")}>
+                    {isCollapsed ? (
+                        <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center overflow-hidden shadow-md flex-shrink-0 border border-gray-800">
+                            <img src="/icon-192x192.png" alt="CoreSafe" className="w-8 h-8 object-contain" />
                         </div>
+                    ) : (
+                        <>
+                            <div className="h-10 px-3 bg-black rounded-xl flex items-center justify-center overflow-hidden shadow-md flex-shrink-0 border border-gray-800">
+                                <img src="/logo_koru.jpg" alt="CoreSafe" className="h-6 object-contain" />
+                            </div>
+                            <div>
+                                <span className="block text-base font-black text-gray-900 leading-none">CoreSafe</span>
+                                <span className="text-[8px] font-bold text-yellow-500 tracking-wider uppercase">Koru Teknoloji</span>
+                            </div>
+                        </>
                     )}
                 </div>
+
+                {/* Quick Access Section */}
+                {!isCollapsed && (
+                    <div className="mb-6 px-3 py-4 bg-gray-50 rounded-2xl border border-gray-100/50 space-y-3 mx-1">
+                        <span className="block text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1">Hızlı Erişim</span>
+                        
+                        {/* Customer Select */}
+                        <div className="space-y-1">
+                            <label className="block text-[9px] font-bold text-gray-400 uppercase">Müşteri</label>
+                            <select
+                                value={activeCustomer?.id || ""}
+                                onChange={(e) => {
+                                    const val = e.target.value;
+                                    if (val === "") {
+                                        setActiveCustomer(null);
+                                        setActiveProject(null);
+                                        router.push("/");
+                                    } else {
+                                        const found = customers.find(c => c.id === val);
+                                        if (found) {
+                                            setActiveCustomer(found);
+                                            setActiveProject(null);
+                                            router.push("/");
+                                        }
+                                    }
+                                }}
+                                className="w-full bg-white border border-gray-200 rounded-xl px-2 py-1.5 text-xs font-bold text-gray-700 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] outline-none transition-all cursor-pointer"
+                            >
+                                <option value="">Müşteri Seçin...</option>
+                                {customers.map(c => (
+                                    <option key={c.id} value={c.id}>{c.name}</option>
+                                ))}
+                            </select>
+                        </div>
+
+                        {/* Project Select */}
+                        <div className="space-y-1">
+                            <label className="block text-[9px] font-bold text-gray-400 uppercase">Proje</label>
+                            <select
+                                value={activeProject?.id || ""}
+                                disabled={!activeCustomer}
+                                onChange={(e) => {
+                                    const val = e.target.value;
+                                    if (val === "") {
+                                        setActiveProject(null);
+                                    } else {
+                                        const customerProjects = projects.filter(p => p.customer_id === activeCustomer?.id);
+                                        const found = customerProjects.find(p => p.id === val);
+                                        if (found) {
+                                            setActiveProject(found);
+                                            router.push(`/projects/${found.id}`);
+                                        }
+                                    }
+                                }}
+                                className="w-full bg-white border border-gray-200 rounded-xl px-2 py-1.5 text-xs font-bold text-gray-700 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] outline-none transition-all cursor-pointer disabled:bg-gray-100 disabled:text-gray-400 disabled:cursor-not-allowed"
+                            >
+                                <option value="">Proje Seçin...</option>
+                                {activeCustomer && projects
+                                    .filter(p => p.customer_id === activeCustomer.id)
+                                    .map(p => (
+                                        <option key={p.id} value={p.id}>{p.name} ({p.project_no})</option>
+                                    ))
+                                }
+                            </select>
+                        </div>
+                    </div>
+                )}
 
                 <ul className="space-y-2">
                     {/* Main Navigation */}

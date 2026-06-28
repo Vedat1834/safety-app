@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Makine Emniyet Raporlama",
-    short_name: "SafetyApp",
-    description: "Endüstriyel Güvenlik Denetim ve Raporlama Sistemi",
+    name: "CoreSafe - Makine Emniyet Raporlama",
+    short_name: "CoreSafe",
+    description: "CoreSafe Endüstriyel Güvenlik Denetim ve Raporlama Sistemi",
     start_url: "/",
     display: "standalone",
     background_color: "#F8F9FA",

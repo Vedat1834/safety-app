@@ -25,7 +25,7 @@ export default function LoginPage() {
             <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-slate-200">
                 <div className="text-center mb-8">
                     <h1 className="text-2xl font-black text-slate-800">Giriş Yap</h1>
-                    <p className="text-slate-500 text-sm mt-2">Makine Emniyet Raporlama Sistemi</p>
+                    <p className="text-slate-500 text-sm mt-2">CoreSafe - Makine Emniyet Raporlama</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-6">

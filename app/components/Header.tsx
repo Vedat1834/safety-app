@@ -10,7 +10,7 @@ export default function Header() {
         <header className="bg-white border-b border-gray-100 px-8 py-5 flex items-center justify-between sticky top-0 z-40 bg-opacity-90 backdrop-blur-md">
             <div className="flex items-center gap-4">
                 {/* Breadcrumbs or Title could go here */}
-                <h1 className="text-xl font-black text-gray-900 tracking-tight">Makine Emniyet Raporlama Uygulaması</h1>
+                <h1 className="text-xl font-black text-gray-900 tracking-tight">CoreSafe - Makine Emniyet Raporlama</h1>
             </div>
 
             <div className="flex items-center gap-6">

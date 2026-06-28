@@ -9,12 +9,12 @@ import { AuthProvider } from "./context/AuthContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Makine Emniyet Raporlama",
-  description: "Endüstriyel güvenlik denetimi ve raporlama sistemi",
+  title: "CoreSafe - Makine Emniyet Raporlama",
+  description: "CoreSafe endüstriyel güvenlik denetimi ve raporlama sistemi",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Safety App",
+    title: "CoreSafe",
   },
   formatDetection: {
     telephone: false,
