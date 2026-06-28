@@ -760,7 +760,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.sLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white truncate pr-8"
                                             value={formData.before_s}
                                             onChange={e => handleFieldChange('before_s', e.target.value as any)}
                                         >
@@ -774,7 +774,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.fLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50 truncate pr-8"
                                             value={formData.before_f}
                                             onChange={e => handleFieldChange('before_f', e.target.value as any)}
                                         >
@@ -788,7 +788,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.aLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50 truncate pr-8"
                                             value={formData.before_a}
                                             onChange={e => handleFieldChange('before_a', e.target.value as any)}
                                         >
@@ -802,7 +802,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.oLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-transparent focus:bg-white disabled:opacity-50 truncate pr-8"
                                             value={formData.before_o}
                                             onChange={e => handleFieldChange('before_o', e.target.value as any)}
                                         >
@@ -846,7 +846,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
 
                     {formData.safety_function_required && (
                         <div className="animate-in fade-in slide-in-from-top-4 duration-300 space-y-8 pl-2">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                                 {/* S & F Params */}
                                 <div className="space-y-4">
                                     <div className="bg-gray-50 p-5 rounded-2xl border border-gray-100">
@@ -1048,7 +1048,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                         </button>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                         <div className="space-y-5">
                             <div>
                                 <div className="flex justify-between items-center mb-2">
@@ -1134,13 +1134,13 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                     <div className="bg-white p-6 rounded-[22px]">
                         <h4 className="font-black text-gray-900 mb-6 text-sm uppercase tracking-widest border-b pb-4">{t.sec4Title}</h4>
 
-                        <div className="flex flex-col md:flex-row gap-8 items-center">
+                        <div className="flex flex-col lg:flex-row gap-8 items-center">
                             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 flex-1 w-full">
                                 <div>
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.sLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600]"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] truncate pr-8"
                                             value={formData.after_s}
                                             onChange={e => handleFieldChange('after_s', e.target.value as any)}
                                         >
@@ -1154,7 +1154,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.fLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50 truncate pr-8"
                                             value={formData.after_f}
                                             onChange={e => handleFieldChange('after_f', e.target.value as any)}
                                         >
@@ -1168,7 +1168,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.aLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50 truncate pr-8"
                                             value={formData.after_a}
                                             onChange={e => handleFieldChange('after_a', e.target.value as any)}
                                         >
@@ -1182,7 +1182,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                     <label className="text-[10px] font-black text-gray-400 uppercase tracking-wider mb-1 block ml-1">{t.oLabel}</label>
                                     <div className="relative">
                                         <select
-                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50"
+                                            className="input-field font-semibold text-gray-900 appearance-none bg-gray-50 border-gray-200 focus:border-[#FFD600] focus:ring-1 focus:ring-[#FFD600] disabled:opacity-50 truncate pr-8"
                                             value={formData.after_o}
                                             onChange={e => handleFieldChange('after_o', e.target.value as any)}
                                         >
@@ -1193,7 +1193,7 @@ export default function RiskAssessmentForm({ onSuccess, initialData }: RiskFormP
                                 </div>
                             </div>
 
-                            <div className={`p-6 md:p-8 rounded-[20px] text-center border-2 border-transparent transition-all w-full md:w-auto min-w-[200px] flex flex-col items-center justify-center ${afterStatus.color.replace('bg-', 'bg-opacity-10 bg-').replace('border-', 'border-opacity-20 border-')}`}>
+                            <div className={`p-6 lg:p-8 rounded-[20px] text-center border-2 border-transparent transition-all w-full lg:w-auto min-w-[200px] flex flex-col items-center justify-center ${afterStatus.color.replace('bg-', 'bg-opacity-10 bg-').replace('border-', 'border-opacity-20 border-')}`}>
                                 <span className="text-[10px] font-black uppercase tracking-widest mb-1" style={{ color: afterScore >= 8 ? '#EF4444' : afterScore >= 4 ? '#F97316' : afterScore >= 2 ? '#F59E0B' : afterScore === 1 ? '#10B981' : '#6B7280' }}>
                                     {t.targetIndex}
                                 </span>
