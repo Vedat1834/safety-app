@@ -202,15 +202,23 @@ const fetchWithTimeout = async (url: string, timeoutMs = 1200) => {
         throw err;
     }
 };
-const getBase64ImageFromUrl = async (url: string): Promise<string> => {
-    const response = await fetch(url);
-    const blob = await response.blob();
-    return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onloadend = () => resolve(reader.result as string);
-        reader.onerror = reject;
-        reader.readAsDataURL(blob);
-    });
+const getBase64ImageFromUrl = async (url: string, timeoutMs = 5000): Promise<string> => {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const response = await fetch(url, { signal: controller.signal });
+        clearTimeout(timeoutId);
+        const blob = await response.blob();
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onloadend = () => resolve(reader.result as string);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+        });
+    } catch (err) {
+        clearTimeout(timeoutId);
+        throw err;
+    }
 };
 
 const compressBase64Image = (base64Str: string, maxDim = 600, quality = 0.6): Promise<string> => {
@@ -1163,15 +1171,12 @@ export const generatePDF = async (
         });
     };
 
-    // Pre-cache all annex images to base64
+    // Pre-cache all annex images to base64 in parallel
+    const uniqueUrls = new Set<string>();
     for (const itemAny of currentAnnexes) {
         const item = itemAny as any;
         if (item.type === 'image' && item.src) {
-            try {
-                imageCache[item.src] = await getBase64ImageFromUrl(item.src);
-            } catch (e) {
-                console.error("Failed to cache image", item.src, e);
-            }
+            uniqueUrls.add(item.src);
         }
         if (item.type === 'table') {
             for (const row of item.rows) {
@@ -1181,18 +1186,24 @@ export const generatePDF = async (
                         const src = Array.isArray(cellAny) 
                             ? cellAny.find((i: any) => i.type === 'image')?.src 
                             : (cellAny.type === 'image' ? cellAny.src : null);
-                        if (src && !imageCache[src]) {
-                            try {
-                                imageCache[src] = await getBase64ImageFromUrl(src);
-                            } catch (e) {
-                                console.error("Failed to cache cell image", src, e);
-                            }
+                        if (src) {
+                            uniqueUrls.add(src);
                         }
                     }
                 }
             }
         }
     }
+
+    await Promise.all(
+        Array.from(uniqueUrls).map(async (src) => {
+            try {
+                imageCache[src] = await getBase64ImageFromUrl(src);
+            } catch (e) {
+                console.error("Failed to cache image", src, e);
+            }
+        })
+    );
 
     doc.addPage();
     tocItems.push({
