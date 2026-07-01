@@ -1,0 +1,2081 @@
+[
+  {
+    "type": "paragraph",
+    "text": "Ek-A",
+    "runs": [
+      {
+        "text": "E",
+        "bold": false
+      },
+      {
+        "text": "k-A",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Tehlikeler, Tehlikeli Durumlar",
+    "runs": [
+      {
+        "text": "Tehlikeler, Tehlikeli Durumlar",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "A.1 EN ISO 12100: Tehlikeler, tehlikeli durumlar ve tehlikeli olayların örnekleri",
+    "runs": [
+      {
+        "text": "A.1 ",
+        "bold": false
+      },
+      {
+        "text": "EN ISO 12100: Tehlikeler, tehlikeli durumlar ve tehlikeli olayların örnekleri",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Tehlike",
+      "Tehlike"
+    ],
+    "rows": [
+      [
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId9.jpeg"
+        },
+        "Kaynağı:",
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId10.jpeg"
+        },
+        "Kaynağı"
+      ],
+      [
+        "",
+        "Kesme parçaları",
+        "",
+        "Düşen nesneler"
+      ],
+      [
+        "",
+        "Potansiyel sonuçları",
+        "",
+        "Potansiyel sonuçları"
+      ],
+      [
+        "",
+        "− Kesilme",
+        "",
+        "− Ezilme"
+      ],
+      [
+        "",
+        "− Parçalanma",
+        "",
+        "− Darbe"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId11.jpeg"
+        },
+        "Kaynağı",
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId12.jpeg"
+        },
+        "Kaynağı"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Hareketli parçalar"
+          },
+          {
+            "type": "text",
+            "text": "Potansiyel sonuçları"
+          }
+        ],
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Hareketli parçalar (üç örnek)"
+          },
+          {
+            "type": "text",
+            "text": "Potansiyel sonuçları"
+          }
+        ]
+      ],
+      [
+        "",
+        "− Ezilme",
+        "",
+        "− İçine çekme"
+      ],
+      [
+        "",
+        "− Darbe",
+        "",
+        "− Sürtünme, aşınma"
+      ],
+      [
+        "",
+        "− Kesme",
+        "",
+        "− Darbe"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId13.jpeg"
+        },
+        "Kaynağı",
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId14.jpeg"
+        },
+        "Kaynağı"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Yerçekimi, dengelilik"
+          },
+          {
+            "type": "text",
+            "text": "Potansiyel sonuçları"
+          },
+          {
+            "type": "text",
+            "text": "− Ezilme"
+          }
+        ],
+        "",
+        "Hareketedenbir parçanınsabitbir parçaya yaklaşması Potansiyel sonuçları"
+      ],
+      [
+        "",
+        "− Takılma",
+        "",
+        "− Ezilme"
+      ],
+      [
+        "",
+        "",
+        "",
+        "− Darbe"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId15.jpeg"
+        },
+        "Kaynağı",
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId16.jpeg"
+        },
+        "Kaynağı"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Dönen veya hareket eden parçalar"
+          },
+          {
+            "type": "text",
+            "text": "(üç örnek)"
+          },
+          {
+            "type": "text",
+            "text": "Potansiyel sonuçları"
+          }
+        ],
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Hareketli parçalar"
+          },
+          {
+            "type": "text",
+            "text": "Potansiyel sonuçları"
+          },
+          {
+            "type": "text",
+            "text": "− Ezilme"
+          }
+        ]
+      ],
+      [
+        "",
+        "− Parçalanma",
+        "",
+        "− Sürtünme, aşınma"
+      ],
+      [
+        "",
+        "− Birbirine dolanma",
+        "",
+        "− Darbe"
+      ],
+      [
+        "",
+        "",
+        "",
+        "− Parçalanma"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId17.jpeg"
+        },
+        "Kaynağı",
+        {
+          "type": "image",
+          "src": "/annexes/tr/tr_image_rId18.jpeg"
+        },
+        [
+          {
+            "type": "text",
+            "text": "Kaynağı"
+          },
+          {
+            "type": "text",
+            "text": "Yüksek veya düşük sıcaklıklı nesne veya malzemeler Potansiyel sonuçları"
+          },
+          {
+            "type": "text",
+            "text": "− Yanık"
+          }
+        ]
+      ],
+      [
+        "",
+        "İçinden elektrik geçen",
+        "",
+        ""
+      ],
+      [
+        "",
+        "elektrikli parçalar",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Potansiyel sonuçları",
+        "",
+        ""
+      ],
+      [
+        "",
+        "− Elektrik çarpması",
+        "",
+        ""
+      ],
+      [
+        "",
+        "− Yanık",
+        "",
+        ""
+      ],
+      [
+        "",
+        "− Delinme",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "EK-B",
+    "runs": [
+      {
+        "text": "EK-B",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Koruma tertibatlarının konumlandırılması veya boyutlandırılması",
+    "runs": [
+      {
+        "text": "Koruma tertibatlarının konumlandırılması veya boyutlandırılması",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "B.1 ESPE için yaklaşmaya bağlı asgari mesafe (Güvenlik mesafesi)",
+    "runs": [
+      {
+        "text": "B.1 ESPE için yaklaşmaya bağlı asgari mesafe (Güvenlik mesafesi)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Asgari mesafe bakış açısı, örn. ışık perdeleri, ışık bariyerleri (AOPD), lazer tarayıcıları (AOPDDR) veya iki boyutlu kamera sistemleri gibi iki boyutlu koruma alanı olan ESPE'ler için geçerlidir. Genel olarak üç farklı yaklaşma şekli vardır.",
+    "runs": [
+      {
+        "text": "Asgari mesafe bakış açısı, örn. ışık perdeleri, ışık bariyerleri (AOPD), lazer tarayıcıları (AOPDDR) veya iki boyutlu kamera sistemleri gibi iki boyutlu koruma alanı olan ESPE'ler için geçerlidir. Genel olarak üç farklı yaklaşma şekli vardır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId19.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Durdurmayı tetikleyen ESPE seçildikten sonra ESPE'nin koruma alanı ve bir sonraki tehlikeli yerin arasındaki asgari mesafe hesaplanmalı ve aşağıdaki parametreler dikkate alınmalıdır:",
+    "runs": [
+      {
+        "text": "Durdurmayı tetikleyen ESPE seçildikten sonra ESPE'nin koruma alanı ve bir sonraki tehlikeli yerin arasındaki asgari mesafe hesaplanmalı ve aşağıdaki parametreler dikkate alınmalıdır:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• Makinenin durma zamanı",
+    "runs": [
+      {
+        "text": "• Makinenin durma zamanı",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• Güvenliğe ilişkin kumandanın tepki süresi",
+    "runs": [
+      {
+        "text": "• Güvenliğe ilişkin kumandanın tepki süresi",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• Koruma tertibatının tepki süresi (ESPE)",
+    "runs": [
+      {
+        "text": "• Koruma tertibatının tepki süresi (ESPE)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• ESPE'nin çözünürlük kapasitesine koruma alanı yüksekliğine ve/veya yaklaşmanın türüne bağlı ilave değer",
+    "runs": [
+      {
+        "text": "• ESPE'nin çözünürlük kapasitesine koruma alanı yüksekliğine ve/veya yaklaşmanın türüne bağlı ilave değer",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Genel Hesaplama Formülü:",
+    "runs": [
+      {
+        "text": "Genel Hesaplama Formülü:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "S = (K × T) + C",
+    "runs": [
+      {
+        "text": "S = (K × T) + C",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Burada …",
+    "runs": [
+      {
+        "text": "Burada …",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• S milimetre olarak asgari mesafedir, bir sonraki tehlikeli yer ile ESPE'nin tanıma noktası veya tanıma çizgisi veya",
+    "runs": [
+      {
+        "text": "• S milimetre olarak asgari mesafedir, bir sonraki tehlikeli yer ile ESPE'nin tanıma noktası veya tanıma çizgisi veya",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "tanıma düzlemi arasındaki mesafe olarak ölçülür.",
+    "runs": [
+      {
+        "text": "tanıma düzlemi arasındaki mesafe olarak ölçülür.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• K saniyede milimetre olarak parametre, vücudun veya vücut kısımlarının yaklaşma hızlarının verileri üzerinden hesaplanır.",
+    "runs": [
+      {
+        "text": "• K saniyede milimetre olarak parametre, vücudun veya vücut kısımlarının yaklaşma hızlarının verileri üzerinden hesaplanır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• T tüm sistemin saniye olarak toplam durma süresi.",
+    "runs": [
+      {
+        "text": "• T tüm sistemin saniye olarak toplam durma süresi.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "• C milimetre olarak ilave mesafe, bu mesafe koruma tertibatı tetiklenmeden önce tehlike bölgesine giriş miktarı olarakgösterilir. ESPE'nin koruma alanı aşılamıyorsa, C değeri ESPE'nin dedeksiyon kapasitesine bağlıdır ve CRT (reach through = geçme mesafesi) olarak gösterilir. ESPE'nin koruma alanı aşılabiliyorsa, C değeri ESPE'nin koruma alanı yüksekliğine bağlıdır ve CRO (reach over = aşma mesafesi) olarak gösterilir.",
+    "runs": [
+      {
+        "text": "• C milimetre olarak ilave mesafe, bu mesafe koruma tertibatı tetiklenmeden önce tehlike bölgesine giriş miktarı olarakgösterilir. ESPE'nin koruma alanı aşılamıyorsa, C değeri ESPE'nin dedeksiyon kapasitesine bağlıdır ve CRT (reach through = geçme mesafesi) olarak gösterilir. ESPE'nin koruma alanı aşılabiliyorsa, C değeri ESPE'nin koruma alanı yüksekliğine bağlıdır ve CRO (reach over = aşma mesafesi) olarak gösterilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Üstten erişilebilen koruma tertibatları "
+  },
+  {
+    "type": "paragraph",
+    "text": "Bazı noktalarda ESPE'nin koruma alanının yüksekliğine ve konumuna, makinenin şekline ve diğer faktörlere bağlı olarak tehlikeli yerlere tehlike getiren makine işlemi bitirildikten sonra erişilmesi ve istenilen koruma etkisinin gerçekleşmesi mümkün olmayacak şekilde bir ESPE'nin koruma alanı üstünden ulaşılabilir.",
+    "runs": [
+      {
+        "text": "Bazı noktalarda ESPE'nin koruma alanının yüksekliğine ve konumuna, makinenin şekline ve diğer faktörlere bağlı olarak tehlikeli yerlere tehlike getiren makine işlemi bitirildikten sonra erişilmesi ve istenilen koruma etkisinin gerçekleşmesi mümkün olmayacak şekilde bir ESPE'nin koruma alanı üstünden ulaşılabilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Aşağıdaki şekilde üstten erişilebilen ve erişilemeyen ESPE örnekleri mevcuttur..",
+    "runs": [
+      {
+        "text": "Aşağıdaki şekilde üstten erişilebilen ve erişilemeyen ESPE örnekleri mevcuttur..",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Tehlikeli alana erişim dikey bir koruma alanının üstünden önlenemiyorsa, koruma alanının yüksekliği ve ESPE'nin asgari mesafesinin belirlenmesi gerekir. Bu işlem uzuvların veya vücut kısımlarının olası algılanması bazında hesaplanan değerin olası ötesine ulaşım durumda hesaplanan değer ile karşılaştırılması ile yapılır. Bu karşılaştırmada elde edilen en büyük değer uygulanır. Bu karşılaştırma ISO 13855, bölüm 6.5 uyarınca yapılmalıdır.",
+    "runs": [
+      {
+        "text": "Tehlikeli alana erişim dikey bir koruma alanının üstünden önlenemiyorsa, koruma alanının yüksekliği ve ESPE'nin asgari mesafesinin belirlenmesi gerekir. Bu işlem uzuvların veya vücut kısımlarının olası algılanması bazında hesaplanan değerin olası ötesine ulaşım durumda hesaplanan değer ile karşılaştırılması ile yapılır. Bu karşılaştırmada elde edilen en büyük değer uygulanır. Bu karşılaştırma ISO 13855, bölüm 6.5 uyarınca yapılmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Olası erişimin dikkate alınması"
+  },
+  {
+    "type": "paragraph",
+    "text": "Bir ESPE'nin düşey koruma alanının üstten erişimi mümkün ise koruma alanı üst kenarının yüksekliği b değerinin yükseltilmesi veya katkı payı C değerinin uyarlanması gerekir. Her iki yöntemde de ISO 13855 standardına uygun ilgili tablo kullanılmalıdır.",
+    "runs": [
+      {
+        "text": "Bir ESPE'nin düşey koruma alanının üstten erişimi mümkün ise koruma alanı üst kenarının yüksekliği ",
+        "bold": false
+      },
+      {
+        "text": "b ",
+        "bold": false
+      },
+      {
+        "text": "değerinin yükseltilmesi veya katkı payı ",
+        "bold": false
+      },
+      {
+        "text": "C ",
+        "bold": false
+      },
+      {
+        "text": "değerinin uyarlanması gerekir. Her iki yöntemde de ISO 13855 standardına uygun ilgili tablo kullanılmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Koruma alanı üst kenarının yükseltilmesi"
+  },
+  {
+    "type": "paragraph",
+    "text": "Koruma alanı üst kenarı b'nin yükseltilmesinde tehlikeli alan yüksekliği a'nın yanında çözünürlüğe bağlı katkı payı CRT değeri asgari mesafenin eşit kalması durumunda koruma alanı üst kenarının gerekli yüksekliğinin belirlenmesi için kullanılır. Koruma alanı üst kenarının yüksekliğinin belirlenen bu değerinde tehlikeli alanın üstten kavrama ile erişilmesi mümkün değildir, CRO katkı payının eklenmesi gerekir.",
+    "runs": [
+      {
+        "text": "Koruma alanı üst kenarı ",
+        "bold": false
+      },
+      {
+        "text": "b",
+        "bold": false
+      },
+      {
+        "text": "'nin yükseltilmesinde tehlikeli alan yüksekliği ",
+        "bold": false
+      },
+      {
+        "text": "a",
+        "bold": false
+      },
+      {
+        "text": "'nın yanında çözünürlüğe bağlı katkı payı CRT değeri asgari mesafenin eşit kalması durumunda koruma alanı üst kenarının gerekli yüksekliğinin belirlenmesi için kullanılır. Koruma alanı üst kenarının yüksekliğinin belirlenen bu değerinde tehlikeli alanın üstten kavrama ile erişilmesi mümkün değildir, CRO katkı payının eklenmesi gerekir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Koruma alanı üst kenarı b, örn. önceden mevcut bir ürün ile verilmiş ise asgari mesafenin büyütülmesi gerekir. Bu işlem tehlikeli alanın yüksekliği a'nın koruma alanı üst kenarının yüksekliği b ile belirlenmesi ile yapılır.",
+    "runs": [
+      {
+        "text": "Koruma alanı üst kenarı ",
+        "bold": false
+      },
+      {
+        "text": "b",
+        "bold": false
+      },
+      {
+        "text": ", örn. önceden mevcut bir ürün ile verilmiş ise asgari mesafenin büyütülmesi gerekir. Bu işlem tehlikeli alanın yüksekliği ",
+        "bold": false
+      },
+      {
+        "text": "a",
+        "bold": false
+      },
+      {
+        "text": "'nın koruma alanı üst kenarının yüksekliği ",
+        "bold": false
+      },
+      {
+        "text": "b ",
+        "bold": false
+      },
+      {
+        "text": "ile belirlenmesi ile yapılır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bileşke kesim noktasının tablodaki sonucu giriş mesafesi CRO'yi tanımlar. CRO ≥ CRT ise asgari mesafenin hesaplanmasında CRO-değeri CRT-değerinin yerini alır. CRO < CRT ise CRT-değeri asgari mesafenin hesaplanmasında kullanılmaya devam edilir.",
+    "runs": [
+      {
+        "text": "Bileşke kesim noktasının tablodaki sonucu giriş mesafesi CRO'yi tanımlar. CRO ≥ CRT ise asgari mesafenin hesaplanmasında CRO-değeri CRT-değerinin yerini alır. CRO < CRT ise CRT-değeri asgari mesafenin hesaplanmasında kullanılmaya devam edilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId20.png"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId21.png"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId22.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Genel olarak şunlar geçerlidir: ",
+    "runs": [
+      {
+        "text": "Genel olarak şunlar geçerlidir: ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C ≥ CRO (aşma mesafesi) ve C ≥ CRT (geçme mesafesi) ",
+    "runs": [
+      {
+        "text": "C ≥ CRO (aşma mesafesi) ve C ≥ CRT (geçme mesafesi)",
+        "bold": false
+      },
+      {
+        "text": " ",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Dikey olarak konumlandırılmış bariyerlerin üzerinden erişim:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Olası üstten kavramayı dikkate almak için standart ISO 13855 aşağıdaki tabloyu sunar. Bu tablo yardımıyla yükseltilmiş koruma alanı üst kenarının veya büyütülmüş asgari mesafenin hesabı gerçekleşir.",
+    "runs": [
+      {
+        "text": "Olası üstten kavramayı dikkate almak için standart ISO 13855 aşağıdaki tabloyu sunar. Bu tablo yardımıyla yükseltilmiş koruma alanı üst kenarının veya büyütülmüş asgari mesafenin hesabı gerçekleşir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId23.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 1: Dikey olarak konumlandırılmış bariyerlerin üzerinden erişim",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Dikey olarak konumlandırılmış bariyerlerin üzerinden erişim",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Not: ",
+    "runs": [
+      {
+        "text": "Not: ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Güvenli ışık bariyerinin son huzmesinin yerden yüksekliği 900 mm’den az olduğu durumlarda, üstten atlama ve/veya üstten erişim gibi tehlikelere karşı yeterli koruma sağlanamayacaktır.",
+    "runs": [
+      {
+        "text": "Güvenli ışık bariyerinin son huzmesinin yerden yüksekliği 900 mm’den az olduğu durumlarda, üstten atlama ve/veya üstten erişim gibi tehlikelere karşı yeterli koruma sağlanamayacaktır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Güvenli ışık bariyerinin ilk huzmesinin yerden yüksekliği 300 mm’den yüksek olduğu durumlarda, yerden sürünme/emekleme gibi durumlara karşı yeterli koruma sağlanamayacaktır.",
+    "runs": [
+      {
+        "text": "Güvenli ışık bariyerinin ilk huzmesinin yerden yüksekliği 300 mm’den yüksek olduğu durumlarda, yerden sürünme/emekleme gibi durumlara karşı yeterli koruma sağlanamayacaktır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "EK-C",
+    "runs": [
+      {
+        "text": "EK-C",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Mekanik koruyucu tertibatlar için genel gereksinimler",
+    "runs": [
+      {
+        "text": "Mekanik koruyucu tertibatlar için genel gereksinimler",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.1 Mekanik koruyucu tertibatların güvenlik mesafesi",
+    "runs": [
+      {
+        "text": "C.1 Mekanik koruyucu tertibatların güvenlik mesafesi",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Mekanik koruyucu tertibatlar açıklıklara sahip olmaları durumunda tehlikeli alana yeterli bir mesafede bulunmalıdır. Bu durum koruma tertibatı ve makine şasisi, germe plakaları vs. arasındaki açıklıklar için de geçerlidir.",
+    "runs": [
+      {
+        "text": "Mekanik koruyucu tertibatlar açıklıklara sahip olmaları durumunda tehlikeli alana yeterli bir mesafede bulunmalıdır. Bu durum koruma tertibatı ve makine şasisi, germe plakaları vs. arasındaki açıklıklar için de geçerlidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "ISO 13857 uyarınca mekanik koruyucu tertibatların açıklıklarına bağlı güvenlik mesafesi:",
+    "runs": [
+      {
+        "text": "ISO 13857 uyarınca mekanik koruyucu tertibatların",
+        "bold": true
+      },
+      {
+        "text": " ",
+        "bold": false
+      },
+      {
+        "text": "açıklıklarına bağlı güvenlik mesafesi:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId24.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 2: Slot, Kare, Daire şeklinde açıklıklardan erişim",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Slot, Kare, Daire şeklinde açıklıklardan erişim",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId25.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 3: Slot, Kare, Daire şeklinde açıklıklardan alt organların erişimi",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "3",
+        "bold": false
+      },
+      {
+        "text": ": Slot, Kare, Daire şeklinde açıklıklardan alt organların erişimi",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.2 Mekanik koruyucu tertibatla için gerekli yükseklik",
+    "runs": [
+      {
+        "text": "C.2 Mekanik koruyucu tertibatla için gerekli yükseklik",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "ESPE için yapılan işleme benzer olarak aynı yöntem mekanik koruyucu tertibatlar için de kullanılmalıdır. Tehlike potansiyelinebağlı olarak farklı hesaplama tabloları dikkate alınmalıdır.",
+    "runs": [
+      {
+        "text": "ESPE için yapılan işleme benzer olarak aynı yöntem mekanik koruyucu tertibatlar için de kullanılmalıdır. Tehlike potansiyelinebağlı olarak farklı hesaplama tabloları dikkate alınmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ayırıcı koruma tertibatlarının altından geçmeyi önlemek için normal durumda bunların referans düzeyinin 200 mm üzerindebaşlatılması yeterlidir.",
+    "runs": [
+      {
+        "text": "Ayırıcı koruma tertibatlarının altından geçmeyi önlemek için normal durumda bunların referans düzeyinin 200 mm üzerindebaşlatılması yeterlidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Yüksek tehlike potansiyeli olması durumunda ISO 13857 uyarınca mekanik koruyucu tertibatlar için gerekli yükseklik:",
+    "runs": [
+      {
+        "text": "Yüksek tehlike potansiyeli olması durumunda ISO 13857 uyarınca mekanik koruyucu tertibatlar",
+        "bold": true
+      },
+      {
+        "text": " ",
+        "bold": false
+      },
+      {
+        "text": "için gerekli yükseklik:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId26.png"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId27.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 4: Koruyucu yapıların üzerinden erişim – Yüksk Risk*",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "4",
+        "bold": false
+      },
+      {
+        "text": ": Koruyucu yapıların üzerinden erişim – Yüksk Risk*",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "*Not: Sürtünme veya aşınma gibi vücutta uzun vadeli veya geri dönüşü olmayan hasarın öngörülemediği tehlikelerden kaynaklanan riskler ancak “düşük risk” olarak kabul edilir. (EN ISO 13857, madde 4.1.2)",
+    "runs": [
+      {
+        "text": "*Not: Sürtünme veya aşınma gibi vücutta uzun vadeli veya geri dönüşü olmayan hasarın öngörülemediği tehlikelerden kaynaklanan riskler ancak “düşük risk” olarak kabul edilir. (EN ISO 13857, madde 4.1.2)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.3 Ezilme tehlikesinin engellenmesi için gerekli açıklıklar",
+    "runs": [
+      {
+        "text": "C.3 Ezilme tehlikesinin engellenmesi için gerekli açıklıklar",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId28.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 5: Ezilme tehlikesini(insan bedeni) engellemek için gerekli açıklıklar (mm cinsinden)",
+    "runs": [
+      {
+        "text": "Tablo 5: Ezilme tehlikesini(insan bedeni) engellemek için gerekli açıklıklar (mm cinsinden)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.4 Siviç ve Mekanik koruyu tertibat kombinasyonu",
+    "runs": [
+      {
+        "text": "C.4 Siviç ve Mekanik koruyu tertibat kombinasyonu",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Siviç ve mekanik koruyu tertibat kombinasyonu kullanıldığı durumlarda aşağıdaki koşullar dikkate alınmalıdır. ",
+    "runs": [
+      {
+        "text": "Siviç ve mekanik koruyu tertibat kombinasyonu",
+        "bold": false
+      },
+      {
+        "text": " kullanıldığı durumlarda aşağıdaki koşullar dikkate alınmalıdır. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mekanik koruyucu tertibatlarda siviçli kapı olması durumunda, kapı kapanmadan mekanik koruyucu tertibatların korumuş olduğu tehlikeli hareketler engellenmelidir. ",
+    "runs": [
+      {
+        "text": "— Mekanik koruyucu tertibatlarda siviçli kapı olması durumunda, kapı kapanmadan mekanik koruyucu tertibatların korumuş olduğu tehlikeli hareketler engellenmelidir. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mekanik koruyucu tertibatların sadece  korumuş olduğu riskler ortadan kalktığında devre dışı bırakılabilir. ",
+    "runs": [
+      {
+        "text": "— Mekanik koruyucu tertibatların sadece  korumuş olduğu riskler ortadan kalktığında devre dışı bırakılabilir. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Sadece kapı kapalı ve kilitli olduğu durumlarda makine operasyonları yürütülebilir.",
+    "runs": [
+      {
+        "text": "— Sadece kapı kapalı ve kilitli olduğu durumlarda makine operasyonları yürütülebilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mekanik koruyucu ekipmanların, içerinin gözlemlenmesi gerektiği durumlarda gövde açık renk (sarı), tel örgüler koyu renk (siyah) olacak şekilde imal edilmesi tavsiye edilir.",
+    "runs": [
+      {
+        "text": "— Mekanik koruyucu ekipmanların, içerinin gözlemlenmesi gerektiği durumlarda gövde açık renk (sarı), tel örgüler koyu renk (siyah) olacak şekilde imal edilmesi tavsiye edilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId29.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Şekil 91: Siviç ve mekanik koruyu tertibat kombinasyonun birlikte kullanıldığı durum",
+    "runs": [
+      {
+        "text": "Şekil 9",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Siviç ve mekanik koruyu tertibat kombinasyonun birlikte kullanıldığı durum",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.5 Mekanik koruyucuların bağlantı elemanları",
+    "runs": [
+      {
+        "text": "C.5 Mekanik koruyucuların bağlantı elemanları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bağlantı elemanlarının seçimi; periyodik bakımlar, temizlik, ayar yapılması maksadıyla yapılan çalışmalarda risk azaltımı açısından önem arz etmektedir. Bu noktada mekanik koruyucu tertibatların sökülmesi gerekiyorsa, çalışma tamamlandıktan sonra mutlaka yerine geri takılmalı. Çalışan personel bu konuda bilgilendirilmelidir.",
+    "runs": [
+      {
+        "text": "Bağlantı elemanlarının seçimi; periyodik bakımlar, temizlik, ayar yapılması maksadıyla yapılan çalışmalarda risk azaltımı açısından önem arz etmektedir. Bu noktada mekanik koruyucu tertibatların sökülmesi gerekiyorsa, çalışma tamamlandıktan sonra mutlaka yerine geri takılmalı. Çalışan personel bu konuda bilgilendirilmelidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu bağlamda:",
+    "runs": [
+      {
+        "text": "Bu bağlamda:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mekanik koruyucu tertibatların tamir gerektiği durumlarda; çalışmalar üretici talimatları doğrultusunda uzmanlar tarafından yapılmalıdır. ",
+    "runs": [
+      {
+        "text": "— Mekanik koruyucu tertibatların tamir gerektiği durumlarda; çalışmalar üretici talimatları doğrultusunda uzmanlar tarafından yapılmalıdır. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mümkün olduğu durumlarda, mekanik koruyucu tertibatlar sabitlenmedikçe ayakta kalmayacak şekilde tasarlanmalıdır. ",
+    "runs": [
+      {
+        "text": "— Mümkün olduğu durumlarda, mekanik koruyucu tertibatlar sabitlenmedikçe ayakta kalmayacak şekilde tasarlanmalıdır. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Sabitleme civataları, vidaları vb. bağlantı elemanları sadece alet/takım(allen, ingiliz anahtarı vs.) kullanarak sökülebilir olmalıdır. Kelebek somun gibi hızlı bağlantı elemanları risk değerlendirme raporunda belirtilmedikçe, sabitleme için kullanılmamalıdır.",
+    "runs": [
+      {
+        "text": "— Sabitleme civataları, vidaları vb. bağlantı elemanları sadece alet/takım(allen, ingiliz anahtarı vs.) kullanarak sökülebilir olmalıdır. Kelebek somun gibi hızlı bağlantı elemanları risk değerlendirme raporunda belirtilmedikçe, sabitleme için kullanılmamalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "— Mekanik tertibatların yer bağlantıları, titreşimden etkilenerek gevşemeyecek şekilde yapılmalıdır. Bakım, ayar maksadıyla sökülmesi öngörülmeyen mekanik koruyucu tertibatların yer bağlantıları kaynak, perçin veya tutkal kullanarak kalıcı olarak sabitlenmesi tavsiye edilir.",
+    "runs": [
+      {
+        "text": "— Mekanik tertibatların yer bağlantıları, titreşimden etkilenerek gevşemeyecek şekilde yapılmalıdır. Bakım, ayar maksadıyla sökülmesi öngörülmeyen mekanik koruyucu tertibatların yer bağlantıları kaynak, perçin veya tutkal kullanarak kalıcı olarak sabitlenmesi tavsiye edilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId30.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Şekil 1: Bağlantı elemanı örnek gösterim",
+    "runs": [
+      {
+        "text": "Şekil ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Bağlantı elemanı örnek gösterim",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ek-D ",
+    "runs": [
+      {
+        "text": "Ek-D",
+        "bold": false
+      },
+      {
+        "text": " ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Pano ve kumanda sistemindeki renk kodları",
+    "runs": [
+      {
+        "text": "Pano ve kumanda sistemindeki renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.1 Pano içi kablolama ve renk kodları",
+    "runs": [
+      {
+        "text": "D.1 Pano içi kablolama ve renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Makine elektrik donanımları ve pano içi EN 60204-1’e uygun olarak tasarlanmalıdır. Pano içi erişimin direkt olarak ulaşılabilir olmaması tavsiye edilmektedir. (Bkz: Ek-D.4)",
+    "runs": [
+      {
+        "text": "Makine elektrik donanımları ve pano içi EN 60204-1’e uygun olarak tasarlanmalıdır. Pano içi erişimin direkt olarak ulaşılabilir olmaması tavsiye edilmektedir. ",
+        "bold": false
+      },
+      {
+        "text": "(Bkz: Ek-D.4)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Kabloların kablo kanallarında saklanması ve korozyona uğramalarının engellenmesi için doğru şekilde muhafaza edilmeleri sağlanmalıdır. Topraklama kablolaları yeşil-sarı renkte olmalıdır ve topraklama bağlantısı hiçbir koşulda devre dışı kalmamalıdır.",
+    "runs": [
+      {
+        "text": "Kabloların kablo kanallarında saklanması ve korozyona uğramalarının engellenmesi için doğru şekilde muhafaza edilmeleri sağlanmalıdır. Topraklama kablolaları yeşil-sarı renkte olmalıdır ve topraklama bağlantısı hiçbir koşulda devre dışı kalmamalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Pano içi kablolamada yalnızca yeşil veya yalnızca sarı renkli kablo kullanılması; yeşil-sarı olan topraklama kablolaları ile karıştırılabileceği için tavsiye edilmemektedir. Kablolamalar için renk kodlamasınım aşağıda belirtilen şekilde yapılması tavsiye edilmektedir:",
+    "runs": [
+      {
+        "text": "Pano içi kablolamada yalnızca yeşil veya yalnızca sarı renkli kablo kullanılması; yeşil-sarı olan topraklama kablolaları ile karıştırılabileceği için tavsiye edilmemektedir. Kablolamalar için renk kodlamasınım aşağıda belirtilen şekilde yapılması tavsiye edilmektedir:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "– SİYAH: AC ve DC güç devrelerinde kullanılır.",
+    "runs": [
+      {
+        "text": "– SİYAH: AC ve DC güç devrelerinde kullanılır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "– KIRMIZI: AC kontrol devrelerindeki tüm iletkenler için kullanılır.",
+    "runs": [
+      {
+        "text": "– KIRMIZI: AC kontrol devrelerindeki tüm iletkenler için kullanılır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "– MAVİ: DC kontrol devrelerinde kullanılır.",
+    "runs": [
+      {
+        "text": "– MAVİ: DC kontrol devrelerinde kullanılır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "– TURUNCU: UPS ve ana şalter giriş kısmından beslenen ekipmanların kablolarında kullanılır.",
+    "runs": [
+      {
+        "text": "– TURUNCU: UPS ve ana şalter giriş kısmından beslenen ekipmanların kablolarında kullanılır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "– AÇIK MAVİ: Nötr kablolamalar için.",
+    "runs": [
+      {
+        "text": "– AÇIK MAVİ: Nötr kablolamalar için.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.2 Kumanda ve gösterge lambalarının renk kodları",
+    "runs": [
+      {
+        "text": "D.2 Kumanda ve gösterge lambalarının renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "RENK",
+      "ANLAM",
+      "AÇIKLAMA",
+      "ÖRNEK UYGULAMA"
+    ],
+    "rows": [
+      [
+        "KIRMIZI",
+        "",
+        "Acil ",
+        "Tehlikeli veya acil eylemler için",
+        "Acil stop "
+      ],
+      [
+        "SARI",
+        "",
+        "Anormal",
+        "Anormal eylemler için",
+        "Anormal durumun ortadan kaldırılması."
+      ],
+      [
+        "MAVİ",
+        "",
+        "Reset",
+        "Zorunlu bir eylemin gerekli olduğu durumlar için",
+        "Reset fonksiyonu"
+      ],
+      [
+        "YEŞİL",
+        "",
+        "Normal",
+        "Normal duruma hazırlamak için",
+        "START/ON"
+      ],
+      [
+        "BEYAZ",
+        "",
+        "",
+        "",
+        [
+          {
+            "type": "text",
+            "text": "START/ON (tercihen)"
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF"
+          }
+        ]
+      ],
+      [
+        "GRİ",
+        "",
+        "Spesifik bir görev tanımlanmamıştır.",
+        "Acil stop harici genel kullanımlar için",
+        [
+          {
+            "type": "text",
+            "text": "START/ON"
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF"
+          }
+        ]
+      ],
+      [
+        "SİYAH",
+        "",
+        "",
+        "",
+        [
+          {
+            "type": "text",
+            "text": "START/ON "
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF (tercihen)"
+          }
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 1: Kumanda ve gösterge lambalarının renk kodları",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Kumanda ve gösterge lambalarının renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.3 Aktüatörler (komut butonları) için renk kodları",
+    "runs": [
+      {
+        "text": "D.3 Aktüatörler (komut butonları) için renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "EN 60204-1 Madde 10.2’ye göre:",
+    "runs": [
+      {
+        "text": "EN 60204-1 Madde 10.2’ye göre:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "START/ON butonlarının renkleri BEYAZ, GRİ, SİYAH veya YEŞİL olmalıdır. Başlatma komutu için KIRMIZI kullanılmamalıdır. KIRMIZI renk acil durdurma aktüatörleri için kullanılmalıdır.",
+    "runs": [
+      {
+        "text": "START/ON butonlarının renkleri BEYAZ, GRİ, SİYAH veya YEŞİL olmalıdır. Başlatma komutu için KIRMIZI kullanılmamalıdır. KIRMIZI renk acil durdurma aktüatörleri için kullanılmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "STOP/OFF butonlarının renkleri SİYAH, GRİ ya da BEYAZ (tercihen SİYAH) olmalıdır.  YEŞİL kullanılamaz. KIRMIZI kullanımına, STOP/OFF butonunun acil stop butonuna yakın olmaması durumunda izin verilir.",
+    "runs": [
+      {
+        "text": "STOP/OFF butonlarının renkleri SİYAH, GRİ ya da BEYAZ (tercihen SİYAH) olmalıdır.  YEŞİL kullanılamaz. KIRMIZI kullanımına, STOP/OFF butonunun acil stop butonuna yakın olmaması durumunda izin verilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "BEYAZ, GRİ veya SİYAH, alternatif olarak START/ON ve STOP/OFF olarak davranış gösteren aktüatörler için tercih edilen renklerdir. KIRMIZI, SARI veya YEŞİL renkleri kullanılamaz.",
+    "runs": [
+      {
+        "text": "BEYAZ, GRİ veya SİYAH, alternatif olarak START/ON ve STOP/OFF olarak davranış gösteren aktüatörler için tercih edilen renklerdir. KIRMIZI, SARI veya YEŞİL renkleri kullanılamaz.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "İzin verme (hold-to-run) butonları gibi sadece basılı tutulduğunda çalışmaya müsade eden aktüaörler için BEYAZ, GRİ ya da SİYAH renkler tercih edilir. KIRMIZI, SARI veya YEŞİL kullanılamaz.",
+    "runs": [
+      {
+        "text": "İzin verme (hold-to-run) butonları gibi sadece basılı tutulduğunda çalışmaya müsade eden aktüaörler için BEYAZ, GRİ ya da SİYAH renkler tercih edilir. KIRMIZI, SARI veya YEŞİL kullanılamaz.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Reset butonları MAVİ, BEYAZ, GRİ veya SİYAH olmalıdır. YEŞİL kullanılamaz",
+    "runs": [
+      {
+        "text": "Reset butonları MAVİ, BEYAZ, GRİ veya SİYAH olmalıdır. YEŞİL kullanılamaz",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "SARI renk, anormal koşullarda kullanım için, örneğin, işlemin anormal durumu durumunda veya otomatik bir çevrimi kesmek için ayrılmıştır.",
+    "runs": [
+      {
+        "text": "SARI renk, anormal koşullarda kullanım için, örneğin, işlemin anormal durumu durumunda veya otomatik bir çevrimi kesmek için ayrılmıştır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "SARI renk, anormal koşullarda kullanım (örn. proseste yaşanan anormal bir eylem) veya otomatik çevrimi kontrollü bir şekilde durdurmak için ayrılmıştır.",
+    "runs": [
+      {
+        "text": "SARI renk, anormal koşullarda kullanım (örn. proseste yaşanan anormal bir eylem) veya otomatik çevrimi kontrollü bir şekilde durdurmak için ayrılmıştır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Aynı renk olarak BEYAZ, GRİ, SİYAH’ın çeşitli fonksiyonlar için kullanıldığı durumlarda (örneğin BEYAZ butonun hem START hem STOP aktüatörleri için kullanılması), kodlama için tamamlayıcı önlemler (semboller, şekiller gibi) kullanılması gerekmektedir.",
+    "runs": [
+      {
+        "text": "Aynı renk olarak BEYAZ, GRİ, SİYAH’ın çeşitli fonksiyonlar için kullanıldığı durumlarda (örneğin BEYAZ butonun hem START hem STOP aktüatörleri için kullanılması), kodlama için tamamlayıcı önlemler (semboller, şekiller gibi) kullanılması gerekmektedir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId31.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Şekil 2: Butonlar için kullanılan semboller",
+    "runs": [
+      {
+        "text": "Şekil ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Butonlar için kullanılan semboller",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "RENK",
+      "ANLAM",
+      "AÇIKLAMA",
+      "OPERATOR AKSİYONU"
+    ],
+    "rows": [
+      [
+        "KIRMIZI",
+        "",
+        "Acil",
+        "Tehlikeli durum",
+        "Acil eyleme geçme (örn. Makine enerjisinin kesilmesi) "
+      ],
+      [
+        "SARI",
+        "",
+        "Anormal",
+        [
+          {
+            "type": "text",
+            "text": "Anormal eylemler,"
+          },
+          {
+            "type": "text",
+            "text": "Kritik durumun yaklaşması"
+          }
+        ],
+        "Gözlem ve/veya müdahale"
+      ],
+      [
+        "MAVİ",
+        "",
+        "Zorunlu",
+        "Operatör tarafından harekete geçilmesi gereken bir koşulun belirtilmesi",
+        "Zorunlu aksiyon"
+      ],
+      [
+        "YEŞİL",
+        "",
+        "Normal",
+        "Normal durumlar",
+        "Opsiyonel"
+      ],
+      [
+        "BEYAZ",
+        "",
+        "Nötral",
+        "Diğer renklerin kullanılmasında şüphe olduğu durunmlarda kullanılablir",
+        "Gözlemleme"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Tablo 2: Uyarı ışıkları için renk kodları",
+    "runs": [
+      {
+        "text": "Tablo ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Uyarı ışıkları için renk kodları",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.4 Elektrik panosunun korunması",
+    "runs": [
+      {
+        "text": "D.4 Elektrik panosunun korunması",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "EN 60204-1 Madde 6.2.2 uyarınca;",
+    "runs": [
+      {
+        "text": "EN 60204-1 Madde 6.2.2 uyarınca;",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Gerilimli bölümler; Madde 4, Madde 11 ve Madde 14’teki ilgili kurallara uygun olan ve doğrudan temasa karşı en az IP2X veya IPXXB koruma derecesi sağlayan (EN 60529’a bakılmalıdır) mahfazaların(pano) içine yerleştirilmelidir.",
+    "runs": [
+      {
+        "text": "Gerilimli bölümler; Madde 4, Madde 11 ve Madde 14’teki ilgili kurallara uygun olan ve doğrudan temasa karşı en az IP2X veya IPXXB koruma derecesi sağlayan (EN 60529’a bakılmalıdır) mahfazaların(pano) içine yerleştirilmelidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Mahfazanın üst yüzeyine kolayca erişilebiliyorsa üst yüzeylere olan doğrudan temasa karşı en küçük koruma derecesi IP4X veya IPXXD olmalıdır.",
+    "runs": [
+      {
+        "text": "Mahfazanın üst yüzeyine kolayca erişilebiliyorsa üst yüzeylere olan doğrudan temasa karşı en küçük koruma derecesi IP4X veya IPXXD olmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bir mahfazanın(panonun) açılması (örneğin, kapıların, kapakların, menteşeli kapakların ve benzerlerinin açılması) yalnızca aşağıdaki şartlarda mümkün olmalıdır:",
+    "runs": [
+      {
+        "text": "Bir mahfazanın(panonun) açılması (örneğin, kapıların, kapakların, menteşeli kapakların ve benzerlerinin açılması) yalnızca aşağıdaki şartlarda mümkün olmalıdır:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Erişim için bir anahtarın veya aletin kullanılması gereklidir.",
+    "runs": [
+      {
+        "text": "Erişim için bir anahta",
+        "bold": false
+      },
+      {
+        "text": "rın veya aletin kullanılması gereklidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Not 1 – Anahtarların veya aletin kullanılması, deneyimli ve eğitilmiş kişilerin erişimi ile kısıtlanmıştır.",
+    "runs": [
+      {
+        "text": "Not 1",
+        "bold": true
+      },
+      {
+        "text": " – Anahtarların veya aletin kullanılması, deneyimli ve eğitilmiş kişilerin erişimi ile kısıtlanmıştır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Donanım hala bağlı olduğu sırada bazı işlemler için öngörülen cihazların başlangıç konumuna getirilmesi veya ayarlanması sırasında dokunulması muhtemel bütün gerilimli bölümler, doğrudan temasa karşı en az IP2X veya IPXXB koruma derecesi ile korunmalıdır. Kapıların içindeki diğer gerilimli bölümler, doğrudan temasa karşı en az IP1X veya IPXXA koruma derecesi ile korunmalıdır.",
+    "runs": [
+      {
+        "text": "Donanım hala bağlı olduğu sırada bazı işlemler için öngörülen cihazların başlangıç konumuna getirilmesi veya ayarlanması sırasında dokunulması muhtemel bütün gerilimli bölümler, doğrudan temasa karşı en az IP2X veya IPXXB koruma derecesi ile korunmalıdır. Kapıların içindeki diğer gerilimli bölümler, doğrudan temasa karşı en az IP1X veya IPXXA koruma derecesi ile korunmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Mahfaza açılmadan önce mahfaza içindeki gerilimli bölümlerin ayrılması.",
+    "runs": [
+      {
+        "text": "Mahfaza açılmadan önce mahfaza içindeki gerilimli bölümlerin ayrılması.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu işlem, kapının bir ayırıcı ile (örneğin, beslemeyi ayırma düzeni) yalnızca ayırıcı açık iken kapının açılabileceği ve yalnızca kapı kapalı iken ayırıcının kapatılabileceği şekilde ara kilitleme düzeni ile donatılmasıyla sağlanabilir.",
+    "runs": [
+      {
+        "text": "Bu işlem, kapının bir ayırıcı ile (örneğin, beslemeyi ayırma düzeni) yalnızca ayırıcı açık iken kapının açılabileceği ve yalnızca kapı kapalı iken ayırıcının kapatılabileceği şekilde ara kilitleme düzeni ile donatılmasıyla sağlanabilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "İstisna: Tedarikçi tarafından öngörülen özel bir düzen veya alet , aşağıdakilerin sağlanması şartıyla ara kilitlemeyi açmak için kullanılabilir:",
+    "runs": [
+      {
+        "text": "İstisna: Tedarikçi tarafından öngörülen özel bir düzen veya alet , aşağıdakilerin sağlanması şartıyla ara kilitlemeyi açmak için kullanılabilir:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ara kilitlemenin iptalinde ayırıcı cihazı açmak ve DEVRE DIŞI (ayrılmış) konumda ayırma cihazını kilitlemek veya başka bir şekilde ayırma cihazının yetkisiz kişilerce kapanmasını önlemek her zaman mümkünse,",
+    "runs": [
+      {
+        "text": "Ara kilitlemenin iptalinde ayırıcı cihazı açmak ve DEVRE DIŞI (ayrılmış) konumda ayırma cihazını kilitlemek veya başka bir şekilde ayırma cihazının yetkisiz kişilerce kapanmasını önlemek her zaman mümkünse,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Kapı kapandığında ara kilitleme otomatik olarak başlangıç durumuna geliyorsa,",
+    "runs": [
+      {
+        "text": "Kapı kapandığında ara kilitleme otomatik olarak başlangıç durumuna geliyorsa,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Donanım hala bağlı iken bu gibi çalışmalar için amaçlanan başlangıç konumuna getirme ve ayarlama yapılırken dokunulması muhtemel bütün gerilimli bölümler, doğrudan temasa karşı en azından IP2X veya IPXXB derecesi ile ve kapıların içindeki diğer gerilimli bölümler doğrudan temasa karşı en azından IP1X veya IPXXA koruma derecesi ile korunmuşsa, bu bilgiler teknik dokümantasyonda belirtilmelidir.",
+    "runs": [
+      {
+        "text": "Donanım hala bağlı iken bu gibi çalışmalar için amaçlanan başlangıç konumuna getirme ve ayarlama yapılırken dokunulması muhtemel bütün gerilimli bölümler, doğrudan temasa karşı en azından IP2X veya IPXXB derecesi ile ve kapıların içindeki diğer gerilimli bölümler doğrudan temasa karşı en azından IP1X veya IPXXA",
+        "bold": false
+      },
+      {
+        "text": " koruma derecesi ile korunmuşsa, bu bilgiler teknik dokümantasyonda belirtilmelidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": " Not 2 – Özel cihazın veya aletin kullanılması, yalnızca deneyimli ve eğitilmiş kişilerin kullanımı için amaçlanmıştır ",
+    "runs": [
+      {
+        "text": " ",
+        "bold": true
+      },
+      {
+        "text": "Not 2",
+        "bold": true
+      },
+      {
+        "text": " – Özel cihazın veya aletin kullanılması, yalnızca deneyimli ve eğitilmiş kişileri",
+        "bold": false
+      },
+      {
+        "text": "n kullanımı için amaçlanmıştır ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Eğitimli ve deneyimli kişilerce ayırma vasıtalarıyla doğrudan kilitlenmeyen kapıların gerisindeki gerilimli bölümlere erişimin kısıtlanması için vasıtalar sağlanmalıdır.",
+    "runs": [
+      {
+        "text": "Eğitimli ve deneyimli kişilerce ayırma vasıtalarıyla doğrudan kilitlenmeyen kapıların gerisindeki gerilimli bölümlere erişimin kısıtlanması için vasıtalar sağlanmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ayırma cihazının/cihazlarının devreyi devre dışı bırakmasından sonra hala gerilimli olan bütün bölümler, doğrudan temasa karşı en az IP2X veya IPXXB (IEC 60529’a bakılmalıdır) koruma derecesi ile korunmalıdır. Bu gibi bölümlerde Madde 16.2.1’e uygun bir uyarı işareti bulunmalıdır:",
+    "runs": [
+      {
+        "text": "Ayırma cihazının/cihazlarının devreyi devre dışı bırakmasından sonra hala gerilimli olan bütün bölümler, doğrudan temasa karşı en az IP2X veya IPXXB (IEC 60529’a bakılmalıdır) koruma derecesi ile korunmalıdır. Bu gibi bölümlerde Madde 16.2.1’e uygun",
+        "bold": false
+      },
+      {
+        "text": " bir uyarı işareti bulunmalıdır:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId32.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu işaretlemeden aşağıdakiler istisna edilebilir:",
+    "runs": [
+      {
+        "text": "Bu işaretlemeden aşağıdakiler istisna edilebilir:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Yalnızca ara kilitleme devrelerine bağlı olduğu için gerilimli olan ve gerilimli olabileceği Madde 13.2.4’te belirtilen renklerle ayırt edilebilen bölümler,",
+    "runs": [
+      {
+        "text": "Yalnızca ara kilitleme devrelerine bağlı olduğu için gerilimli olan ve gerilimli olabileceği Madde 13.2.4’te belirtilen renklerle ayırt edilebilen bölümler,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Beslemeyi ayırma cihazı ayrı bir mahfaza içinde ise, buraya bağlanan besleme bağlantı uçları.",
+    "runs": [
+      {
+        "text": "Beslemeyi ayırma cihazı ayrı bir mahfaza içinde ise, buraya bağlanan besleme bağlantı uçları.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Anahtarsız veya aletsiz açma ve gerilimli bölümlerin devresinin ayrılmaması ancak bütün gerilimli bölümler doğrudan temasa karşı en az IP2X veya IPXXB (IEC 60529’a bakılmalıdır) koruma dereceleri ile korunduğunda mümkün olmalıdır. Bu koruma için bariyerler bulunuyorsa ya bunların çıkartılması için bir alet gerekmeli veya bunların korunduğu bütün gerilimli bölümler bariyer çıkartıldığında otomatik olarak devreden ayrılmalıdır.",
+    "runs": [
+      {
+        "text": "Anahtarsız veya aletsiz açma ve gerilimli bölümlerin devresinin ayrılmaması ancak bütün gerilimli bölümler doğrudan temasa karşı en az IP2X veya IPXXB (IEC 60529’a bakılmalıdır) koruma dereceleri ile korunduğunda mümkün olmalıdır. Bu koruma için bariyerler bulunuyorsa ya bunların çıkartılması için bir alet gerekmeli veya bunların korunduğu bütün gerilimli bölümler bariyer çıkartıldığında otomatik olarak devreden ayrılmalıdır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Not 3 – Doğrudan temasa karşı koruma Madde 6.2.2 c)’ye göre sağlandığı ve cihazların elle harekete geçirilmesi (örneğin, kontaktörlerin veya rölelerin elle kapanması) bir tehlikeye neden olduğu durumda, bu gibi harekete geçirme, çıkarılmaları için bir alet gereken bariyer veya engellerle önlenmelidir.",
+    "runs": [
+      {
+        "text": "Not 3",
+        "bold": true
+      },
+      {
+        "text": " – Doğrudan temasa karşı koruma Madde 6.2.2 c)’ye göre sağlandığı ve cihazların elle harekete geçirilmesi (örneğin, kontaktörlerin veya rölelerin elle kapanması) bir tehlikeye neden olduğu durumda, bu gibi harekete geçirme, çıkarılmaları için bir alet gereken bariyer veya engellerle önlenmelidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ek-E ",
+    "runs": [
+      {
+        "text": "Ek-",
+        "bold": false
+      },
+      {
+        "text": "E",
+        "bold": false
+      },
+      {
+        "text": " ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Koruma Dereceleri (IP Level)",
+    "runs": [
+      {
+        "text": "Koruma Dereceleri (IP Level)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/tr/tr_image_rId33.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Şekil 3: EN 60529 Uyarınca IP Seviyeleri",
+    "runs": [
+      {
+        "text": "Şekil ",
+        "bold": false
+      },
+      {
+        "text": "3",
+        "bold": false
+      },
+      {
+        "text": ": EN 60529 Uyarınca IP Seviyeleri",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ek-F",
+    "runs": [
+      {
+        "text": "Ek-",
+        "bold": false
+      },
+      {
+        "text": "F",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "İlgili Standartlar",
+    "runs": [
+      {
+        "text": "İlgili Standartlar",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Uygulanabilirlik",
+      "Harmonize Standard",
+      "Açıklama"
+    ],
+    "rows": [
+      [
+        "A Tipi Standartlar"
+      ],
+      [
+        "x",
+        "EN ISO 12100",
+        "Makinalarda güvenlik - Tasarım için genel prensipler - Risk değerlendirilmesi ve risk azaltılması"
+      ],
+      [
+        "B Tipi Standartlar"
+      ],
+      [
+        "x",
+        "EN ISO 13849-1",
+        "Makinelerde güvenlik- Kumanda sistemlerinin güvenlikle ilgili kısımları- Bölüm 1: Tasarım için genel prensipler"
+      ],
+      [
+        "x",
+        "EN/IEC 60204-1",
+        "Makinalarda güvenlik - Makinaların elektrik teçhizatı - Bölüm 1: Genel kurallar"
+      ],
+      [
+        "x",
+        "EN ISO 13850",
+        "Makinalarda güvenlik - Elektriğe duyarlı koruma donanımı - bölüm 1: Genel kurallar ve deneyler"
+      ],
+      [
+        "x",
+        "EN ISO 13854",
+        "Makinalarda güvenlik - İnsan vücut azalarını ezilmeye karşı korumak için asgari açıklıklar"
+      ],
+      [
+        "x",
+        "EN ISO 13855",
+        "Makinelerde güvenlik- Vücut kısımlarının yaklaşım hızına göre koruyucu teçhizatın yerleştirilmesi"
+      ],
+      [
+        "x",
+        "EN ISO 13857",
+        "Makinalarda güvenlik- Kol ve bacakların ulaşabileceği bölgelerde tehlikenin önlenmesi için güvenlik mesafeleri"
+      ],
+      [
+        "x",
+        "EN ISO 14118",
+        "Makinalarda güvenlik - Beklenmeyen start-up önlenmesi"
+      ],
+      [
+        "x",
+        "EN ISO 14119",
+        "Makinalarda güvenlik - Koruyucular ile beraber olan ara kilitleme tertibatları - Tasarım ve seçim için prensipler"
+      ],
+      [
+        "x",
+        "EN ISO 14120",
+        "Makinelerde Güvenlik - Muhafızlar - tasarım için genel şartlar ve sabit ve hareketli korumaların inşaası"
+      ],
+      [
+        "x",
+        "EN ISO 14122-2",
+        "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 2: Çalışma platformları ve yürüme yolları"
+      ],
+      [
+        "X",
+        "EN ISO 14122-3",
+        "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 3: Normal merdivenler, basamaklı merdivenler ve korkuluklar"
+      ],
+      [
+        "x",
+        "EN ISO 4414",
+        "Pnömaik akışkan güç- Sistemler ve bileşenleri için güvenlik kuralları ve genel kurallar"
+      ],
+      [
+        "x",
+        "ISO 7010",
+        "Grafik semboller - Tescil edilmiş güvenlik işaretleri"
+      ],
+      [
+        "X",
+        "EN 12464-1",
+        "Işık ve aydınlatma - Çalışma yerlerinin aydınlatılması - Bölüm 1: Kapalı çalışma alanları"
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "C Tipi Standartlar"
+      ],
+      [
+        "X",
+        "EN 619",
+        "Sürekli taşıma donanımları ve sistemleri - Birim yüklerinin mekanik taşınmasına yönelik ekipmanlar için güvenlik gereksinimleri"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Ek-G",
+    "runs": [
+      {
+        "text": "Ek-G",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Conclusion and Recommendations",
+    "runs": [
+      {
+        "text": "C",
+        "bold": false
+      },
+      {
+        "text": "onclusion and ",
+        "bold": false
+      },
+      {
+        "text": "R",
+        "bold": false
+      },
+      {
+        "text": "ecommendations",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu Tasarım Risk Değerlendirme Raporu, danışmana sunulan tasarım dokümanları, proje bilgileri ve değerlendirme süreci boyunca gerçekleştirilen çevrimiçi toplantılarda edinilen bilgiler esas alınarak hazırlanmıştır.",
+    "runs": [
+      {
+        "text": "Bu Tasarım Risk Değerlendirme Raporu, danışmana sunulan tasarım dokümanları, proje bilgileri ve değerlendirme süreci boyunca gerçekleştirilen çevrimiçi toplantılarda edinilen bilgiler esas alınarak hazırlanmıştır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu raporun amacı, makine/sistem tasarım aşamasında öngörülebilen tehlikeleri belirlemek, ilgili standartların gereklilikleri doğrultusunda uygulanması gereken risk azaltma tedbirlerini tanımlamak ve üreticinin makine veya hattı sahaya kurmadan önce sağlaması gereken emniyet seviyeleri ile uygunluk gerekliliklerini ortaya koymaktır.",
+    "runs": [
+      {
+        "text": "Bu raporun amacı, makine/sistem tasarım aşamasında öngörülebilen tehlikeleri belirlemek, ilgili standartların gereklilikleri doğrultusunda uygulanması gereken risk azaltma tedbirlerini tanımlamak ve üreticinin makine veya hattı sahaya kurmadan önce sağlaması gereken emniyet seviyeleri ile uygunluk gerekliliklerini ortaya koymaktır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu çalışma bir tasarım aşaması risk değerlendirmesi olup, nihai risk değerlendirmesi yerine geçmemektedir. Makine veya hattın üretimi, kurulumu, entegrasyonu ve devreye alma faaliyetleri tamamlandıktan sonra, gerçek saha koşulları ve nihai uygulama dikkate alınarak ek inceleme ve doğrulamalar yapılmalı, buna bağlı olarak Nihai Risk Değerlendirme Raporu hazırlanmalıdır. Bu süreçte ilave riskler, uygunsuzluklar veya ek risk azaltma tedbirleri belirlenebilir.",
+    "runs": [
+      {
+        "text": "Bu çalışma bir tasarım aşaması risk değerlendirmesi olup, nihai risk değerlendirmesi yerine geçmemektedir. Makine veya hattın üretimi, kurulumu, entegrasyonu ve devreye alma faaliyetleri tamamlandıktan sonra, gerçek saha koşulları ve nihai uygulama dikkate alınarak ek inceleme ve doğrulamalar yapılmalı, buna bağlı olarak Nihai Risk Değerlendirme Raporu hazırlanmalıdır. Bu süreçte ilave riskler, uygunsuzluklar veya ek risk azaltma tedbirleri belirlenebilir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu raporda yer alan tehlikeler, öneriler ve risk azaltma tedbirleri; değerlendirme sırasında paylaşılan bilgiler, mevcut tasarım verileri ve ilgili standartların gereklilikleri dikkate alınarak belirlenmiştir. Raporda açıklanan gerekliliklerin ve önerilerin proje boyunca dikkate alınması, ilerleyen aşamalarda gerçekleştirilecek saha incelemelerinde, doğrulama çalışmalarında ve nihai risk değerlendirmelerinde karşılaşılabilecek uygunsuzlukların büyük ölçüde önüne geçilmesine katkı sağlayacaktır.",
+    "runs": [
+      {
+        "text": "Bu raporda yer alan tehlikeler, öneriler ve risk azaltma tedbirleri; değerlendirme sırasında paylaşılan bilgiler, mevcut tasarım verileri ve ilgili standartların gereklilikleri dikkate alınarak belirlenmiştir. Raporda açıklanan gerekliliklerin ve önerilerin proje boyunca dikkate alınması, ilerleyen aşamalarda gerçekleştirilecek saha incelemelerinde, doğrulama çalışmalarında ve nihai risk değerlendirmelerinde karşılaşılabilecek uygunsuzlukların büyük ölçüde önüne geçilmesine katkı sağlayacaktır.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Bu raporun yalnızca risk puanları veya skorları dikkate alınarak değerlendirilmemesi, tüm risk maddelerinin, açıklamaların ve önerilen risk azaltma tedbirlerinin dikkatlice incelenmesi tavsiye edilmektedir. Raporda belirtilen hususlar proje ekibi tarafından bir uygulama kılavuzu olarak kullanılmalı, bunun yanında üreticinin kendi mühendislik bilgisi, sektör tecrübesi ve uygulamaya özgü gereklilikleri de değerlendirmeye dahil edilmelidir.",
+    "runs": [
+      {
+        "text": "Bu raporun yalnızca risk puanları veya skorları dikkate alınarak değerlendirilmemesi, tüm risk maddelerinin, açıklamaların ve önerilen risk azaltma tedbirlerinin dikkatlice incelenmesi tavsiye edilmektedir. Raporda belirtilen hususlar proje ekibi tarafından bir uygulama kılavuzu olarak kullanılmalı, bunun yanında üreticinin kendi mühendislik bilgisi, sektör tecrübesi ve uygulamaya özgü gereklilikleri de değerlendirmeye dahil edilmelidir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Makine veya sistem üzerinde gerçekleştirilecek önemli tasarım değişiklikleri, fonksiyonel revizyonlar, yazılım değişiklikleri, kapasite artırımları, yerleşim değişiklikleri veya ilave ekipman entegrasyonları, bu raporun sonuçlarını etkileyebileceğinden söz konusu değişikliklerin ayrıca değerlendirilmesi tavsiye edilmektedir.",
+    "runs": [
+      {
+        "text": "Makine veya sistem üzerinde gerçekleştirilecek önemli tasarım değişiklikleri, fonksiyonel revizyonlar, yazılım değişiklikleri, kapasite artırımları, yerleşim değişiklikleri veya ilave ekipman entegrasyonları, bu raporun sonuçlarını etkileyebileceğinden söz konusu değişikliklerin ayrıca değerlendirilmesi tavsiye edilmektedir.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Rapor içerisinde yer alan herhangi bir hususun açıklığa kavuşturulmasına ihtiyaç duyulması, tasarım değişikliklerinin değerlendirilmesi veya ilgili standart gerekliliklerinin yorumlanması konusunda destek talep edilmesi durumunda danışman ile iletişime geçilmesi önerilmektedir.",
+    "runs": [
+      {
+        "text": "Rapor içerisinde yer alan herhangi bir hususun açıklığa kavuşturulmasına ihtiyaç duyulması, tasarım değişikliklerinin değerlendirilmesi veya ilgili standart gerekliliklerinin yorumlanması konusunda destek talep edilmesi durumunda danışman ile iletişime geçilmesi önerilmektedir.",
+        "bold": false
+      }
+    ]
+  }
+]

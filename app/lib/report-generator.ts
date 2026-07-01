@@ -3,6 +3,8 @@ import autoTable from "jspdf-autotable";
 import { Customer, Project, RiskAssessment, FunctionalTest } from "../types";
 import { getRiskIndexStatus, RISK_S, RISK_F, RISK_A, RISK_O } from "./hrn-constants";
 import { robotoRegularBase64, robotoMediumBase64 } from "./fonts-base64";
+import annexesTr from "../data/annexes_tr.json";
+import annexesEn from "../data/annexes_en.json";
 
 // Define jsPDF type extension for autotable
 interface jsPDFWithAutoTable extends jsPDF {
@@ -532,92 +534,21 @@ export const generatePDF = async (
     doc.text(splitIntro, 20, 32);
 
     // List of contents
-    let currentTocY = 48;
     const tocItems: { label: string; pageNum: number; isSubItem?: boolean }[] = [];
-
     const hasMachineInfo = !!project.include_machine_info;
-    let methodPageNum = 3;
-    let risksPageNum = 4;
 
-    tocItems.push({ label: lang === 'en' ? "1. Introduction & About Report" : "1. Giriş ve Rapor Hakkında", pageNum: 2 });
-    if (hasMachineInfo) {
-        tocItems.push({ label: lang === 'en' ? "2. Machine Information" : "2. Makine Bilgileri", pageNum: 3 });
-        methodPageNum = 4;
-        risksPageNum = 5;
-    }
     tocItems.push({ 
-        label: lang === 'en' 
-            ? `${hasMachineInfo ? '3' : '2'}. Risk Assessment Methodology` 
-            : `${hasMachineInfo ? '3' : '2'}. Risk Değerlendirme Metodolojisi`, 
-        pageNum: methodPageNum 
-    });
-    tocItems.push({ 
-        label: lang === 'en' 
-            ? `${hasMachineInfo ? '4' : '3'}. Risk Assessments` 
-            : `${hasMachineInfo ? '4' : '3'}. Risk Değerlendirmeleri`, 
-        pageNum: risksPageNum 
-    });
-
-    optimizedRiskAssessments.forEach((risk, idx) => {
-        const riskId = `RISK ${String(idx + 1).padStart(3, '0')}`;
-        tocItems.push({
-            label: `${riskId} - ${risk.hazard_zone} (${getHazardTypeLabel(risk.hazard_type || '', lang)})`,
-            pageNum: risksPageNum + idx,
-            isSubItem: true
-        });
-    });
-
-    const nextSectionPage = risksPageNum + optimizedRiskAssessments.length;
-    let finalPageNum = nextSectionPage;
-
-    if (functionalTests.length > 0) {
-        tocItems.push({ 
-            label: lang === 'en' ? "4. Safety Functions Verification and Test Report" : "4. Emniyet Fonksiyonları Doğrulama ve Test Raporu", 
-            pageNum: nextSectionPage 
-        });
-        finalPageNum = nextSectionPage + 1;
-    }
-
-    const conclusionIndex = (functionalTests.length > 0 ? 6 : 5) - (hasMachineInfo ? 0 : 1);
-    tocItems.push({ 
-        label: `${conclusionIndex}. ${lang === 'en' ? "Conclusion & Recommendations" : "Sonuç ve Öneriler"}`, 
-        pageNum: finalPageNum 
-    });
-
-    // Draw TOC list
-    tocItems.forEach((item) => {
-        doc.setFont(activeFont, item.isSubItem ? "normal" : "bold");
-        doc.setFontSize(item.isSubItem ? 8.5 : 10);
-        doc.setTextColor(item.isSubItem ? 100 : 0);
-
-        const labelX = item.isSubItem ? 28 : 20;
-        doc.text(item.label, labelX, currentTocY);
-
-        // Dot leaders
-        doc.setFont(activeFont, "normal");
-        doc.setTextColor(180, 180, 180);
-        const dotsStartX = labelX + doc.getTextWidth(item.label) + 2;
-        const dotsEndX = 178;
-        if (dotsStartX < dotsEndX) {
-            let dots = "";
-            const dotWidth = doc.getTextWidth(".");
-            const distance = dotsEndX - dotsStartX;
-            const dotCount = Math.floor(distance / dotWidth);
-            for (let d = 0; d < dotCount; d++) dots += ".";
-            doc.text(dots, dotsStartX, currentTocY);
-        }
-
-        // Page Number
-        doc.setFont(activeFont, "bold");
-        doc.setTextColor(0, 0, 0);
-        doc.text(item.pageNum.toString(), 185, currentTocY, { align: "right" });
-
-        currentTocY += item.isSubItem ? 6 : 8;
+        label: lang === 'en' ? "1. Introduction & About Report" : "1. Giriş ve Rapor Hakkında", 
+        pageNum: 2 
     });
 
     // --- Machine Information Page ---
     if (hasMachineInfo) {
         doc.addPage();
+        tocItems.push({
+            label: lang === 'en' ? "2. Machine Information" : "2. Makine Bilgileri",
+            pageNum: doc.getNumberOfPages()
+        });
         
         // Title
         doc.setFont(activeFont, "bold");
@@ -676,6 +607,12 @@ export const generatePDF = async (
 
     // --- Risk Assessment Methodology Page ---
     doc.addPage();
+    tocItems.push({
+        label: lang === 'en' 
+            ? `${hasMachineInfo ? '3' : '2'}. Risk Assessment Methodology` 
+            : `${hasMachineInfo ? '3' : '2'}. Risk Değerlendirme Metodolojisi`,
+        pageNum: doc.getNumberOfPages()
+    });
 
     // Title
     doc.setFont(activeFont, "bold");
@@ -829,11 +766,24 @@ export const generatePDF = async (
     });
 
     // --- Risk Assessments Loop (One Risk Per Page) ---
+    const risksHeaderIndex = hasMachineInfo ? '4' : '3';
+    tocItems.push({
+        label: lang === 'en' 
+            ? `${risksHeaderIndex}. Risk Assessments` 
+            : `${risksHeaderIndex}. Risk Değerlendirmeleri`,
+        pageNum: doc.getNumberOfPages() + 1
+    });
+
     for (let i = 0; i < optimizedRiskAssessments.length; i++) {
         const risk = optimizedRiskAssessments[i];
         const riskId = `RISK ${String(i + 1).padStart(3, '0')}`;
 
         doc.addPage();
+        tocItems.push({
+            label: `${riskId} - ${risk.hazard_zone} (${getHazardTypeLabel(risk.hazard_type || '', lang)})`,
+            pageNum: doc.getNumberOfPages(),
+            isSubItem: true
+        });
 
         // --- Header Bar for Risk Page ---
         doc.setFillColor(41, 128, 185); // Blue header
@@ -1099,6 +1049,13 @@ export const generatePDF = async (
 
     if (functionalTests.length > 0) {
         doc.addPage();
+        const funcTestHeaderIndex = (hasMachineInfo ? 5 : 4);
+        tocItems.push({
+            label: lang === 'en' 
+                ? `${funcTestHeaderIndex}. Safety Functions Verification and Test Report` 
+                : `${funcTestHeaderIndex}. Emniyet Fonksiyonları Doğrulama ve Test Raporu`,
+            pageNum: doc.getNumberOfPages()
+        });
         
         // Header for Functional Tests Section
         doc.setFont(activeFont, "bold");
@@ -1188,8 +1145,203 @@ export const generatePDF = async (
         });
     }
 
+    // --- Annexes (Ekler) Page ---
+    const annexesHeaderIndex = (functionalTests.length > 0 ? 6 : 5) - (hasMachineInfo ? 0 : 1);
+    const currentAnnexes = lang === 'tr' ? annexesTr : annexesEn;
+    const imageCache: Record<string, string> = {};
+
+    const getImageDimensions = (base64Str: string): Promise<{ w: number; h: number }> => {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.src = base64Str;
+            img.onload = () => {
+                resolve({ w: img.width, h: img.height });
+            };
+            img.onerror = () => {
+                resolve({ w: 100, h: 100 });
+            };
+        });
+    };
+
+    // Pre-cache all annex images to base64
+    for (const itemAny of currentAnnexes) {
+        const item = itemAny as any;
+        if (item.type === 'image' && item.src) {
+            try {
+                imageCache[item.src] = await getBase64ImageFromUrl(item.src);
+            } catch (e) {
+                console.error("Failed to cache image", item.src, e);
+            }
+        }
+        if (item.type === 'table') {
+            for (const row of item.rows) {
+                for (const cell of row) {
+                    if (cell && typeof cell === 'object') {
+                        const cellAny = cell as any;
+                        const src = Array.isArray(cellAny) 
+                            ? cellAny.find((i: any) => i.type === 'image')?.src 
+                            : (cellAny.type === 'image' ? cellAny.src : null);
+                        if (src && !imageCache[src]) {
+                            try {
+                                imageCache[src] = await getBase64ImageFromUrl(src);
+                            } catch (e) {
+                                console.error("Failed to cache cell image", src, e);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    doc.addPage();
+    tocItems.push({
+        label: lang === 'en' 
+            ? `${annexesHeaderIndex}. Annexes` 
+            : `${annexesHeaderIndex}. Ekler`,
+        pageNum: doc.getNumberOfPages()
+    });
+
+    // Title
+    doc.setFont(activeFont, "bold");
+    doc.setFontSize(16);
+    doc.setTextColor(0, 0, 0);
+    doc.text(lang === 'en' ? "ANNEXES" : "EKLER", 105, 20, { align: "center" });
+
+    // A thin separator line under title
+    doc.setDrawColor(255, 214, 0); // Gold
+    doc.setLineWidth(0.8);
+    doc.line(20, 24, 190, 24);
+
+    let annexY = 32;
+
+    for (const itemAny of currentAnnexes) {
+        const item = itemAny as any;
+        if (item.type === 'heading') {
+            if (annexY > 260) {
+                doc.addPage();
+                annexY = 20;
+            }
+            doc.setFont(activeFont, "bold");
+            if (item.level === 1) {
+                doc.setFontSize(13);
+                annexY += 5;
+                doc.text(item.text, 20, annexY);
+                annexY += 7;
+            } else {
+                doc.setFontSize(10);
+                doc.text(item.text, 20, annexY);
+                annexY += 6;
+            }
+            doc.setFont(activeFont, "normal");
+            doc.setFontSize(9);
+        } else if (item.type === 'paragraph') {
+            const lines = doc.splitTextToSize(item.text, 170);
+            for (const line of lines) {
+                if (annexY > 275) {
+                    doc.addPage();
+                    annexY = 20;
+                }
+                doc.text(line, 20, annexY);
+                annexY += 5.5;
+            }
+            annexY += 2;
+        } else if (item.type === 'image') {
+            const src = item.src;
+            if (src && imageCache[src]) {
+                const base64 = imageCache[src];
+                const dims = await getImageDimensions(base64);
+                let w = dims.w;
+                let h = dims.h;
+                const maxW = 150;
+                const maxH = 80;
+                const ratio = w / h;
+                
+                if (w > maxW) {
+                    w = maxW;
+                    h = w / ratio;
+                }
+                if (h > maxH) {
+                    h = maxH;
+                    w = h * ratio;
+                }
+                
+                if (annexY + h > 275) {
+                    doc.addPage();
+                    annexY = 20;
+                }
+                
+                const x = (210 - w) / 2;
+                doc.addImage(base64, "PNG", x, annexY, w, h);
+                annexY += h + 8;
+            }
+        } else if (item.type === 'table') {
+            if (annexY > 250) {
+                doc.addPage();
+                annexY = 20;
+            }
+            
+            autoTable(doc, {
+                startY: annexY,
+                margin: { left: 20, right: 20 },
+                head: [item.headers],
+                body: item.rows.map((row: any[]) => 
+                    row.map((cell: any) => {
+                        if (cell && typeof cell === 'object') {
+                            if (Array.isArray(cell)) {
+                                return cell.filter(i => i.type === 'text').map(i => i.text).join(' ');
+                            }
+                            return ""; 
+                        }
+                        return cell;
+                    })
+                ),
+                theme: 'grid',
+                styles: {
+                    font: activeFont,
+                    fontSize: 7,
+                    cellPadding: 2,
+                    lineColor: [220, 220, 220],
+                    lineWidth: 0.1,
+                },
+                headStyles: {
+                    fillColor: [245, 245, 245],
+                    textColor: [0, 0, 0],
+                    fontStyle: 'bold',
+                },
+                didDrawCell: (data) => {
+                    const originalRow = item.rows[data.row.index];
+                    if (!originalRow) return;
+                    const originalCell = originalRow[data.column.index] as any;
+                    
+                    if (originalCell && typeof originalCell === 'object') {
+                        const src = Array.isArray(originalCell)
+                            ? originalCell.find((i: any) => i.type === 'image')?.src
+                            : (originalCell.type === 'image' ? originalCell.src : null);
+                            
+                        if (src && imageCache[src]) {
+                            const base64 = imageCache[src];
+                            const imgW = 6;
+                            const imgH = 6;
+                            const cellX = data.cell.x + (data.cell.width - imgW) / 2;
+                            const cellY = data.cell.y + (data.cell.height - imgH) / 2;
+                            doc.addImage(base64, "PNG", cellX, cellY, imgW, imgH);
+                        }
+                    }
+                }
+            });
+            
+            annexY = (doc as any).lastAutoTable.finalY + 8;
+        }
+    }
+
     // --- Sonuç ve Öneriler Page ---
     doc.addPage();
+    const conclusionHeaderIndex = (functionalTests.length > 0 ? 7 : 6) - (hasMachineInfo ? 0 : 1);
+    tocItems.push({
+        label: `${conclusionHeaderIndex}. ${lang === 'en' ? "Conclusion & Recommendations" : "Sonuç ve Öneriler"}`,
+        pageNum: doc.getNumberOfPages()
+    });
 
     // Title
     doc.setFont(activeFont, "bold");
@@ -1346,6 +1498,39 @@ export const generatePDF = async (
             font: activeFont,
             textColor: [50, 50, 50]
         }
+    });
+
+    // --- Draw Table of Contents dynamically ---
+    doc.setPage(2);
+    let currentTocY = 48;
+    tocItems.forEach((item) => {
+        doc.setFont(activeFont, item.isSubItem ? "normal" : "bold");
+        doc.setFontSize(item.isSubItem ? 8.5 : 10);
+        doc.setTextColor(item.isSubItem ? 100 : 0);
+
+        const labelX = item.isSubItem ? 28 : 20;
+        doc.text(item.label, labelX, currentTocY);
+
+        // Dot leaders
+        doc.setFont(activeFont, "normal");
+        doc.setTextColor(180, 180, 180);
+        const dotsStartX = labelX + doc.getTextWidth(item.label) + 2;
+        const dotsEndX = 178;
+        if (dotsStartX < dotsEndX) {
+            let dots = "";
+            const dotWidth = doc.getTextWidth(".");
+            const distance = dotsEndX - dotsStartX;
+            const dotCount = Math.floor(distance / dotWidth);
+            for (let d = 0; d < dotCount; d++) dots += ".";
+            doc.text(dots, dotsStartX, currentTocY);
+        }
+
+        // Page Number
+        doc.setFont(activeFont, "bold");
+        doc.setTextColor(0, 0, 0);
+        doc.text(item.pageNum.toString(), 185, currentTocY, { align: "right" });
+
+        currentTocY += item.isSubItem ? 6 : 8;
     });
 
     // --- Add Page Borders and Page Numbers to all pages except Cover Page ---

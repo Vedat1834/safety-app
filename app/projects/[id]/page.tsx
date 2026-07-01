@@ -3,7 +3,7 @@
 import { useAudit } from "@/app/context/AuditContext";
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Shield, ClipboardCheck, FileText, ArrowLeft, Settings } from "lucide-react";
+import { Shield, ClipboardCheck, FileText, ArrowLeft, Settings, Paperclip } from "lucide-react";
 import Link from "next/link";
 
 export default function ProjectDashboard() {
@@ -104,6 +104,20 @@ export default function ProjectDashboard() {
                     </div>
                     <h3 className="text-lg font-bold text-gray-900 mb-1">Makine Bilgileri</h3>
                     <p className="text-sm text-gray-400 font-medium leading-relaxed">Limitler, teknik özellikler ve rapor entegrasyonu.</p>
+                </Link>
+
+                {/* Ekler / Annexes */}
+                <Link href={`/projects/${projectId}/annexes`} className="group bg-white p-6 rounded-[24px] border border-gray-100 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_25px_-10px_rgba(0,0,0,0.1)] transition-all duration-300 transform hover:-translate-y-1">
+                    <div className="flex justify-between items-start mb-6">
+                        <div className="w-12 h-12 bg-yellow-50 rounded-2xl flex items-center justify-center text-[#FFC107] group-hover:bg-[#FFD600] group-hover:text-black transition-colors">
+                            <Paperclip className="size-6" />
+                        </div>
+                        <span className="bg-gray-50 text-gray-400 p-2 rounded-full group-hover:bg-yellow-50 group-hover:text-yellow-600 transition-colors">
+                            <ArrowLeft className="size-4 rotate-180" />
+                        </span>
+                    </div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-1">Rapor Ekleri (Annexes)</h3>
+                    <p className="text-sm text-gray-400 font-medium leading-relaxed">Rapor sonuna eklenecek sabit Türkçe ve İngilizce eklerin önizlemesi.</p>
                 </Link>
 
             </div>

@@ -1,0 +1,2184 @@
+[
+  {
+    "type": "paragraph",
+    "text": "Annex A",
+    "runs": [
+      {
+        "text": "Annex A",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Hazards, Dangerous Situations",
+    "runs": [
+      {
+        "text": "Hazards, Dangerous Situations",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "A.1 EN ISO 12100: Hazards, hazardous situations and examples of hazardous events",
+    "runs": [
+      {
+        "text": "A.1 EN ISO 12100: Hazards, hazardous situations and examples of hazardous events",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Danger",
+      "Danger"
+    ],
+    "rows": [
+      [
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId9.jpeg"
+        },
+        "Source:",
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId10.jpeg"
+        },
+        "Source"
+      ],
+      [
+        "",
+        "Cutting parts",
+        "",
+        "Falling objects"
+      ],
+      [
+        "",
+        "Potential consequences",
+        "",
+        "Potential consequences"
+      ],
+      [
+        "",
+        "- Disruption",
+        "",
+        "- Crush"
+      ],
+      [
+        "",
+        "- Fragmentation",
+        "",
+        "- Coup"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId11.jpeg"
+        },
+        "Source",
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId12.jpeg"
+        },
+        "Source"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Moving parts"
+          },
+          {
+            "type": "text",
+            "text": "Potential consequences"
+          }
+        ],
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Moving parts (three examples)"
+          },
+          {
+            "type": "text",
+            "text": "Potential consequences"
+          }
+        ]
+      ],
+      [
+        "",
+        "- Crush",
+        "",
+        "- Inhalation"
+      ],
+      [
+        "",
+        "- Coup",
+        "",
+        "- Friction, wear"
+      ],
+      [
+        "",
+        "- Cutting",
+        "",
+        "- Coup"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId13.jpeg"
+        },
+        "Source",
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId14.jpeg"
+        },
+        "Source"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Gravity, stability"
+          },
+          {
+            "type": "text",
+            "text": "Potential consequences"
+          },
+          {
+            "type": "text",
+            "text": "- Crush"
+          }
+        ],
+        "",
+        "Moved byof a piecefixedPotential consequences of approaching a fragment"
+      ],
+      [
+        "",
+        "- Stuttering",
+        "",
+        "- Crush"
+      ],
+      [
+        "",
+        "",
+        "",
+        "- Coup"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId15.jpeg"
+        },
+        "Source",
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId16.jpeg"
+        },
+        "Source"
+      ],
+      [
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Rotating or moving parts"
+          },
+          {
+            "type": "text",
+            "text": "(three examples)"
+          },
+          {
+            "type": "text",
+            "text": "Potential consequences"
+          }
+        ],
+        "",
+        [
+          {
+            "type": "text",
+            "text": "Moving parts"
+          },
+          {
+            "type": "text",
+            "text": "Potential consequences"
+          },
+          {
+            "type": "text",
+            "text": "- Crush"
+          }
+        ]
+      ],
+      [
+        "",
+        "- Fragmentation",
+        "",
+        "- Friction, wear"
+      ],
+      [
+        "",
+        "- Entanglement",
+        "",
+        "- Coup"
+      ],
+      [
+        "",
+        "",
+        "",
+        "- Fragmentation"
+      ],
+      [
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId17.jpeg"
+        },
+        "Source",
+        {
+          "type": "image",
+          "src": "/annexes/en/en_image_rId18.jpeg"
+        },
+        [
+          {
+            "type": "text",
+            "text": "Source"
+          },
+          {
+            "type": "text",
+            "text": "High or low temperature objects or materials Potential consequences"
+          },
+          {
+            "type": "text",
+            "text": "- Burn"
+          }
+        ]
+      ],
+      [
+        "",
+        "I don't want to be the one",
+        "",
+        ""
+      ],
+      [
+        "",
+        "electrical components",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Potential consequences",
+        "",
+        ""
+      ],
+      [
+        "",
+        "- Electric shock",
+        "",
+        ""
+      ],
+      [
+        "",
+        "- Burn",
+        "",
+        ""
+      ],
+      [
+        "",
+        "- Puncture",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex B",
+    "runs": [
+      {
+        "text": "A",
+        "bold": false
+      },
+      {
+        "text": "nnex",
+        "bold": false
+      },
+      {
+        "text": " B",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Positioning or dimensioning of protection devices",
+    "runs": [
+      {
+        "text": "Positioning or dimensioning of protection devices",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "B.1 Minimum approach-related distance for ESPE (Safety distance)",
+    "runs": [
+      {
+        "text": "B.1 Minimum approach-related distance for ESPE (Safety distance)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The minimum distance viewpoint applies to ESPEs with a two-dimensional protection field, e.g. light curtains, light barriers (AOPD), laser scanners (AOPDDR) or two-dimensional camera systems. In general, there are three different ways of approach.",
+    "runs": [
+      {
+        "text": "The minimum distance viewpoint applies to ESPEs with a two-dimensional protection field, e.g. light curtains, light barriers (AOPD), laser scanners (AOPDDR) or two-dimensional camera systems. In general, there are three different ways of approach.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId19.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Once the ESPE triggering the stop has been selected, the minimum distance between the ESPE's protection area and the next hazardous location must be calculated and the following parameters must be taken into account:",
+    "runs": [
+      {
+        "text": "Once the ESPE triggering the stop has been selected, the minimum distance between the ESPE's protection area and the next hazardous location must be calculated and the following parameters must be taken into account:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Machine stop time",
+    "runs": [
+      {
+        "text": "- Machine stop time",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Response time of the safety-related control",
+    "runs": [
+      {
+        "text": "- Response time of the safety-related control",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Response time of the protection device (ESPE)",
+    "runs": [
+      {
+        "text": "- Response time of the protection device (ESPE)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Additional value to the resolution capability of the ESPE depending on the height of the protected area and/or the type of approach",
+    "runs": [
+      {
+        "text": "- Additional value to the resolution capability of the ESPE depending on the height of the protected area and/or the type of approach",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "General Calculation Formula:",
+    "runs": [
+      {
+        "text": "General Calculation Formula:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "S = (K × T) + C",
+    "runs": [
+      {
+        "text": "S = (K × T) + C",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Here ...",
+    "runs": [
+      {
+        "text": "Here ...",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- S is the minimum distance in millimeters between the next hazardous location and the ESPE's identification point or identification line or",
+    "runs": [
+      {
+        "text": "- S is the minimum distance in millimeters between the next hazardous location and the ESPE's identification point or identification line or",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "is measured as the distance between the recognition plane.",
+    "runs": [
+      {
+        "text": "is measured as the distance between the recognition plane.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- The parameter K in millimeters per second is calculated from data on the approach speeds of the body or body parts.",
+    "runs": [
+      {
+        "text": "- The parameter K in millimeters per second is calculated from data on the approach speeds of the body or body parts.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- T is the total downtime of the whole system in seconds.",
+    "runs": [
+      {
+        "text": "- T is the total downtime of the whole system in seconds.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- C is the additional distance in millimeters, which is shown as the amount of entry into the danger zone before the protection device is triggered. If the protective field of the ESPE cannot be exceeded, the value C depends on the detection capacity of the ESPE and is shown as CRT (reach through). If the protection zone of the ESPE can be exceeded, the C value depends on the height of the protection zone of the ESPE and is shown as CRO (reach over).",
+    "runs": [
+      {
+        "text": "- C is the additional distance in millimeters, which is shown as the amount of entry into the danger zone before the protection device is triggered. If the protective field of the ESPE cannot be exceeded, the value C depends on the detection capacity of the ESPE and is shown as CRT (reach through). If the protection zone of the ESPE can be exceeded, the C value depends on the height of the protection zone of the ESPE and is shown as CRO (reach over).",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Top-accessible protection devices "
+  },
+  {
+    "type": "paragraph",
+    "text": "At some points, depending on the height and position of the protection area of the ESPE, the shape of the machine and other factors, hazardous locations can be reached from above the protection area of an ESPE in such a way that it is not possible to access the hazardous locations after the dangerous machine operation has been completed and the desired protective effect has been achieved.",
+    "runs": [
+      {
+        "text": "At some points, depending on the height and position of the protection area of the ESPE, the shape of the machine and other factors, hazardous locations can be reached from above the protection area of an ESPE in such a way that it is not possible to access the hazardous locations after the dangerous machine operation has been completed and the desired protective effect has been achieved.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The figure below shows examples of top-accessible and non-accessible ESPE.",
+    "runs": [
+      {
+        "text": "The figure below shows examples of top-accessible and non-accessible ESPE.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If access to the hazardous area cannot be prevented from above a vertical protection zone, the height of the protection zone and the minimum distance of the ESPE must be determined. This is done by comparing the value calculated on the basis of possible detection of limbs or body parts with the value calculated in the case of possible reaching beyond. The largest value obtained in this comparison is applied. This comparison shall be made in accordance with ISO 13855, section 6.5.",
+    "runs": [
+      {
+        "text": "If access to the hazardous area cannot be prevented from above a vertical protection zone, the height of the protection zone and the minimum distance of the ESPE must be determined. This is done by comparing the value calculated on the basis of possible detection of limbs or body parts with the value calculated in the case of possible reaching beyond. The largest value obtained in this comparison is applied. This comparison shall be made in accordance with ISO 13855, section 6.5.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Consideration of possible access"
+  },
+  {
+    "type": "paragraph",
+    "text": "If it is possible to access the vertical protection area of an ESPE from above, the height b of the upper edge of the protection area has to be increased or the contribution C has to be adapted. In both methods, the relevant table in accordance with ISO 13855 must be used.",
+    "runs": [
+      {
+        "text": "If it is possible to access the vertical protection area of an ESPE from above, the height ",
+        "bold": false
+      },
+      {
+        "text": "b of the ",
+        "bold": false
+      },
+      {
+        "text": "upper edge of the protection area has to be increased or the contribution ",
+        "bold": false
+      },
+      {
+        "text": "C ",
+        "bold": false
+      },
+      {
+        "text": "has to be adapted. In both methods, the relevant table in accordance with ISO 13855 must be used.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Raising the upper edge of the protected area"
+  },
+  {
+    "type": "paragraph",
+    "text": "For raising the upper edge b of the protective field, the resolution-dependent contribution CRT value next to the height a of the hazardous area is used to determine the required height of the upper edge of the protective field if the minimum distance remains equal. At this determined value of the height of the upper edge of the protective field, it is not possible to reach the hazardous area with a top grip, the CRO contribution must be added.",
+    "runs": [
+      {
+        "text": "For raising the upper edge ",
+        "bold": false
+      },
+      {
+        "text": "b of the ",
+        "bold": false
+      },
+      {
+        "text": "protective field, the resolution-dependent contribution CRT value next to the height ",
+        "bold": false
+      },
+      {
+        "text": "a ",
+        "bold": false
+      },
+      {
+        "text": "of the hazardous area is used to determine the required height of the upper edge of the protective field if the minimum distance remains equal. At this determined value of the height of the upper edge of the protective field, it is not possible to reach the hazardous area with a top grip, the CRO contribution must be added.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If the upper edge b of the protection zone is given, e.g. by a pre-existing product, the minimum distance must be increased. This is done by determining the height a of the hazardous area by the height b of the upper edge of the protection area.",
+    "runs": [
+      {
+        "text": "If the upper edge ",
+        "bold": false
+      },
+      {
+        "text": "b ",
+        "bold": false
+      },
+      {
+        "text": "of the protection zone is given, e.g. by a pre-existing product, the minimum distance must be increased. This is done by determining the height ",
+        "bold": false
+      },
+      {
+        "text": "a of ",
+        "bold": false
+      },
+      {
+        "text": "the hazardous area by the height ",
+        "bold": false
+      },
+      {
+        "text": "b ",
+        "bold": false
+      },
+      {
+        "text": "of the upper edge of the protection area.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The result of the junction cut point in the table defines the entry distance CRO. If CRO ≥ CRT, the CRO-value replaces the CRT-value in the calculation of the minimum distance. If CRO < CRT, the CRT-value is still used to calculate the minimum distance.",
+    "runs": [
+      {
+        "text": "The result of the junction cut point in the table defines the entry distance CRO. If CRO ≥ CRT, the CRO-value replaces the CRT-value in the calculation of the minimum distance. If CRO < CRT, the CRT-value is still used to calculate the minimum distance.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId20.png"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId21.jpeg"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId22.jpeg"
+  },
+  {
+    "type": "paragraph",
+    "text": "In general, the following applies: ",
+    "runs": [
+      {
+        "text": "In general, the following applies: ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C ≥ CRO (overshoot distance) and C ≥ CRT (crossing distance) ",
+    "runs": [
+      {
+        "text": "C ≥ CRO (overshoot distance) and C ≥ CRT (crossing distance",
+        "bold": false
+      },
+      {
+        "text": ") ",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "level": 3,
+    "text": "Access through vertically positioned barriers:"
+  },
+  {
+    "type": "paragraph",
+    "text": "To take into account possible overlap, the standard ISO 13855 provides the following table. With the help of this table, the calculation of the upper edge of the raised protective field or the increased minimum distance is realized.",
+    "runs": [
+      {
+        "text": "To take into account possible overlap, the standard ISO 13855 provides the following table. With the help of this table, the calculation of the upper edge of the raised protective field or the increased minimum distance is realized.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId23.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 1: Access through vertically positioned barriers",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Access through vertically positioned barriers",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Note ",
+    "runs": [
+      {
+        "text": "Note ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Where the final beam of the safe light barrier is less than 900 mm above the ground, adequate protection against hazards such as jumping and/or overhead access will not be provided.",
+    "runs": [
+      {
+        "text": "Where the final beam of the safe light barrier is less than 900 mm above the ground, adequate protection against hazards such as jumping and/or overhead access will not be provided.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Where the first beam of the safe light barrier is more than 300 mm above the ground, there will be insufficient protection against crawling/stepping on the ground.",
+    "runs": [
+      {
+        "text": "Where the first beam of the safe light barrier is more than 300 mm above the ground, there will be insufficient protection against crawling/stepping on the ground.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex C",
+    "runs": [
+      {
+        "text": "A",
+        "bold": false
+      },
+      {
+        "text": "nnex",
+        "bold": false
+      },
+      {
+        "text": " C",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "General requirements for mechanical protective devices",
+    "runs": [
+      {
+        "text": "General requirements for mechanical protective devices",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.1 Safety clearance of mechanical protective devices",
+    "runs": [
+      {
+        "text": "C.1 Safety clearance of mechanical protective devices",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If mechanical protective devices have openings, they must be located at a sufficient distance from the hazardous area. This also applies to openings between the protective device and the machine frame, clamping plates, etc.",
+    "runs": [
+      {
+        "text": "If mechanical protective devices have openings, they must be located at a sufficient distance from the hazardous area. This also applies to openings between the protective device and the machine frame, clamping plates, etc.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Safety distance based on the clearances of mechanical protective devices in accordance with ISO 13857:",
+    "runs": [
+      {
+        "text": "Safety distance based on the clearances of mechanical protective devices in accordance with ISO 13857:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId24.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 2: Access through slot, square, circular openings",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Access through slot, square, circular openings",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId25.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 3: Access to lower organs through slot, square, circular openings",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "3",
+        "bold": false
+      },
+      {
+        "text": ": Access to lower organs through slot, square, circular openings",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.2 Height required for mechanical protective devices",
+    "runs": [
+      {
+        "text": "C.2 Height required for mechanical protective devices",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Similar to the procedure for ESPE, the same method should be used for mechanical protective devices. Different calculation tables should be considered depending on the hazard potential.",
+    "runs": [
+      {
+        "text": "Similar to the procedure for ESPE, the same method should be used for mechanical protective devices. Different calculation tables should be considered depending on the hazard potential.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "To avoid passing under the separator guards, it is normally sufficient to start them 200 mm above the reference level.",
+    "runs": [
+      {
+        "text": "To avoid passing under the separator guards, it is normally sufficient to start them 200 mm above the reference level.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Height required for mechanical protective devices in accordance with ISO 13857 in case of high hazard potential:",
+    "runs": [
+      {
+        "text": "Height required for mechanical protective devices in accordance with ISO 13857 in case of high hazard potential:",
+        "bold": true
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId26.png"
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId23.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 4: Access through protective structures - High Risk*",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "4",
+        "bold": false
+      },
+      {
+        "text": ": Access through protective structures - High Risk*",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "*Note: Risks arising from hazards where long-term or irreversible damage to the body, such as friction or abrasion, cannot be foreseen are only considered \"low risk\" (EN ISO 13857, clause 4.1.2)",
+    "runs": [
+      {
+        "text": "*Note: Risks arising from hazards where long-term or irreversible damage to the body, such as friction or abrasion, cannot be foreseen are only considered \"low risk\" (EN ISO 13857, clause 4.1.2)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.3 Clearances required to prevent crushing hazards",
+    "runs": [
+      {
+        "text": "C.3 Clearances required to prevent crushing hazards",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId27.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 5: Clearances required to avoid crushing hazard (human body) (in mm)",
+    "runs": [
+      {
+        "text": "Table 5: Clearances required to avoid crushing hazard (human body) (in mm)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.4 Combination of switch and mechanical protective device",
+    "runs": [
+      {
+        "text": "C.4 Combination of switch and mechanical protective device",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Where a combination of switch and mechanical protective device is used, the following conditions must be observed. ",
+    "runs": [
+      {
+        "text": "Where a combination of switch and mechanical protective device ",
+        "bold": false
+      },
+      {
+        "text": "is used, the following conditions must be observed. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- If the mechanical protective devices have a door with a switch, dangerous movements protected by the mechanical protective devices must be prevented before the door is closed. ",
+    "runs": [
+      {
+        "text": "- If the mechanical protective devices have a door with a switch, dangerous movements protected by the mechanical protective devices must be prevented before the door is closed. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Mechanical protective devices can only be deactivated when the risks they protect against are no longer present. ",
+    "runs": [
+      {
+        "text": "- Mechanical protective devices can only be deactivated when the risks they protect against are no longer present. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Machine operations can only be carried out when the door is closed and locked.",
+    "runs": [
+      {
+        "text": "- Machine operations can only be carried out when the door is closed and locked.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- It is recommended that mechanical protective equipment should be manufactured with the body in light color (yellow) and the wire mesh in dark color (black) when it is necessary to observe the inside.",
+    "runs": [
+      {
+        "text": "- It is recommended that mechanical protective equipment should be manufactured with the body in light color (yellow) and the wire mesh in dark color (black) when it is necessary to observe the inside.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId28.jpeg"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figure 91: Where a combination of switches and mechanical protective devices are used together",
+    "runs": [
+      {
+        "text": "Figure 9",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Where a combination of switches and mechanical protective devices are used together",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "C.5 Fasteners of mechanical guards",
+    "runs": [
+      {
+        "text": "C.5 Fasteners of mechanical guards",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Selection of fasteners is important in terms of risk reduction during periodic maintenance, cleaning and adjustment. At this point, if mechanical protective devices need to be dismantled, they must be put back in place after the work is completed. Working personnel should be informed about this issue.",
+    "runs": [
+      {
+        "text": "Selection of fasteners is important in terms of risk ",
+        "bold": false
+      },
+      {
+        "text": "reduction ",
+        "bold": false
+      },
+      {
+        "text": "during periodic maintenance, cleaning and adjustment. At this point, if mechanical protective devices need to be dismantled, they must be put back in place after the work is completed. Working personnel should be informed about this issue.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "In this context:",
+    "runs": [
+      {
+        "text": "In this context:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Where mechanical protective devices require repair, work must be carried out by specialists in accordance with the manufacturer's instructions. ",
+    "runs": [
+      {
+        "text": "- Where mechanical protective devices require repair, work must be carried out by specialists in accordance with the manufacturer's instructions. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Where possible, mechanical protective devices should be designed so that they do not remain standing unless secured. ",
+    "runs": [
+      {
+        "text": "- Where possible, mechanical protective devices should be designed so that they do not remain standing unless secured. ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- Fasteners such as fixing bolts, screws etc. should only be removable using a tool/tool (allen, wrench etc.). Quick fasteners such as wing nuts should not be used for fixing unless specified in the risk assessment report.",
+    "runs": [
+      {
+        "text": "- Fasteners such as fixing bolts, screws etc. should only be removable using a tool/tool (allen, wrench etc.). Quick fasteners such as wing nuts should not be used for fixing unless specified in the risk assessment report.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- The ground connections of mechanical assemblies must be made in such a way that they cannot be loosened by vibration. It is recommended that the ground connections of mechanical protective devices that are not intended to be dismantled for maintenance and adjustment purposes be permanently fixed using welding, rivets or glue.",
+    "runs": [
+      {
+        "text": "- The ground connections of mechanical assemblies must be made in such a way that they cannot be loosened by vibration. It is recommended that the ground connections of mechanical protective devices that are not intended to be dismantled for maintenance and adjustment purposes be permanently fixed using welding, rivets or glue.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId29.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figure 1: Fastener example illustration",
+    "runs": [
+      {
+        "text": "Figure ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Fastener example illustration",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex-D ",
+    "runs": [
+      {
+        "text": "Annex-D",
+        "bold": false
+      },
+      {
+        "text": " ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Color codes on the panel and control system",
+    "runs": [
+      {
+        "text": "Color codes on the panel and control system",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.1 In-panel wiring and color codes",
+    "runs": [
+      {
+        "text": "D.1 In-panel wiring and color codes",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The machine electrical equipment and the inside of the enclosure must be designed in accordance with EN 60204-1. It is recommended that access inside the enclosure should not be directly accessible. (See Annex-D.4)",
+    "runs": [
+      {
+        "text": "The machine electrical equipment and the inside of the enclosure must be designed in accordance with EN 60204-1. It is recommended that access inside the enclosure should not be directly accessible. (See Annex-D.4)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The cables must be stored in cable ducts and must be stored correctly to prevent corrosion. The earthing cables must be green-yellow in color and the earthing connection must not be disabled under any circumstances.",
+    "runs": [
+      {
+        "text": "The cables must be stored in cable ducts and must be stored correctly to prevent corrosion. The earthing cables must be green-yellow in color and the earthing connection must not be disabled under any circumstances.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "It is not recommended to use only green or only yellow colored cables for in-panel wiring as they may be confused with green-yellow ground wires. It is recommended that the color coding for wiring be done as specified below:",
+    "runs": [
+      {
+        "text": "It is not recommended to use only green or only yellow colored cables for in-panel wiring as they may be confused with green-yellow ground wires. It is recommended that the color coding for wiring be done as specified below:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- BLACK: Used in AC and DC power circuits.",
+    "runs": [
+      {
+        "text": "- BLACK: Used in AC and DC power circuits.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- RED: Used for all conductors in AC control circuits.",
+    "runs": [
+      {
+        "text": "- RED: Used for all conductors in AC control circuits.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- BLUE: Used in DC control circuits.",
+    "runs": [
+      {
+        "text": "- BLUE: Used in DC control circuits.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- ORANGE: It is used in the cables of the equipment fed from the UPS and main switch input section.",
+    "runs": [
+      {
+        "text": "- ORANGE: It is used in the cables of the equipment fed from the UPS and main switch input section.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "- LIGHT BLUE: For neutral wiring.",
+    "runs": [
+      {
+        "text": "- LIGHT BLUE: For neutral wiring.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.2 Color codes of control and indicator lamps",
+    "runs": [
+      {
+        "text": "D.2 Color codes of control and indicator lamps",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "COLOR",
+      "MEANING",
+      "EXPLANATION",
+      "EXAMPLE APPLICATION"
+    ],
+    "rows": [
+      [
+        "RED",
+        "",
+        "Emergency ",
+        "For dangerous or emergency actions",
+        "Emergency stop "
+      ],
+      [
+        "YELLOW",
+        "",
+        "Abnormal",
+        "For abnormal actions",
+        "Elimination of the abnormal situation."
+      ],
+      [
+        "BLUE",
+        "",
+        "Reset",
+        "For situations where a compulsory action is required",
+        "Reset function"
+      ],
+      [
+        "GREEN",
+        "",
+        "Normal",
+        "To prepare for normal state",
+        "START/ON"
+      ],
+      [
+        "WHITE",
+        "",
+        "",
+        "",
+        [
+          {
+            "type": "text",
+            "text": "START/ON (preferred)"
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF"
+          }
+        ]
+      ],
+      [
+        "GRAY",
+        "",
+        "No specific task is defined.",
+        "For general use other than emergency stop",
+        [
+          {
+            "type": "text",
+            "text": "START/ON"
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF"
+          }
+        ]
+      ],
+      [
+        "BLACK",
+        "",
+        "",
+        "",
+        [
+          {
+            "type": "text",
+            "text": "START/ON "
+          },
+          {
+            "type": "text",
+            "text": "STOPP/OFF (preferred)"
+          }
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 1: Color codes of the control and indicator lamps",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "1",
+        "bold": false
+      },
+      {
+        "text": ": Color codes of the control and indicator lamps",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.3 Color codes for actuators (command buttons)",
+    "runs": [
+      {
+        "text": "D.3 Color codes for actuators (command buttons)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "According to EN 60204-1 Article 10.2:",
+    "runs": [
+      {
+        "text": "According to EN 60204-1 Article 10.2:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The colors of the START/ON buttons must be WHITE, GRAY, BLACK or GREEN. RED must not be used for the start command. The RED color must be used for emergency stop actuators.",
+    "runs": [
+      {
+        "text": "The colors of the START/ON buttons must be WHITE, GRAY, BLACK or GREEN. RED must not be used for the start command. The RED color must be used for emergency stop actuators.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The colors of the STOP/OFF buttons must be BLACK, GRAY or WHITE (preferably BLACK).  GREEN cannot be used. The use of RED is allowed if the STOP/OFF button is not close to the emergency stop button.",
+    "runs": [
+      {
+        "text": "The colors of the STOP/OFF buttons must be BLACK, GRAY or WHITE (preferably BLACK).  GREEN cannot be used. The use of RED is allowed if the STOP/OFF button is not close to the emergency stop button.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "WHITE, GRAY or BLACK are the preferred colors for actuators that alternatively behave as START/ON and STOP/OFF. The colors RED, YELLOW or GREEN cannot be used.",
+    "runs": [
+      {
+        "text": "WHITE, GRAY or BLACK are the preferred colors for actuators that alternatively behave as START/ON and STOP/OFF. The colors RED, YELLOW or GREEN cannot be used.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "For actuators that only allow operation when held down, such as hold-to-run buttons, WHITE, GRAY or BLACK colors are preferred. RED, YELLOW or GREEN cannot be used.",
+    "runs": [
+      {
+        "text": "For actuators that only allow operation when held down, such as hold-to-run buttons, WHITE, GRAY or BLACK colors are preferred. RED, YELLOW or GREEN cannot be used.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Reset buttons must be BLUE, WHITE, GRAY or BLACK. GREEN cannot be used",
+    "runs": [
+      {
+        "text": "Reset buttons must be BLUE, WHITE, GRAY or BLACK. GREEN cannot be used",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The YELLOW color is reserved for use in abnormal conditions, for example, in case of an abnormal state of the process or to interrupt an automatic cycle.",
+    "runs": [
+      {
+        "text": "The YELLOW color is reserved for use in abnormal conditions, for example, in case of an abnormal state of the process or to interrupt an automatic cycle.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The YELLOW color is reserved for use in abnormal conditions (e.g. an abnormal action in the process) or to stop the automatic cycle in a controlled manner.",
+    "runs": [
+      {
+        "text": "The YELLOW color is reserved for use in abnormal conditions (e.g. an abnormal action in the process) or to stop the automatic cycle in a controlled manner.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "In cases where the same colors WHITE, GRAY, BLACK are used for various functions (e.g. when the WHITE button is used for both START and STOP actuators), complementary measures (such as symbols, figures) must be used for coding.",
+    "runs": [
+      {
+        "text": "In cases where the same colors WHITE, GRAY, BLACK are used for various functions (e.g. when the WHITE button is used for both START and STOP actuators), complementary measures (such as symbols, figures) must be used for coding.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId30.jpeg"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figure 2: Symbols used for buttons",
+    "runs": [
+      {
+        "text": "Figure ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Symbols used for buttons",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "COLOR",
+      "MEANING",
+      "EXPLANATION",
+      "OPERATOR ACTION"
+    ],
+    "rows": [
+      [
+        "RED",
+        "",
+        "Emergency",
+        "Dangerous situation",
+        "Taking emergency action (e.g. machine de-energization) "
+      ],
+      [
+        "YELLOW",
+        "",
+        "Abnormal",
+        [
+          {
+            "type": "text",
+            "text": "Abnormal actions,"
+          },
+          {
+            "type": "text",
+            "text": "Approaching critical situation"
+          }
+        ],
+        "Observation and/or intervention"
+      ],
+      [
+        "BLUE",
+        "",
+        "Mandatory",
+        "Specifying a condition that requires action by the operator",
+        "Mandatory action"
+      ],
+      [
+        "GREEN",
+        "",
+        "Normal",
+        "Normal situations",
+        "Optional"
+      ],
+      [
+        "WHITE",
+        "",
+        "Neutral",
+        "Can be used when there is doubt about the use of other colors",
+        "Observation"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Table 2: Color codes for warning lights",
+    "runs": [
+      {
+        "text": "Table ",
+        "bold": false
+      },
+      {
+        "text": "2",
+        "bold": false
+      },
+      {
+        "text": ": Color codes for warning lights",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "D.4 Protection of the electrical panel",
+    "runs": [
+      {
+        "text": "D.4 Protection of the electrical panel",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "In accordance with EN 60204-1 Article 6.2.2;",
+    "runs": [
+      {
+        "text": "In accordance with EN 60204-1 Article 6.2.2;",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "The live parts must be enclosed in enclosures (enclosures) which comply with the relevant rules in Clause 4, Clause 11 and Clause 14 and which provide at least IP2X or IPXXB degree of protection against direct contact (see EN 60529).",
+    "runs": [
+      {
+        "text": "The live parts must be enclosed in enclosures (enclosures) which comply with the relevant rules in Clause 4, Clause 11 and Clause 14 and which provide at least IP2X or IPXXB degree of protection against direct contact (see EN 60529).",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If the top surface of the enclosure is easily accessible, the minimum degree of protection against direct contact with the top surfaces must be IP4X or IPXXD.",
+    "runs": [
+      {
+        "text": "If the top surface of the enclosure is easily accessible, the minimum degree of protection against direct contact with the top surfaces must be IP4X or IPXXD.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Opening an enclosure (enclosure) (e.g. opening doors, hatches, hinged covers and the like) must only be possible if",
+    "runs": [
+      {
+        "text": "Opening an enclosure (enclosure) (e.g. opening doors, hatches, hinged covers and the like) must only be possible if",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Access requires the use of a key or tool.",
+    "runs": [
+      {
+        "text": "Access requires the use of a key or tool.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Note 1 - Use of the keys or tool is restricted to experienced and trained persons.",
+    "runs": [
+      {
+        "text": "Note 1 ",
+        "bold": true
+      },
+      {
+        "text": "- Use of the keys or tool is restricted to experienced and trained persons.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "All live parts that are likely to be touched during initialization or adjustment of devices intended for some operations while the hardware is still connected must be protected against direct contact with a degree of protection of at least IP2X or IPXXB. Other live parts inside the doors must be protected against direct contact with a degree of protection of at least IP1X or IPXXA.",
+    "runs": [
+      {
+        "text": "All live parts that are likely to be touched during initialization or adjustment of devices intended for some operations while the hardware is still connected must be protected against direct contact with a degree of protection of at least IP2X or IPXXB. Other live parts inside the doors must be protected against direct contact with a degree of protection of at least IP1X or IPXXA.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Separation of stressed sections inside the enclosure before opening the enclosure.",
+    "runs": [
+      {
+        "text": "Separation of stressed sections inside the enclosure before opening the enclosure.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "This can be achieved by equipping the door with a disconnector (e.g. feed disconnector) with an interlocking device so that the door can only be opened when the disconnector is open and the disconnector can only be closed when the door is closed.",
+    "runs": [
+      {
+        "text": "This can be achieved by equipping the door with a disconnector (e.g. feed disconnector) with an interlocking device so that the door can only be opened when the disconnector is open and the disconnector can only be closed when the door is closed.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Exception: A special device or tool prescribed by the Supplier may be used to open the interlock provided that",
+    "runs": [
+      {
+        "text": "Exception: A special device or tool prescribed by the Supplier may be used to open the interlock provided that",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If it is always possible to open the disconnecting device and lock the disconnecting device in the DISABLED (disconnected) position or otherwise prevent the disconnecting device from being closed by unauthorized persons when interlocking is canceled,",
+    "runs": [
+      {
+        "text": "If it is always possible to open the disconnecting device and lock the disconnecting device in the DISABLED (disconnected) position or otherwise prevent the disconnecting device from being closed by unauthorized persons when interlocking is canceled,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If the interlock is automatically initialized when the door is closed,",
+    "runs": [
+      {
+        "text": "If the interlock is automatically initialized when the door is closed,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If all live parts that are likely to be touched during the initial positioning and adjustment intended for such work while the equipment is still connected are protected against direct contact with at least IP2X or IPXXB rating and other live parts inside the doors are protected against direct contact with at least IP1X or IPXXA rating, this information must be specified in the technical documentation.",
+    "runs": [
+      {
+        "text": "If all live parts that are likely to be touched during the initial positioning and adjustment intended for such work while the equipment is still connected are protected against direct contact with at least IP2X or IPXXB rating and other live parts inside the doors are protected against direct contact with at least IP1X or IPXXA rating, this information must be specified in the technical documentation.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": " Note 2 - Use of the special device or tool is intended for experienced and trained persons only ",
+    "runs": [
+      {
+        "text": " Note 2 ",
+        "bold": true
+      },
+      {
+        "text": "- Use of the special device or tool is intended for experienced and trained persons only ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Means should be provided to restrict access to stressed areas behind doors that are not directly locked by means of means of separation by trained and experienced persons.",
+    "runs": [
+      {
+        "text": "Means should be provided to restrict access to stressed areas behind doors that are not directly locked by means of means of separation by trained and experienced persons.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "All sections which are still live after the disconnecting device(s) have deactivated the circuit must be protected against direct contact with a degree of protection of at least IP2X or IPXXB (see IEC 60529). Such sections shall be provided with a warning sign in accordance with Article 16.2.1:",
+    "runs": [
+      {
+        "text": "All sections which are still live after the disconnecting device(s) have deactivated the circuit must be protected against direct contact with a degree of protection of at least IP2X or IPXXB (see IEC 60529). Such sections shall be provided with a warning sign in accordance with Article 16.2.1:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId31.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "The following may be exempted from this marking:",
+    "runs": [
+      {
+        "text": "The following may be exempted from this marking:",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Sections which are live only because they are connected to interlocking circuits and which can be identified as live by the colors specified in Article 13.2.4,",
+    "runs": [
+      {
+        "text": "Sections which are live only because they are connected to interlocking circuits and which can be identified as live by the colors specified in Article 13.2.4,",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "If the supply disconnecting device is in a separate enclosure, the supply terminals connected to it.",
+    "runs": [
+      {
+        "text": "If the supply disconnecting device is in a separate enclosure, the supply terminals connected to it.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Keyless or tool-free tripping and disconnection of live sections must only be possible if all live sections are protected against direct contact with a degree of protection of at least IP2X or IPXXB (see IEC 60529). If barriers are provided for this protection, either a tool must be required to remove them or all live sections protected by them must be automatically disconnected when the barrier is removed.",
+    "runs": [
+      {
+        "text": "Keyless or tool-free tripping and disconnection of live sections must only be possible if all live sections are protected against direct contact with a degree of protection of at least IP2X or IPXXB (see IEC 60529). If barriers are provided for this protection, either a tool must be required to remove them or all live sections protected by them must be automatically disconnected when the barrier is removed.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Note 3 - Where protection against direct contact is provided in accordance with Article 6.2.2 c) and manual actuation of devices (e.g. manual closing of contactors or relays) causes a hazard, such actuation shall be prevented by barriers or obstructions requiring a means for their removal.",
+    "runs": [
+      {
+        "text": "Note 3 ",
+        "bold": true
+      },
+      {
+        "text": "- Where protection against direct contact is provided in accordance with Article 6.2.2 c) and manual actuation of devices (e.g. manual closing of contactors or relays) causes a hazard, such actuation shall be prevented by barriers or obstructions requiring a means for their removal.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex-E ",
+    "runs": [
+      {
+        "text": "Annex-E",
+        "bold": false
+      },
+      {
+        "text": " ",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Degrees of Protection (IP Level)",
+    "runs": [
+      {
+        "text": "Degrees of Protection (IP Level)",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/annexes/en/en_image_rId32.png"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figure 3: IP Levels in accordance with EN 60529",
+    "runs": [
+      {
+        "text": "Figure ",
+        "bold": false
+      },
+      {
+        "text": "3",
+        "bold": false
+      },
+      {
+        "text": ": IP Levels in accordance with EN 60529",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex F",
+    "runs": [
+      {
+        "text": "Annex F",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Related Standards",
+    "runs": [
+      {
+        "text": "Related Standards",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Applicability",
+      "Harmonized Standard",
+      "Description"
+    ],
+    "rows": [
+      [
+        "Type A Standards"
+      ],
+      [
+        "x",
+        "EN ISO 12100",
+        "Safety in machinery - General principles for design - Risk assessment and risk reduction"
+      ],
+      [
+        "Type B Standards"
+      ],
+      [
+        "x",
+        "EN ISO 13849-1",
+        "Safety in machinery - Safety aspects of control systems - Part 1: General principles for design"
+      ],
+      [
+        "x",
+        "EN/IEC 60204-1",
+        "Safety in Machinery - Electrical equipment of machinery - Part 1: General rules"
+      ],
+      [
+        "x",
+        "EN ISO 13850",
+        "Safety in Machinery - Electrically sensitive protective equipment - part 1: General rules and tests"
+      ],
+      [
+        "x",
+        "EN ISO 13855",
+        "Safety on machines - Placement of protective equipment according to the speed of approach of body parts"
+      ],
+      [
+        "x",
+        "EN ISO 13857",
+        "Safety in Machines - Safety distances to prevent danger in areas where arms and legs can reach"
+      ],
+      [
+        "x",
+        "EN ISO 14118",
+        "Safety in Machines - Prevention of unexpected start-ups"
+      ],
+      [
+        "x",
+        "EN ISO 14119",
+        "Safety in Machinery - Interlocking devices in combination with guards - Principles for design and selection"
+      ],
+      [
+        "x",
+        "EN ISO 14120",
+        "Safety in Machinery - Guards - general requirements for design and construction of fixed and movable guards"
+      ],
+      [
+        "x",
+        "EN ISO 13854",
+        "Safety in Machinery - Minimum clearances to protect human body parts from crushing"
+      ],
+      [
+        "x",
+        "EN ISO 4414",
+        "Pneumatic fluid power - Safety rules and general guidelines for systems and components"
+      ],
+      [
+        "x",
+        "ISO 7010",
+        "Graphic symbols - Registered safety signs"
+      ],
+      [
+        "Type C Standards"
+      ],
+      [
+        "x",
+        "-",
+        "-"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Annex-G",
+    "runs": [
+      {
+        "text": "Annex",
+        "bold": false
+      },
+      {
+        "text": "-G",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Risk In/Out Score Table",
+    "runs": [
+      {
+        "text": "Risk In/Out ",
+        "bold": false
+      },
+      {
+        "text": "Score Table",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Risk No",
+      "Hazard Type",
+      "Risk Definition",
+      "Risk In Score",
+      "Risk Out Score",
+      "Explanation"
+    ],
+    "rows": [
+      [
+        "001",
+        "Mechanic",
+        "Crushing",
+        "7",
+        "1",
+        "The user should be informed about residual risks. Pictogram, training, use of personal protective equipment, etc."
+      ],
+      [
+        "002",
+        "Mechanic",
+        "Crushing",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "003",
+        "Mechanic",
+        "Entanglement",
+        "8",
+        "1",
+        ""
+      ],
+      [
+        "004",
+        "Mechanic",
+        "Entanglement",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "005",
+        "Mechanic",
+        "Unexpected start ",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "006",
+        "Mechanic",
+        "Trapping",
+        "5",
+        "3",
+        ""
+      ],
+      [
+        "007",
+        "Mechanic",
+        "Unexpected start",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "008",
+        "Mechanic",
+        "Trapping, crushing ",
+        "6",
+        "3",
+        ""
+      ],
+      [
+        "009",
+        "Other",
+        "Other",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "010",
+        "Other",
+        "Other",
+        "7",
+        "2",
+        ""
+      ],
+      [
+        "011",
+        "Other",
+        "Other",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "012",
+        "Other",
+        "Ergonomics ",
+        "3",
+        "1",
+        ""
+      ],
+      [
+        "013",
+        "Other",
+        "Ergonomics",
+        "1",
+        "0",
+        ""
+      ],
+      [
+        "014",
+        "Other",
+        "Ergonomics",
+        "2",
+        "0",
+        ""
+      ],
+      [
+        "015",
+        "Mechanic",
+        "Cutting",
+        "2",
+        "1",
+        ""
+      ],
+      [
+        "016",
+        "Mechanic",
+        "Tripping, Falling",
+        "6",
+        "1",
+        ""
+      ],
+      [
+        "017",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "018",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "019",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "020",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "021",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "022",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "023",
+        "Electricity",
+        "Fire",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "024",
+        "Electricity",
+        "Electric Shock",
+        "7",
+        "1",
+        ""
+      ],
+      [
+        "025",
+        "Other",
+        "Other",
+        "5",
+        "1",
+        ""
+      ],
+      [
+        "026",
+        "Other",
+        "Other",
+        "5",
+        "1",
+        ""
+      ],
+      [
+        "027",
+        "Diğer",
+        "Electromagnetic phenomena/disturbance",
+        "5",
+        "1",
+        ""
+      ]
+    ]
+  }
+]
