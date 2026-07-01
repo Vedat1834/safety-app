@@ -1,41 +1,18 @@
 [
   {
-    "type": "paragraph",
-    "text": "Ek-A",
-    "runs": [
-      {
-        "text": "E",
-        "bold": false
-      },
-      {
-        "text": "k-A",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Ek-A"
   },
   {
-    "type": "paragraph",
-    "text": "Tehlikeler, Tehlikeli Durumlar",
-    "runs": [
-      {
-        "text": "Tehlikeler, Tehlikeli Durumlar",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Tehlikeler, Tehlikeli Durumlar"
   },
   {
-    "type": "paragraph",
-    "text": "A.1 EN ISO 12100: Tehlikeler, tehlikeli durumlar ve tehlikeli olayların örnekleri",
-    "runs": [
-      {
-        "text": "A.1 ",
-        "bold": false
-      },
-      {
-        "text": "EN ISO 12100: Tehlikeler, tehlikeli durumlar ve tehlikeli olayların örnekleri",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 4,
+    "text": "A.1 EN ISO 12100: Tehlikeler, tehlikeli durumlar ve tehlikeli olayların örnekleri"
   },
   {
     "type": "table",
@@ -309,34 +286,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "EK-B",
-    "runs": [
-      {
-        "text": "EK-B",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "EK-B"
   },
   {
-    "type": "paragraph",
-    "text": "Koruma tertibatlarının konumlandırılması veya boyutlandırılması",
-    "runs": [
-      {
-        "text": "Koruma tertibatlarının konumlandırılması veya boyutlandırılması",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Koruma tertibatlarının konumlandırılması veya boyutlandırılması"
   },
   {
-    "type": "paragraph",
-    "text": "B.1 ESPE için yaklaşmaya bağlı asgari mesafe (Güvenlik mesafesi)",
-    "runs": [
-      {
-        "text": "B.1 ESPE için yaklaşmaya bağlı asgari mesafe (Güvenlik mesafesi)",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "B.1 ESPE için yaklaşmaya bağlı asgari mesafe (Güvenlik mesafesi)"
   },
   {
     "type": "paragraph",
@@ -485,7 +447,7 @@
   {
     "type": "heading",
     "level": 3,
-    "text": "Üstten erişilebilen koruma tertibatları "
+    "text": "Üstten erişilebilen koruma tertibatları"
   },
   {
     "type": "paragraph",
@@ -637,7 +599,7 @@
   },
   {
     "type": "paragraph",
-    "text": "Genel olarak şunlar geçerlidir: ",
+    "text": "Genel olarak şunlar geçerlidir:",
     "runs": [
       {
         "text": "Genel olarak şunlar geçerlidir: ",
@@ -646,18 +608,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C ≥ CRO (aşma mesafesi) ve C ≥ CRT (geçme mesafesi) ",
-    "runs": [
-      {
-        "text": "C ≥ CRO (aşma mesafesi) ve C ≥ CRT (geçme mesafesi)",
-        "bold": false
-      },
-      {
-        "text": " ",
-        "bold": true
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C ≥ CRO (aşma mesafesi) ve C ≥ CRT (geçme mesafesi)"
   },
   {
     "type": "heading",
@@ -698,7 +651,7 @@
   },
   {
     "type": "paragraph",
-    "text": "Not: ",
+    "text": "Not:",
     "runs": [
       {
         "text": "Not: ",
@@ -727,34 +680,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "EK-C",
-    "runs": [
-      {
-        "text": "EK-C",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "EK-C"
   },
   {
-    "type": "paragraph",
-    "text": "Mekanik koruyucu tertibatlar için genel gereksinimler",
-    "runs": [
-      {
-        "text": "Mekanik koruyucu tertibatlar için genel gereksinimler",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Mekanik koruyucu tertibatlar için genel gereksinimler"
   },
   {
-    "type": "paragraph",
-    "text": "C.1 Mekanik koruyucu tertibatların güvenlik mesafesi",
-    "runs": [
-      {
-        "text": "C.1 Mekanik koruyucu tertibatların güvenlik mesafesi",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.1 Mekanik koruyucu tertibatların güvenlik mesafesi"
   },
   {
     "type": "paragraph",
@@ -767,22 +705,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "ISO 13857 uyarınca mekanik koruyucu tertibatların açıklıklarına bağlı güvenlik mesafesi:",
-    "runs": [
-      {
-        "text": "ISO 13857 uyarınca mekanik koruyucu tertibatların",
-        "bold": true
-      },
-      {
-        "text": " ",
-        "bold": false
-      },
-      {
-        "text": "açıklıklarına bağlı güvenlik mesafesi:",
-        "bold": true
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "ISO 13857 uyarınca mekanik koruyucu tertibatların açıklıklarına bağlı güvenlik mesafesi:"
   },
   {
     "type": "image",
@@ -829,14 +754,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.2 Mekanik koruyucu tertibatla için gerekli yükseklik",
-    "runs": [
-      {
-        "text": "C.2 Mekanik koruyucu tertibatla için gerekli yükseklik",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.2 Mekanik koruyucu tertibatla için gerekli yükseklik"
   },
   {
     "type": "paragraph",
@@ -913,14 +833,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.3 Ezilme tehlikesinin engellenmesi için gerekli açıklıklar",
-    "runs": [
-      {
-        "text": "C.3 Ezilme tehlikesinin engellenmesi için gerekli açıklıklar",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.3 Ezilme tehlikesinin engellenmesi için gerekli açıklıklar"
   },
   {
     "type": "image",
@@ -937,18 +852,13 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.4 Siviç ve Mekanik koruyu tertibat kombinasyonu",
-    "runs": [
-      {
-        "text": "C.4 Siviç ve Mekanik koruyu tertibat kombinasyonu",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.4 Siviç ve Mekanik koruyu tertibat kombinasyonu"
   },
   {
     "type": "paragraph",
-    "text": "Siviç ve mekanik koruyu tertibat kombinasyonu kullanıldığı durumlarda aşağıdaki koşullar dikkate alınmalıdır. ",
+    "text": "Siviç ve mekanik koruyu tertibat kombinasyonu kullanıldığı durumlarda aşağıdaki koşullar dikkate alınmalıdır.",
     "runs": [
       {
         "text": "Siviç ve mekanik koruyu tertibat kombinasyonu",
@@ -962,7 +872,7 @@
   },
   {
     "type": "paragraph",
-    "text": "— Mekanik koruyucu tertibatlarda siviçli kapı olması durumunda, kapı kapanmadan mekanik koruyucu tertibatların korumuş olduğu tehlikeli hareketler engellenmelidir. ",
+    "text": "— Mekanik koruyucu tertibatlarda siviçli kapı olması durumunda, kapı kapanmadan mekanik koruyucu tertibatların korumuş olduğu tehlikeli hareketler engellenmelidir.",
     "runs": [
       {
         "text": "— Mekanik koruyucu tertibatlarda siviçli kapı olması durumunda, kapı kapanmadan mekanik koruyucu tertibatların korumuş olduğu tehlikeli hareketler engellenmelidir. ",
@@ -972,7 +882,7 @@
   },
   {
     "type": "paragraph",
-    "text": "— Mekanik koruyucu tertibatların sadece  korumuş olduğu riskler ortadan kalktığında devre dışı bırakılabilir. ",
+    "text": "— Mekanik koruyucu tertibatların sadece  korumuş olduğu riskler ortadan kalktığında devre dışı bırakılabilir.",
     "runs": [
       {
         "text": "— Mekanik koruyucu tertibatların sadece  korumuş olduğu riskler ortadan kalktığında devre dışı bırakılabilir. ",
@@ -1023,14 +933,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.5 Mekanik koruyucuların bağlantı elemanları",
-    "runs": [
-      {
-        "text": "C.5 Mekanik koruyucuların bağlantı elemanları",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.5 Mekanik koruyucuların bağlantı elemanları"
   },
   {
     "type": "paragraph",
@@ -1054,7 +959,7 @@
   },
   {
     "type": "paragraph",
-    "text": "— Mekanik koruyucu tertibatların tamir gerektiği durumlarda; çalışmalar üretici talimatları doğrultusunda uzmanlar tarafından yapılmalıdır. ",
+    "text": "— Mekanik koruyucu tertibatların tamir gerektiği durumlarda; çalışmalar üretici talimatları doğrultusunda uzmanlar tarafından yapılmalıdır.",
     "runs": [
       {
         "text": "— Mekanik koruyucu tertibatların tamir gerektiği durumlarda; çalışmalar üretici talimatları doğrultusunda uzmanlar tarafından yapılmalıdır. ",
@@ -1064,7 +969,7 @@
   },
   {
     "type": "paragraph",
-    "text": "— Mümkün olduğu durumlarda, mekanik koruyucu tertibatlar sabitlenmedikçe ayakta kalmayacak şekilde tasarlanmalıdır. ",
+    "text": "— Mümkün olduğu durumlarda, mekanik koruyucu tertibatlar sabitlenmedikçe ayakta kalmayacak şekilde tasarlanmalıdır.",
     "runs": [
       {
         "text": "— Mümkün olduğu durumlarda, mekanik koruyucu tertibatlar sabitlenmedikçe ayakta kalmayacak şekilde tasarlanmalıdır. ",
@@ -1115,38 +1020,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Ek-D ",
-    "runs": [
-      {
-        "text": "Ek-D",
-        "bold": false
-      },
-      {
-        "text": " ",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Ek-D"
   },
   {
-    "type": "paragraph",
-    "text": "Pano ve kumanda sistemindeki renk kodları",
-    "runs": [
-      {
-        "text": "Pano ve kumanda sistemindeki renk kodları",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Pano ve kumanda sistemindeki renk kodları"
   },
   {
-    "type": "paragraph",
-    "text": "D.1 Pano içi kablolama ve renk kodları",
-    "runs": [
-      {
-        "text": "D.1 Pano içi kablolama ve renk kodları",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.1 Pano içi kablolama ve renk kodları"
   },
   {
     "type": "paragraph",
@@ -1233,14 +1119,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.2 Kumanda ve gösterge lambalarının renk kodları",
-    "runs": [
-      {
-        "text": "D.2 Kumanda ve gösterge lambalarının renk kodları",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.2 Kumanda ve gösterge lambalarının renk kodları"
   },
   {
     "type": "table",
@@ -1254,9 +1135,9 @@
       [
         "KIRMIZI",
         "",
-        "Acil ",
+        "Acil",
         "Tehlikeli veya acil eylemler için",
-        "Acil stop "
+        "Acil stop"
       ],
       [
         "SARI",
@@ -1319,7 +1200,7 @@
         [
           {
             "type": "text",
-            "text": "START/ON "
+            "text": "START/ON"
           },
           {
             "type": "text",
@@ -1348,14 +1229,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.3 Aktüatörler (komut butonları) için renk kodları",
-    "runs": [
-      {
-        "text": "D.3 Aktüatörler (komut butonları) için renk kodları",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.3 Aktüatörler (komut butonları) için renk kodları"
   },
   {
     "type": "paragraph",
@@ -1483,7 +1359,7 @@
         "",
         "Acil",
         "Tehlikeli durum",
-        "Acil eyleme geçme (örn. Makine enerjisinin kesilmesi) "
+        "Acil eyleme geçme (örn. Makine enerjisinin kesilmesi)"
       ],
       [
         "SARI",
@@ -1543,14 +1419,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.4 Elektrik panosunun korunması",
-    "runs": [
-      {
-        "text": "D.4 Elektrik panosunun korunması",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.4 Elektrik panosunun korunması"
   },
   {
     "type": "paragraph",
@@ -1696,7 +1567,7 @@
   },
   {
     "type": "paragraph",
-    "text": " Not 2 – Özel cihazın veya aletin kullanılması, yalnızca deneyimli ve eğitilmiş kişilerin kullanımı için amaçlanmıştır ",
+    "text": "Not 2 – Özel cihazın veya aletin kullanılması, yalnızca deneyimli ve eğitilmiş kişilerin kullanımı için amaçlanmıştır",
     "runs": [
       {
         "text": " ",
@@ -1799,32 +1670,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Ek-E ",
-    "runs": [
-      {
-        "text": "Ek-",
-        "bold": false
-      },
-      {
-        "text": "E",
-        "bold": false
-      },
-      {
-        "text": " ",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Ek-E"
   },
   {
-    "type": "paragraph",
-    "text": "Koruma Dereceleri (IP Level)",
-    "runs": [
-      {
-        "text": "Koruma Dereceleri (IP Level)",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Koruma Dereceleri (IP Level)"
   },
   {
     "type": "image",
@@ -1849,28 +1702,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Ek-F",
-    "runs": [
-      {
-        "text": "Ek-",
-        "bold": false
-      },
-      {
-        "text": "F",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Ek-F"
   },
   {
-    "type": "paragraph",
-    "text": "İlgili Standartlar",
-    "runs": [
-      {
-        "text": "İlgili Standartlar",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "İlgili Standartlar"
   },
   {
     "type": "table",
@@ -1977,36 +1816,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Ek-G",
-    "runs": [
-      {
-        "text": "Ek-G",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Ek-G"
   },
   {
-    "type": "paragraph",
-    "text": "Conclusion and Recommendations",
-    "runs": [
-      {
-        "text": "C",
-        "bold": false
-      },
-      {
-        "text": "onclusion and ",
-        "bold": false
-      },
-      {
-        "text": "R",
-        "bold": false
-      },
-      {
-        "text": "ecommendations",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Conclusion and Recommendations"
   },
   {
     "type": "paragraph",

@@ -1,33 +1,18 @@
 [
   {
-    "type": "paragraph",
-    "text": "Annex A",
-    "runs": [
-      {
-        "text": "Annex A",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex A"
   },
   {
-    "type": "paragraph",
-    "text": "Hazards, Dangerous Situations",
-    "runs": [
-      {
-        "text": "Hazards, Dangerous Situations",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Hazards, Dangerous Situations"
   },
   {
-    "type": "paragraph",
-    "text": "A.1 EN ISO 12100: Hazards, hazardous situations and examples of hazardous events",
-    "runs": [
-      {
-        "text": "A.1 EN ISO 12100: Hazards, hazardous situations and examples of hazardous events",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 4,
+    "text": "A.1 EN ISO 12100: Hazards, hazardous situations and examples of hazardous events"
   },
   {
     "type": "table",
@@ -301,42 +286,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex B",
-    "runs": [
-      {
-        "text": "A",
-        "bold": false
-      },
-      {
-        "text": "nnex",
-        "bold": false
-      },
-      {
-        "text": " B",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex B"
   },
   {
-    "type": "paragraph",
-    "text": "Positioning or dimensioning of protection devices",
-    "runs": [
-      {
-        "text": "Positioning or dimensioning of protection devices",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Positioning or dimensioning of protection devices"
   },
   {
-    "type": "paragraph",
-    "text": "B.1 Minimum approach-related distance for ESPE (Safety distance)",
-    "runs": [
-      {
-        "text": "B.1 Minimum approach-related distance for ESPE (Safety distance)",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "B.1 Minimum approach-related distance for ESPE (Safety distance)"
   },
   {
     "type": "paragraph",
@@ -485,7 +447,7 @@
   {
     "type": "heading",
     "level": 3,
-    "text": "Top-accessible protection devices "
+    "text": "Top-accessible protection devices"
   },
   {
     "type": "paragraph",
@@ -637,7 +599,7 @@
   },
   {
     "type": "paragraph",
-    "text": "In general, the following applies: ",
+    "text": "In general, the following applies:",
     "runs": [
       {
         "text": "In general, the following applies: ",
@@ -646,18 +608,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C ≥ CRO (overshoot distance) and C ≥ CRT (crossing distance) ",
-    "runs": [
-      {
-        "text": "C ≥ CRO (overshoot distance) and C ≥ CRT (crossing distance",
-        "bold": false
-      },
-      {
-        "text": ") ",
-        "bold": true
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C ≥ CRO (overshoot distance) and C ≥ CRT (crossing distance)"
   },
   {
     "type": "heading",
@@ -698,7 +651,7 @@
   },
   {
     "type": "paragraph",
-    "text": "Note ",
+    "text": "Note",
     "runs": [
       {
         "text": "Note ",
@@ -727,42 +680,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex C",
-    "runs": [
-      {
-        "text": "A",
-        "bold": false
-      },
-      {
-        "text": "nnex",
-        "bold": false
-      },
-      {
-        "text": " C",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex C"
   },
   {
-    "type": "paragraph",
-    "text": "General requirements for mechanical protective devices",
-    "runs": [
-      {
-        "text": "General requirements for mechanical protective devices",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "General requirements for mechanical protective devices"
   },
   {
-    "type": "paragraph",
-    "text": "C.1 Safety clearance of mechanical protective devices",
-    "runs": [
-      {
-        "text": "C.1 Safety clearance of mechanical protective devices",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.1 Safety clearance of mechanical protective devices"
   },
   {
     "type": "paragraph",
@@ -829,14 +759,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.2 Height required for mechanical protective devices",
-    "runs": [
-      {
-        "text": "C.2 Height required for mechanical protective devices",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.2 Height required for mechanical protective devices"
   },
   {
     "type": "paragraph",
@@ -905,14 +830,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.3 Clearances required to prevent crushing hazards",
-    "runs": [
-      {
-        "text": "C.3 Clearances required to prevent crushing hazards",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.3 Clearances required to prevent crushing hazards"
   },
   {
     "type": "image",
@@ -929,18 +849,13 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.4 Combination of switch and mechanical protective device",
-    "runs": [
-      {
-        "text": "C.4 Combination of switch and mechanical protective device",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.4 Combination of switch and mechanical protective device"
   },
   {
     "type": "paragraph",
-    "text": "Where a combination of switch and mechanical protective device is used, the following conditions must be observed. ",
+    "text": "Where a combination of switch and mechanical protective device is used, the following conditions must be observed.",
     "runs": [
       {
         "text": "Where a combination of switch and mechanical protective device ",
@@ -954,7 +869,7 @@
   },
   {
     "type": "paragraph",
-    "text": "- If the mechanical protective devices have a door with a switch, dangerous movements protected by the mechanical protective devices must be prevented before the door is closed. ",
+    "text": "- If the mechanical protective devices have a door with a switch, dangerous movements protected by the mechanical protective devices must be prevented before the door is closed.",
     "runs": [
       {
         "text": "- If the mechanical protective devices have a door with a switch, dangerous movements protected by the mechanical protective devices must be prevented before the door is closed. ",
@@ -964,7 +879,7 @@
   },
   {
     "type": "paragraph",
-    "text": "- Mechanical protective devices can only be deactivated when the risks they protect against are no longer present. ",
+    "text": "- Mechanical protective devices can only be deactivated when the risks they protect against are no longer present.",
     "runs": [
       {
         "text": "- Mechanical protective devices can only be deactivated when the risks they protect against are no longer present. ",
@@ -1015,14 +930,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "C.5 Fasteners of mechanical guards",
-    "runs": [
-      {
-        "text": "C.5 Fasteners of mechanical guards",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "C.5 Fasteners of mechanical guards"
   },
   {
     "type": "paragraph",
@@ -1054,7 +964,7 @@
   },
   {
     "type": "paragraph",
-    "text": "- Where mechanical protective devices require repair, work must be carried out by specialists in accordance with the manufacturer's instructions. ",
+    "text": "- Where mechanical protective devices require repair, work must be carried out by specialists in accordance with the manufacturer's instructions.",
     "runs": [
       {
         "text": "- Where mechanical protective devices require repair, work must be carried out by specialists in accordance with the manufacturer's instructions. ",
@@ -1064,7 +974,7 @@
   },
   {
     "type": "paragraph",
-    "text": "- Where possible, mechanical protective devices should be designed so that they do not remain standing unless secured. ",
+    "text": "- Where possible, mechanical protective devices should be designed so that they do not remain standing unless secured.",
     "runs": [
       {
         "text": "- Where possible, mechanical protective devices should be designed so that they do not remain standing unless secured. ",
@@ -1115,38 +1025,19 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex-D ",
-    "runs": [
-      {
-        "text": "Annex-D",
-        "bold": false
-      },
-      {
-        "text": " ",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex-D"
   },
   {
-    "type": "paragraph",
-    "text": "Color codes on the panel and control system",
-    "runs": [
-      {
-        "text": "Color codes on the panel and control system",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Color codes on the panel and control system"
   },
   {
-    "type": "paragraph",
-    "text": "D.1 In-panel wiring and color codes",
-    "runs": [
-      {
-        "text": "D.1 In-panel wiring and color codes",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.1 In-panel wiring and color codes"
   },
   {
     "type": "paragraph",
@@ -1229,14 +1120,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.2 Color codes of control and indicator lamps",
-    "runs": [
-      {
-        "text": "D.2 Color codes of control and indicator lamps",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.2 Color codes of control and indicator lamps"
   },
   {
     "type": "table",
@@ -1250,9 +1136,9 @@
       [
         "RED",
         "",
-        "Emergency ",
+        "Emergency",
         "For dangerous or emergency actions",
-        "Emergency stop "
+        "Emergency stop"
       ],
       [
         "YELLOW",
@@ -1315,7 +1201,7 @@
         [
           {
             "type": "text",
-            "text": "START/ON "
+            "text": "START/ON"
           },
           {
             "type": "text",
@@ -1344,14 +1230,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.3 Color codes for actuators (command buttons)",
-    "runs": [
-      {
-        "text": "D.3 Color codes for actuators (command buttons)",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.3 Color codes for actuators (command buttons)"
   },
   {
     "type": "paragraph",
@@ -1479,7 +1360,7 @@
         "",
         "Emergency",
         "Dangerous situation",
-        "Taking emergency action (e.g. machine de-energization) "
+        "Taking emergency action (e.g. machine de-energization)"
       ],
       [
         "YELLOW",
@@ -1539,14 +1420,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "D.4 Protection of the electrical panel",
-    "runs": [
-      {
-        "text": "D.4 Protection of the electrical panel",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "D.4 Protection of the electrical panel"
   },
   {
     "type": "paragraph",
@@ -1599,18 +1475,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Note 1 - Use of the keys or tool is restricted to experienced and trained persons.",
-    "runs": [
-      {
-        "text": "Note 1 ",
-        "bold": true
-      },
-      {
-        "text": "- Use of the keys or tool is restricted to experienced and trained persons.",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "Note 1 - Use of the keys or tool is restricted to experienced and trained persons."
   },
   {
     "type": "paragraph",
@@ -1683,18 +1550,9 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": " Note 2 - Use of the special device or tool is intended for experienced and trained persons only ",
-    "runs": [
-      {
-        "text": " Note 2 ",
-        "bold": true
-      },
-      {
-        "text": "- Use of the special device or tool is intended for experienced and trained persons only ",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 3,
+    "text": "Note 2 - Use of the special device or tool is intended for experienced and trained persons only"
   },
   {
     "type": "paragraph",
@@ -1775,28 +1633,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex-E ",
-    "runs": [
-      {
-        "text": "Annex-E",
-        "bold": false
-      },
-      {
-        "text": " ",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex-E"
   },
   {
-    "type": "paragraph",
-    "text": "Degrees of Protection (IP Level)",
-    "runs": [
-      {
-        "text": "Degrees of Protection (IP Level)",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Degrees of Protection (IP Level)"
   },
   {
     "type": "image",
@@ -1821,24 +1665,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex F",
-    "runs": [
-      {
-        "text": "Annex F",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex F"
   },
   {
-    "type": "paragraph",
-    "text": "Related Standards",
-    "runs": [
-      {
-        "text": "Related Standards",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Related Standards"
   },
   {
     "type": "table",
@@ -1925,32 +1759,14 @@
     ]
   },
   {
-    "type": "paragraph",
-    "text": "Annex-G",
-    "runs": [
-      {
-        "text": "Annex",
-        "bold": false
-      },
-      {
-        "text": "-G",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 1,
+    "text": "Annex-G"
   },
   {
-    "type": "paragraph",
-    "text": "Risk In/Out Score Table",
-    "runs": [
-      {
-        "text": "Risk In/Out ",
-        "bold": false
-      },
-      {
-        "text": "Score Table",
-        "bold": false
-      }
-    ]
+    "type": "heading",
+    "level": 2,
+    "text": "Risk In/Out Score Table"
   },
   {
     "type": "table",
@@ -1998,7 +1814,7 @@
       [
         "005",
         "Mechanic",
-        "Unexpected start ",
+        "Unexpected start",
         "6",
         "1",
         ""
@@ -2022,7 +1838,7 @@
       [
         "008",
         "Mechanic",
-        "Trapping, crushing ",
+        "Trapping, crushing",
         "6",
         "3",
         ""
@@ -2054,7 +1870,7 @@
       [
         "012",
         "Other",
-        "Ergonomics ",
+        "Ergonomics",
         "3",
         "1",
         ""
