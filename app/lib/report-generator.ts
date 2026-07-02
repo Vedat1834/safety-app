@@ -221,6 +221,15 @@ const getBase64ImageFromUrl = async (url: string, timeoutMs = 5000): Promise<str
     }
 };
 
+const hexToRgb = (hex: string): { r: number, g: number, b: number } | null => {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+};
+
 const compressBase64Image = (base64Str: string, maxDim = 600, quality = 0.6): Promise<string> => {
     return new Promise((resolve) => {
         if (!base64Str || !base64Str.startsWith("data:image")) {
@@ -1229,12 +1238,32 @@ export const generatePDF = async (
     for (const itemAny of currentAnnexes) {
         const item = itemAny as any;
         if (item.type === 'heading') {
-            if (annexY > 260) {
+            const isLevel1 = item.level === 1;
+            if (isLevel1 && itemAny !== currentAnnexes[0]) {
+                doc.addPage();
+                annexY = 20;
+            } else if (annexY > 260) {
                 doc.addPage();
                 annexY = 20;
             }
+            
+            if (isLevel1) {
+                let fullTitle = item.text;
+                const itemIndex = currentAnnexes.indexOf(itemAny);
+                const nextItem = currentAnnexes[itemIndex + 1] as any;
+                if (nextItem && nextItem.type === 'heading' && nextItem.level === 2) {
+                    fullTitle += ` - ${nextItem.text}`;
+                }
+                
+                tocItems.push({
+                    label: fullTitle,
+                    pageNum: doc.getNumberOfPages(),
+                    isSubItem: true
+                });
+            }
+            
             doc.setFont(activeFont, "bold");
-            if (item.level === 1) {
+            if (isLevel1) {
                 doc.setFontSize(13);
                 annexY += 5;
                 doc.text(item.text, 20, annexY);
@@ -1299,6 +1328,9 @@ export const generatePDF = async (
                 body: item.rows.map((row: any[]) => 
                     row.map((cell: any) => {
                         if (cell && typeof cell === 'object') {
+                            if (cell.type === 'color_block') {
+                                return cell.text || "";
+                            }
                             if (Array.isArray(cell)) {
                                 return cell.filter(i => i.type === 'text').map(i => i.text).join(' ');
                             }
@@ -1319,6 +1351,36 @@ export const generatePDF = async (
                     fillColor: [245, 245, 245],
                     textColor: [0, 0, 0],
                     fontStyle: 'bold',
+                },
+                columnStyles: (() => {
+                    const colStyles: any = {};
+                    if (item.headers.length === 4 && item.headers[0] === '' && item.headers[2] === '') {
+                        colStyles[0] = { cellWidth: 12 };
+                        colStyles[2] = { cellWidth: 12 };
+                    }
+                    if (item.headers.length === 5 && item.headers[1] === '') {
+                        colStyles[0] = { cellWidth: 18 };
+                        colStyles[1] = { cellWidth: 14 };
+                        colStyles[2] = { cellWidth: 16 };
+                    }
+                    return colStyles;
+                })(),
+                willDrawCell: (data) => {
+                    const originalRow = item.rows[data.row.index];
+                    if (!originalRow) return;
+                    const originalCell = originalRow[data.column.index] as any;
+                    if (originalCell && typeof originalCell === 'object' && originalCell.color) {
+                        const rgb = hexToRgb(originalCell.color);
+                        if (rgb) {
+                            data.cell.styles.fillColor = [rgb.r, rgb.g, rgb.b] as any;
+                            const hex = originalCell.color.toUpperCase();
+                            if (hex === '#000000' || hex === '#FF0000' || hex === '#0070C0') {
+                                data.cell.styles.textColor = [255, 255, 255] as any;
+                            } else {
+                                data.cell.styles.textColor = [0, 0, 0] as any;
+                            }
+                        }
+                    }
                 },
                 didDrawCell: (data) => {
                     const originalRow = item.rows[data.row.index];

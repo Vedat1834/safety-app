@@ -17,7 +17,9 @@
   {
     "type": "table",
     "headers": [
+      "",
       "Tehlike",
+      "",
       "Tehlike"
     ],
     "rows": [
@@ -1127,6 +1129,7 @@
     "type": "table",
     "headers": [
       "RENK",
+      "",
       "ANLAM",
       "AÇIKLAMA",
       "ÖRNEK UYGULAMA"
@@ -1134,28 +1137,40 @@
     "rows": [
       [
         "KIRMIZI",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FF0000"
+        },
         "Acil",
         "Tehlikeli veya acil eylemler için",
         "Acil stop"
       ],
       [
         "SARI",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FFFF00"
+        },
         "Anormal",
         "Anormal eylemler için",
         "Anormal durumun ortadan kaldırılması."
       ],
       [
         "MAVİ",
-        "",
+        {
+          "type": "color_block",
+          "color": "#0070C0"
+        },
         "Reset",
         "Zorunlu bir eylemin gerekli olduğu durumlar için",
         "Reset fonksiyonu"
       ],
       [
         "YEŞİL",
-        "",
+        {
+          "type": "color_block",
+          "color": "#9BBB59"
+        },
         "Normal",
         "Normal duruma hazırlamak için",
         "START/ON"
@@ -1178,7 +1193,10 @@
       ],
       [
         "GRİ",
-        "",
+        {
+          "type": "color_block",
+          "color": "#A6A6A6"
+        },
         "Spesifik bir görev tanımlanmamıştır.",
         "Acil stop harici genel kullanımlar için",
         [
@@ -1194,7 +1212,10 @@
       ],
       [
         "SİYAH",
-        "",
+        {
+          "type": "color_block",
+          "color": "#000000"
+        },
         "",
         "",
         [
@@ -1349,6 +1370,7 @@
     "type": "table",
     "headers": [
       "RENK",
+      "",
       "ANLAM",
       "AÇIKLAMA",
       "OPERATOR AKSİYONU"
@@ -1356,14 +1378,20 @@
     "rows": [
       [
         "KIRMIZI",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FF0000"
+        },
         "Acil",
         "Tehlikeli durum",
         "Acil eyleme geçme (örn. Makine enerjisinin kesilmesi)"
       ],
       [
         "SARI",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FFFF00"
+        },
         "Anormal",
         [
           {
@@ -1379,14 +1407,20 @@
       ],
       [
         "MAVİ",
-        "",
+        {
+          "type": "color_block",
+          "color": "#0070C0"
+        },
         "Zorunlu",
         "Operatör tarafından harekete geçilmesi gereken bir koşulun belirtilmesi",
         "Zorunlu aksiyon"
       ],
       [
         "YEŞİL",
-        "",
+        {
+          "type": "color_block",
+          "color": "#9BBB59"
+        },
         "Normal",
         "Normal durumlar",
         "Opsiyonel"
@@ -1714,13 +1748,29 @@
   {
     "type": "table",
     "headers": [
-      "Uygulanabilirlik",
-      "Harmonize Standard",
-      "Açıklama"
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Uygulanabilirlik"
+      },
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Harmonize Standard"
+      },
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Açıklama"
+      }
     ],
     "rows": [
       [
-        "A Tipi Standartlar"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "A Tipi Standartlar"
+        }
       ],
       [
         "x",
@@ -1728,62 +1778,110 @@
         "Makinalarda güvenlik - Tasarım için genel prensipler - Risk değerlendirilmesi ve risk azaltılması"
       ],
       [
-        "B Tipi Standartlar"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "B Tipi Standartlar"
+        }
       ],
       [
         "x",
         "EN ISO 13849-1",
-        "Makinelerde güvenlik- Kumanda sistemlerinin güvenlikle ilgili kısımları- Bölüm 1: Tasarım için genel prensipler"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinelerde güvenlik- Kumanda sistemlerinin güvenlikle ilgili kısımları- Bölüm 1: Tasarım için genel prensipler"
+        }
       ],
       [
         "x",
         "EN/IEC 60204-1",
-        "Makinalarda güvenlik - Makinaların elektrik teçhizatı - Bölüm 1: Genel kurallar"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik - Makinaların elektrik teçhizatı - Bölüm 1: Genel kurallar"
+        }
       ],
       [
         "x",
         "EN ISO 13850",
-        "Makinalarda güvenlik - Elektriğe duyarlı koruma donanımı - bölüm 1: Genel kurallar ve deneyler"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik - Elektriğe duyarlı koruma donanımı - bölüm 1: Genel kurallar ve deneyler"
+        }
       ],
       [
         "x",
         "EN ISO 13854",
-        "Makinalarda güvenlik - İnsan vücut azalarını ezilmeye karşı korumak için asgari açıklıklar"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik - İnsan vücut azalarını ezilmeye karşı korumak için asgari açıklıklar"
+        }
       ],
       [
         "x",
         "EN ISO 13855",
-        "Makinelerde güvenlik- Vücut kısımlarının yaklaşım hızına göre koruyucu teçhizatın yerleştirilmesi"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinelerde güvenlik- Vücut kısımlarının yaklaşım hızına göre koruyucu teçhizatın yerleştirilmesi"
+        }
       ],
       [
         "x",
         "EN ISO 13857",
-        "Makinalarda güvenlik- Kol ve bacakların ulaşabileceği bölgelerde tehlikenin önlenmesi için güvenlik mesafeleri"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik- Kol ve bacakların ulaşabileceği bölgelerde tehlikenin önlenmesi için güvenlik mesafeleri"
+        }
       ],
       [
         "x",
         "EN ISO 14118",
-        "Makinalarda güvenlik - Beklenmeyen start-up önlenmesi"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik - Beklenmeyen start-up önlenmesi"
+        }
       ],
       [
         "x",
         "EN ISO 14119",
-        "Makinalarda güvenlik - Koruyucular ile beraber olan ara kilitleme tertibatları - Tasarım ve seçim için prensipler"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik - Koruyucular ile beraber olan ara kilitleme tertibatları - Tasarım ve seçim için prensipler"
+        }
       ],
       [
         "x",
         "EN ISO 14120",
-        "Makinelerde Güvenlik - Muhafızlar - tasarım için genel şartlar ve sabit ve hareketli korumaların inşaası"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinelerde Güvenlik - Muhafızlar - tasarım için genel şartlar ve sabit ve hareketli korumaların inşaası"
+        }
       ],
       [
         "x",
         "EN ISO 14122-2",
-        "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 2: Çalışma platformları ve yürüme yolları"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 2: Çalışma platformları ve yürüme yolları"
+        }
       ],
       [
         "X",
         "EN ISO 14122-3",
-        "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 3: Normal merdivenler, basamaklı merdivenler ve korkuluklar"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Makinalarda güvenlik-Makinalara daimi erişme vasıtaları-Bölüm 3: Normal merdivenler, basamaklı merdivenler ve korkuluklar"
+        }
       ],
       [
         "x",
@@ -1806,93 +1904,17 @@
         ""
       ],
       [
-        "C Tipi Standartlar"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "C Tipi Standartlar"
+        }
       ],
       [
         "X",
         "EN 619",
         "Sürekli taşıma donanımları ve sistemleri - Birim yüklerinin mekanik taşınmasına yönelik ekipmanlar için güvenlik gereksinimleri"
       ]
-    ]
-  },
-  {
-    "type": "heading",
-    "level": 1,
-    "text": "Ek-G"
-  },
-  {
-    "type": "heading",
-    "level": 2,
-    "text": "Conclusion and Recommendations"
-  },
-  {
-    "type": "paragraph",
-    "text": "Bu Tasarım Risk Değerlendirme Raporu, danışmana sunulan tasarım dokümanları, proje bilgileri ve değerlendirme süreci boyunca gerçekleştirilen çevrimiçi toplantılarda edinilen bilgiler esas alınarak hazırlanmıştır.",
-    "runs": [
-      {
-        "text": "Bu Tasarım Risk Değerlendirme Raporu, danışmana sunulan tasarım dokümanları, proje bilgileri ve değerlendirme süreci boyunca gerçekleştirilen çevrimiçi toplantılarda edinilen bilgiler esas alınarak hazırlanmıştır.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Bu raporun amacı, makine/sistem tasarım aşamasında öngörülebilen tehlikeleri belirlemek, ilgili standartların gereklilikleri doğrultusunda uygulanması gereken risk azaltma tedbirlerini tanımlamak ve üreticinin makine veya hattı sahaya kurmadan önce sağlaması gereken emniyet seviyeleri ile uygunluk gerekliliklerini ortaya koymaktır.",
-    "runs": [
-      {
-        "text": "Bu raporun amacı, makine/sistem tasarım aşamasında öngörülebilen tehlikeleri belirlemek, ilgili standartların gereklilikleri doğrultusunda uygulanması gereken risk azaltma tedbirlerini tanımlamak ve üreticinin makine veya hattı sahaya kurmadan önce sağlaması gereken emniyet seviyeleri ile uygunluk gerekliliklerini ortaya koymaktır.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Bu çalışma bir tasarım aşaması risk değerlendirmesi olup, nihai risk değerlendirmesi yerine geçmemektedir. Makine veya hattın üretimi, kurulumu, entegrasyonu ve devreye alma faaliyetleri tamamlandıktan sonra, gerçek saha koşulları ve nihai uygulama dikkate alınarak ek inceleme ve doğrulamalar yapılmalı, buna bağlı olarak Nihai Risk Değerlendirme Raporu hazırlanmalıdır. Bu süreçte ilave riskler, uygunsuzluklar veya ek risk azaltma tedbirleri belirlenebilir.",
-    "runs": [
-      {
-        "text": "Bu çalışma bir tasarım aşaması risk değerlendirmesi olup, nihai risk değerlendirmesi yerine geçmemektedir. Makine veya hattın üretimi, kurulumu, entegrasyonu ve devreye alma faaliyetleri tamamlandıktan sonra, gerçek saha koşulları ve nihai uygulama dikkate alınarak ek inceleme ve doğrulamalar yapılmalı, buna bağlı olarak Nihai Risk Değerlendirme Raporu hazırlanmalıdır. Bu süreçte ilave riskler, uygunsuzluklar veya ek risk azaltma tedbirleri belirlenebilir.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Bu raporda yer alan tehlikeler, öneriler ve risk azaltma tedbirleri; değerlendirme sırasında paylaşılan bilgiler, mevcut tasarım verileri ve ilgili standartların gereklilikleri dikkate alınarak belirlenmiştir. Raporda açıklanan gerekliliklerin ve önerilerin proje boyunca dikkate alınması, ilerleyen aşamalarda gerçekleştirilecek saha incelemelerinde, doğrulama çalışmalarında ve nihai risk değerlendirmelerinde karşılaşılabilecek uygunsuzlukların büyük ölçüde önüne geçilmesine katkı sağlayacaktır.",
-    "runs": [
-      {
-        "text": "Bu raporda yer alan tehlikeler, öneriler ve risk azaltma tedbirleri; değerlendirme sırasında paylaşılan bilgiler, mevcut tasarım verileri ve ilgili standartların gereklilikleri dikkate alınarak belirlenmiştir. Raporda açıklanan gerekliliklerin ve önerilerin proje boyunca dikkate alınması, ilerleyen aşamalarda gerçekleştirilecek saha incelemelerinde, doğrulama çalışmalarında ve nihai risk değerlendirmelerinde karşılaşılabilecek uygunsuzlukların büyük ölçüde önüne geçilmesine katkı sağlayacaktır.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Bu raporun yalnızca risk puanları veya skorları dikkate alınarak değerlendirilmemesi, tüm risk maddelerinin, açıklamaların ve önerilen risk azaltma tedbirlerinin dikkatlice incelenmesi tavsiye edilmektedir. Raporda belirtilen hususlar proje ekibi tarafından bir uygulama kılavuzu olarak kullanılmalı, bunun yanında üreticinin kendi mühendislik bilgisi, sektör tecrübesi ve uygulamaya özgü gereklilikleri de değerlendirmeye dahil edilmelidir.",
-    "runs": [
-      {
-        "text": "Bu raporun yalnızca risk puanları veya skorları dikkate alınarak değerlendirilmemesi, tüm risk maddelerinin, açıklamaların ve önerilen risk azaltma tedbirlerinin dikkatlice incelenmesi tavsiye edilmektedir. Raporda belirtilen hususlar proje ekibi tarafından bir uygulama kılavuzu olarak kullanılmalı, bunun yanında üreticinin kendi mühendislik bilgisi, sektör tecrübesi ve uygulamaya özgü gereklilikleri de değerlendirmeye dahil edilmelidir.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Makine veya sistem üzerinde gerçekleştirilecek önemli tasarım değişiklikleri, fonksiyonel revizyonlar, yazılım değişiklikleri, kapasite artırımları, yerleşim değişiklikleri veya ilave ekipman entegrasyonları, bu raporun sonuçlarını etkileyebileceğinden söz konusu değişikliklerin ayrıca değerlendirilmesi tavsiye edilmektedir.",
-    "runs": [
-      {
-        "text": "Makine veya sistem üzerinde gerçekleştirilecek önemli tasarım değişiklikleri, fonksiyonel revizyonlar, yazılım değişiklikleri, kapasite artırımları, yerleşim değişiklikleri veya ilave ekipman entegrasyonları, bu raporun sonuçlarını etkileyebileceğinden söz konusu değişikliklerin ayrıca değerlendirilmesi tavsiye edilmektedir.",
-        "bold": false
-      }
-    ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Rapor içerisinde yer alan herhangi bir hususun açıklığa kavuşturulmasına ihtiyaç duyulması, tasarım değişikliklerinin değerlendirilmesi veya ilgili standart gerekliliklerinin yorumlanması konusunda destek talep edilmesi durumunda danışman ile iletişime geçilmesi önerilmektedir.",
-    "runs": [
-      {
-        "text": "Rapor içerisinde yer alan herhangi bir hususun açıklığa kavuşturulmasına ihtiyaç duyulması, tasarım değişikliklerinin değerlendirilmesi veya ilgili standart gerekliliklerinin yorumlanması konusunda destek talep edilmesi durumunda danışman ile iletişime geçilmesi önerilmektedir.",
-        "bold": false
-      }
     ]
   }
 ]

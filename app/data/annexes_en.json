@@ -17,7 +17,9 @@
   {
     "type": "table",
     "headers": [
+      "",
       "Danger",
+      "",
       "Danger"
     ],
     "rows": [
@@ -1128,6 +1130,7 @@
     "type": "table",
     "headers": [
       "COLOR",
+      "",
       "MEANING",
       "EXPLANATION",
       "EXAMPLE APPLICATION"
@@ -1135,28 +1138,40 @@
     "rows": [
       [
         "RED",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FF0000"
+        },
         "Emergency",
         "For dangerous or emergency actions",
         "Emergency stop"
       ],
       [
         "YELLOW",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FFFF00"
+        },
         "Abnormal",
         "For abnormal actions",
         "Elimination of the abnormal situation."
       ],
       [
         "BLUE",
-        "",
+        {
+          "type": "color_block",
+          "color": "#0070C0"
+        },
         "Reset",
         "For situations where a compulsory action is required",
         "Reset function"
       ],
       [
         "GREEN",
-        "",
+        {
+          "type": "color_block",
+          "color": "#9BBB59"
+        },
         "Normal",
         "To prepare for normal state",
         "START/ON"
@@ -1179,7 +1194,10 @@
       ],
       [
         "GRAY",
-        "",
+        {
+          "type": "color_block",
+          "color": "#A6A6A6"
+        },
         "No specific task is defined.",
         "For general use other than emergency stop",
         [
@@ -1195,7 +1213,10 @@
       ],
       [
         "BLACK",
-        "",
+        {
+          "type": "color_block",
+          "color": "#000000"
+        },
         "",
         "",
         [
@@ -1350,6 +1371,7 @@
     "type": "table",
     "headers": [
       "COLOR",
+      "",
       "MEANING",
       "EXPLANATION",
       "OPERATOR ACTION"
@@ -1357,14 +1379,20 @@
     "rows": [
       [
         "RED",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FF0000"
+        },
         "Emergency",
         "Dangerous situation",
         "Taking emergency action (e.g. machine de-energization)"
       ],
       [
         "YELLOW",
-        "",
+        {
+          "type": "color_block",
+          "color": "#FFFF00"
+        },
         "Abnormal",
         [
           {
@@ -1380,14 +1408,20 @@
       ],
       [
         "BLUE",
-        "",
+        {
+          "type": "color_block",
+          "color": "#0070C0"
+        },
         "Mandatory",
         "Specifying a condition that requires action by the operator",
         "Mandatory action"
       ],
       [
         "GREEN",
-        "",
+        {
+          "type": "color_block",
+          "color": "#9BBB59"
+        },
         "Normal",
         "Normal situations",
         "Optional"
@@ -1677,13 +1711,29 @@
   {
     "type": "table",
     "headers": [
-      "Applicability",
-      "Harmonized Standard",
-      "Description"
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Applicability"
+      },
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Harmonized Standard"
+      },
+      {
+        "type": "color_block",
+        "color": "#FFC000",
+        "text": "Description"
+      }
     ],
     "rows": [
       [
-        "Type A Standards"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "Type A Standards"
+        }
       ],
       [
         "x",
@@ -1691,47 +1741,83 @@
         "Safety in machinery - General principles for design - Risk assessment and risk reduction"
       ],
       [
-        "Type B Standards"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "Type B Standards"
+        }
       ],
       [
         "x",
         "EN ISO 13849-1",
-        "Safety in machinery - Safety aspects of control systems - Part 1: General principles for design"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in machinery - Safety aspects of control systems - Part 1: General principles for design"
+        }
       ],
       [
         "x",
         "EN/IEC 60204-1",
-        "Safety in Machinery - Electrical equipment of machinery - Part 1: General rules"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machinery - Electrical equipment of machinery - Part 1: General rules"
+        }
       ],
       [
         "x",
         "EN ISO 13850",
-        "Safety in Machinery - Electrically sensitive protective equipment - part 1: General rules and tests"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machinery - Electrically sensitive protective equipment - part 1: General rules and tests"
+        }
       ],
       [
         "x",
         "EN ISO 13855",
-        "Safety on machines - Placement of protective equipment according to the speed of approach of body parts"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety on machines - Placement of protective equipment according to the speed of approach of body parts"
+        }
       ],
       [
         "x",
         "EN ISO 13857",
-        "Safety in Machines - Safety distances to prevent danger in areas where arms and legs can reach"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machines - Safety distances to prevent danger in areas where arms and legs can reach"
+        }
       ],
       [
         "x",
         "EN ISO 14118",
-        "Safety in Machines - Prevention of unexpected start-ups"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machines - Prevention of unexpected start-ups"
+        }
       ],
       [
         "x",
         "EN ISO 14119",
-        "Safety in Machinery - Interlocking devices in combination with guards - Principles for design and selection"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machinery - Interlocking devices in combination with guards - Principles for design and selection"
+        }
       ],
       [
         "x",
         "EN ISO 14120",
-        "Safety in Machinery - Guards - general requirements for design and construction of fixed and movable guards"
+        {
+          "type": "color_block",
+          "color": "#FFFFFF",
+          "text": "Safety in Machinery - Guards - general requirements for design and construction of fixed and movable guards"
+        }
       ],
       [
         "x",
@@ -1749,251 +1835,16 @@
         "Graphic symbols - Registered safety signs"
       ],
       [
-        "Type C Standards"
+        {
+          "type": "color_block",
+          "color": "#FFC000",
+          "text": "Type C Standards"
+        }
       ],
       [
         "x",
         "-",
         "-"
-      ]
-    ]
-  },
-  {
-    "type": "heading",
-    "level": 1,
-    "text": "Annex-G"
-  },
-  {
-    "type": "heading",
-    "level": 2,
-    "text": "Risk In/Out Score Table"
-  },
-  {
-    "type": "table",
-    "headers": [
-      "Risk No",
-      "Hazard Type",
-      "Risk Definition",
-      "Risk In Score",
-      "Risk Out Score",
-      "Explanation"
-    ],
-    "rows": [
-      [
-        "001",
-        "Mechanic",
-        "Crushing",
-        "7",
-        "1",
-        "The user should be informed about residual risks. Pictogram, training, use of personal protective equipment, etc."
-      ],
-      [
-        "002",
-        "Mechanic",
-        "Crushing",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "003",
-        "Mechanic",
-        "Entanglement",
-        "8",
-        "1",
-        ""
-      ],
-      [
-        "004",
-        "Mechanic",
-        "Entanglement",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "005",
-        "Mechanic",
-        "Unexpected start",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "006",
-        "Mechanic",
-        "Trapping",
-        "5",
-        "3",
-        ""
-      ],
-      [
-        "007",
-        "Mechanic",
-        "Unexpected start",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "008",
-        "Mechanic",
-        "Trapping, crushing",
-        "6",
-        "3",
-        ""
-      ],
-      [
-        "009",
-        "Other",
-        "Other",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "010",
-        "Other",
-        "Other",
-        "7",
-        "2",
-        ""
-      ],
-      [
-        "011",
-        "Other",
-        "Other",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "012",
-        "Other",
-        "Ergonomics",
-        "3",
-        "1",
-        ""
-      ],
-      [
-        "013",
-        "Other",
-        "Ergonomics",
-        "1",
-        "0",
-        ""
-      ],
-      [
-        "014",
-        "Other",
-        "Ergonomics",
-        "2",
-        "0",
-        ""
-      ],
-      [
-        "015",
-        "Mechanic",
-        "Cutting",
-        "2",
-        "1",
-        ""
-      ],
-      [
-        "016",
-        "Mechanic",
-        "Tripping, Falling",
-        "6",
-        "1",
-        ""
-      ],
-      [
-        "017",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "018",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "019",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "020",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "021",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "022",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "023",
-        "Electricity",
-        "Fire",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "024",
-        "Electricity",
-        "Electric Shock",
-        "7",
-        "1",
-        ""
-      ],
-      [
-        "025",
-        "Other",
-        "Other",
-        "5",
-        "1",
-        ""
-      ],
-      [
-        "026",
-        "Other",
-        "Other",
-        "5",
-        "1",
-        ""
-      ],
-      [
-        "027",
-        "Diğer",
-        "Electromagnetic phenomena/disturbance",
-        "5",
-        "1",
-        ""
       ]
     ]
   }

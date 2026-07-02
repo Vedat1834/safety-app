@@ -30,6 +30,17 @@ export default function AnnexesPage() {
             return cell.split('\n').map((line, idx) => <div key={idx}>{line}</div>);
         }
         if (cell && typeof cell === 'object') {
+            if (cell.type === 'color_block') {
+                return (
+                    <div className="flex items-center gap-2">
+                        <div 
+                            className="w-8 h-4 rounded border border-gray-300 shadow-sm shrink-0" 
+                            style={{ backgroundColor: cell.color }} 
+                        />
+                        {cell.text && <span className="text-xs font-semibold">{cell.text}</span>}
+                    </div>
+                );
+            }
             if (Array.isArray(cell)) {
                 return cell.map((item, idx) => (
                     <div key={idx} className="my-1 flex items-center gap-1.5">
