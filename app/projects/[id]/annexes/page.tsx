@@ -89,7 +89,11 @@ export default function AnnexesPage() {
             const copy = [...prev];
             const item = { ...copy[idx] };
             const headers = [...item.headers];
-            headers[hIdx] = val;
+            if (typeof headers[hIdx] === 'object' && headers[hIdx] !== null) {
+                headers[hIdx] = { ...headers[hIdx], text: val };
+            } else {
+                headers[hIdx] = val;
+            }
             item.headers = headers;
             copy[idx] = item;
             return copy;
@@ -380,11 +384,11 @@ export default function AnnexesPage() {
                                         <table className="min-w-full divide-y divide-gray-200 text-left text-xs text-gray-700 border border-gray-200 rounded-xl overflow-hidden shadow-sm">
                                             <thead className="bg-gray-100 font-bold text-gray-900 uppercase text-[10px]">
                                                 <tr>
-                                                    {item.headers.map((h: string, hIdx: number) => (
+                                                    {item.headers.map((h: any, hIdx: number) => (
                                                         <th key={hIdx} className="p-2 border-r border-b last:border-r-0 border-gray-200">
                                                             <input
                                                                 type="text"
-                                                                value={h}
+                                                                value={typeof h === 'object' && h !== null ? (h.text || "") : h}
                                                                 onChange={(e) => updateTableHeader(globalIdx, hIdx, e.target.value)}
                                                                 className="w-full bg-white border border-gray-200 rounded p-1 text-[10px] font-bold text-gray-800 focus:ring-1 focus:ring-[#FFD600] outline-none"
                                                             />
@@ -496,9 +500,9 @@ export default function AnnexesPage() {
                                         <table className="min-w-full divide-y divide-gray-200 text-left text-xs text-gray-700">
                                             <thead className="bg-gray-50 font-bold text-gray-900 uppercase tracking-wider text-[10px]">
                                                 <tr>
-                                                    {item.headers.map((h: string, hIdx: number) => (
+                                                    {item.headers.map((h: any, hIdx: number) => (
                                                         <th key={hIdx} className="px-4 py-3 border-r last:border-r-0 border-gray-200">
-                                                            {h}
+                                                            {typeof h === 'object' && h !== null ? h.text : h}
                                                         </th>
                                                     ))}
                                                 </tr>

@@ -1324,7 +1324,7 @@ export const generatePDF = async (
             autoTable(doc, {
                 startY: annexY,
                 margin: { left: 20, right: 20 },
-                head: [item.headers],
+                head: [item.headers.map((h: any) => typeof h === 'object' && h !== null ? (h.text || "") : h)],
                 body: item.rows.map((row: any[]) => 
                     row.map((cell: any) => {
                         if (cell && typeof cell === 'object') {
