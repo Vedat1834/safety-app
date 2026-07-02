@@ -1164,7 +1164,7 @@ export const generatePDF = async (
 
     // --- Annexes (Ekler) Page ---
     const annexesHeaderIndex = (functionalTests.length > 0 ? 6 : 5) - (hasMachineInfo ? 0 : 1);
-    const currentAnnexes = lang === 'tr' ? annexesTr : annexesEn;
+    const currentAnnexes = lang === 'tr' ? (project.annexes_tr || annexesTr) : (project.annexes_en || annexesEn);
     const imageCache: Record<string, string> = {};
 
     const getImageDimensions = (base64Str: string): Promise<{ w: number; h: number }> => {

@@ -27,6 +27,10 @@ export interface Project {
     machine_technical_specs?: string;
     machine_intended_use?: string;
     include_machine_info?: boolean;
+
+    // Custom Annexes
+    annexes_tr?: any[];
+    annexes_en?: any[];
 }
 
 // Risk Assessment now belongs to a project
